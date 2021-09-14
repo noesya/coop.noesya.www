@@ -1,8 +1,8 @@
 ---
-title: "Home"
+layout: page
+title: "Noesya"
 permalink: /
 ---
-
-## Home sweet home.
+## Bienvenue sur Noesya.coop
 
 I'm in /_pages/index.md
