@@ -1,8 +1,24 @@
 ---
-layout: page
 title: "Noesya"
 permalink: /
 ---
-## Bienvenue sur Noesya.coop
 
-I'm in /_pages/index.md
+La Coopérative Noesya s’engage pour un numérique de grande qualité, éco-conçu, esthétique, éthique et durable.
+
+# Manifeste
+
+Nous aimons
+- la qualité
+- le travail bien fait
+Nous pensons
+- que le code est un artisanat d’art
+- que le bon code est fait par de bons développeurs
+- qu’il faut des années pour devenir un bon développeur
+Nous voulons
+- être de bons artisans
+- vivre bien de notre travail
+- contribuer à un monde meilleur
+Nous croyons
+- à l’égalité
+- à l’éducation
+- à la coopérative

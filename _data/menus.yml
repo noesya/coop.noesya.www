@@ -1,8 +1,12 @@
 primary:
-  - title: Home
+  - title: Accueil
     url: /
-  - title: About
-    url: /about
+  - title: Savoir-faire
+    url: /savoir-faire
+  - title: Engagements
+    url: /engagements
+  - title: Equipe
+    url: /equipe
 legal:
   - title: Mentions légales
     url: /mentions-legales
