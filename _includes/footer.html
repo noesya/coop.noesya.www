@@ -1,0 +1,19 @@
+<footer>
+  <nav>
+    <a href="/">{{site.title}}</a>
+    <ul>
+      {% for item in site.data.menus.primary %}
+          <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+    <ul>
+      {% for item in site.data.menus.legal %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</footer>
