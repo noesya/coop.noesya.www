@@ -1,0 +1,10 @@
+---
+title: Équipe
+permalink: /equipe
+---
+
+<ul>
+    {% for member in site.members %}
+        <li><a href="{{ member.url }}">{{  member.title }}</a></li>
+    {% endfor %}
+</ul>

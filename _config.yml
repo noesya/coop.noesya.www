@@ -16,10 +16,37 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: ""
+      type: "metiers"
+    values:
+      layout: "metier"
+  -
+    scope:
+      path: ""
+      type: "members"
+    values:
+      layout: "member"
+  -
+    scope:
+      path: ""
+      type: "commitments"
+    values:
+      layout: "commitment"
 
 collections:
   pages:
     output: true
+  metiers:
+    output: true
+    permalink: /:slug
+  members:
+    output: true
+    permalink: /equipe/:slug
+  commitments:
+    output: true
+    permalink: /engagements/:slug
 
 plugins:
   - jekyll-minifier

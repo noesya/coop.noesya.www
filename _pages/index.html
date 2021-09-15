@@ -1,0 +1,12 @@
+---
+title: Noesya
+permalink: /
+---
+
+La Coopérative Noesya s’engage pour un numérique de grande qualité, éco-conçu, esthétique, éthique et durable.
+
+<ul>
+    {% for metier in site.metiers %}
+        <li><a href="{{ metier.url }}">{{ metier.title }}</a></li>
+    {% endfor %}
+</ul>

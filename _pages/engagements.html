@@ -1,0 +1,10 @@
+---
+title: Engagements
+permalink: /engagements
+---
+
+<ul>
+    {% for commitment in site.commitments %}
+        <li><a href="{{ commitment.url }}">{{  commitment.title }}</a></li>
+    {% endfor %}
+</ul>

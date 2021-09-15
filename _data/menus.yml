@@ -1,12 +1,14 @@
 primary:
   - title: Accueil
     url: /
-  - title: Savoir-faire
-    url: /savoir-faire
-  - title: Engagements
-    url: /engagements
+  - title: Manifeste
+    url: /manifeste
+  - title: Métiers
+    url: /metiers
   - title: Equipe
     url: /equipe
+  - title: Engagements
+    url: /engagements
 legal:
   - title: Mentions légales
     url: /mentions-legales
