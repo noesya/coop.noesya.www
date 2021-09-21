@@ -4,3 +4,15 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "https://noesya.com/*"
+  to = "https://www.noesya.coop/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.noesya.com/*"
+  to = "https://www.noesya.coop/:splat"
+  status = 301
+  force = true
