@@ -1,0 +1,12 @@
+{% capture content %}
+<span class="aside-hover">
+    {{ include.content | markdownify }}
+    <aside>
+        <picture>
+            <img src="{{ include.src }}" alt="{{ include.alt }}">
+            <figcaption>{{ include.alt }}</figcaption>
+        </picture>
+    </aside>
+</span>
+{% endcapture %}
+{{ content | replace '    ', ''}}
