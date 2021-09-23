@@ -1,0 +1,14 @@
+{{ include.content }}
+<aside {% if include.class %} class="{{ include.class }}" {% endif %}>
+  {% if include.img %}
+  <picture>
+    <img src="{{ include.img }}" alt="{{ include.alt }}">
+    <figcaption>{{ include.alt }}</figcaption>
+  </picture>
+  {% endif %}
+
+  {% if include.text %}
+    {{ include.text | markdownify }}
+  {% endif %}
+</aside>
+

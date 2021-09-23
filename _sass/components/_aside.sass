@@ -1,11 +1,16 @@
 .container
     position: relative
 aside
-    position: absolute
-    width: 16.6666666% // col-1
-    &.right
-        right: 0
-    &:not(.right)
-        left: 0
+    font-family: serif
+    +media-breakpoint-up(md)
+        position: absolute
+        width: 16.6666666% // col-1
+        &.right
+            right: 0
+        &:not(.right)
+            left: 0
     img
         max-width: 100%
+    figcaption
+        font-size: 80%
+    
