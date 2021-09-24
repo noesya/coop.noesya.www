@@ -66,8 +66,8 @@ sections:
 
 notes: 
     - >
-        Voir ([https://www.mmibordeaux.com/](MMI Bordeaux))
+        Voir [MMI Bordeaux](https://www.mmibordeaux.com/)
     - >
-        Voir ([http://www.musba-bordeaux.fr](Musée des Beaux Arts de Bordeaux))
+        Voir [Musée des Beaux Arts de Bordeaux](http://www.musba-bordeaux.fr)
 
 ---
