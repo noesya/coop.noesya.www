@@ -1,0 +1,20 @@
+.note
+    p
+        margin-bottom: 0
+        padding-left: $container-padding-x
+    &.is-fixed
+        bottom: 0
+        left: 0
+        padding: 10px
+        position: fixed
+        width: 100%
+        background: $gray-200
+        transform: translateY(100%)
+        transition: 0.25s
+        &.is-visible
+            transform: translateY(0)
+    &:not(.is-fixed)
+        position: absolute
+        left: 0
+        transform: translateY(-100%)
+
