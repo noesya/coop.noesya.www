@@ -76,22 +76,26 @@ sections:
              C'est un projet entrepreneurial que j'ai depuis des années, mais là c'est encore mieux que ce que j'espérais ! Travailler avec des gens que j'apprécie, qui ont des valeurs, ça met la barre haut en termes d'ambition. Je n'imaginais pas qu'on pouvait concilier le travail et le sens, faire des choses utiles, un peu plus que juste trier ses poubelles. Être fier de faire du bon travail, mais surtout du travail utile, qui sert à des gens.
 
 notes:
-    - Voir <a href="https://www.mmibordeaux.com" target="_blank" rel="noferrer">MMI Bordeaux</a>
-    - Voir <a href="http://www.musba-bordeaux.fr" target="_blank" rel="noferrer">Musée des Beaux Arts de Bordeaux</a>
-    - Voir <a href="https://vivatechnology.com" target="_blank" rel="noferrer">Vivatech</a>
-    - Voir <a href="https://www.cher-ami.tv" target="_blank" rel="noferrer">Cher ami</a>
-    - >
-        Voir <a href="https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html" target="_blank" rel="noferrer">Narita Boy</a>, Team 17<br>
-        <img src="/assets/images/members/alexis-benoit/narita-boy.jpg" alt="Narita Boy" width="200"/>
-    - >
-        Voir <a href="https://www.orithegame.com" target="_blank" rel="noferrer">Ori and the Blind Forest</a>, Moon Studios<br>
-        <img src="/assets/images/members/alexis-benoit/ori.jpg" alt="Ori and the Blind Forest" width="200"/>
-    - >
-        Voir <a href="https://www.actes-sud.fr/node/62766" target="_blank" rel="noferrer">Phare 23</a>, Hugh Howey<br>
-        <img src="/assets/images/members/alexis-benoit/phare-23.jpg" alt="Phare 23" width="200"/>
-    - >
-        Voir <a href="https://www.actes-sud.fr/node/61134" target="_blank" rel="noferrer">Silo</a>, Hugh Howey<br>
-        <img src="/assets/images/members/alexis-benoit/silo.jpg" alt="Silo" width="200"/>
-    - >
-        Voir <a href="https://www.youtube.com/watch?v=iKBs9l8jS6Q" target="_blank" rel="noferrer">Alternate realities</a>
+    - title: MMI Bordeaux
+      url: https://www.mmibordeaux.com
+    - title: Musée des Beaux Arts de Bordeaux
+      url: http://www.musba-bordeaux.fr
+    - title: Vivatech
+      url: https://vivatechnology.com
+    - title: Cher ami
+      url: https://www.cher-ami.tv
+    - title: Narita Boy (Team 17)
+      url: https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html
+      image: /assets/images/members/alexis-benoit/narita-boy.jpg
+    - title: Ori and the Blind Forest
+      url: https://www.orithegame.com
+      image: /assets/images/members/alexis-benoit/ori.jpg
+    - title: Phare 23, Hugh Howey
+      url: https://www.actes-sud.fr/node/62766
+      image: /assets/images/members/alexis-benoit/phare-23.jpg
+    - title: Silo, Hugh Howey
+      url: https://www.actes-sud.fr/node/61134
+      image: /assets/images/members/alexis-benoit/silo.jpg
+    - title: Alternate realities
+      url: https://www.youtube.com/watch?v=iKBs9l8jS6Q
 ---

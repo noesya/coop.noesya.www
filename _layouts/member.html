@@ -9,10 +9,10 @@ layout: default
     <div class="container">
         <div class="row">
             <h2>Postes & Parcours</h2>
-    
+
             <div class="col-md-6">
                 {{ page.summary.chapo | markdownify }}
-    
+
                 {% assign list = page.summary.list %}
                 {% for line in list %}
                     <div class="row">
@@ -25,7 +25,7 @@ layout: default
                     </div>
                 {% endfor %}
             </div>
-    
+
             <div class="col-md-6">
                 <div class="row">
                     {% assign list = page.summary.more_list %}
@@ -58,7 +58,14 @@ layout: default
 
     {% for note in page.notes %}
         <div class="note js-note" id="note-{{ forloop.index }}">
-            {{ note | prepend: "." | prepend: forloop.index | markdownify }}
+            {{ forloop.index }}. Voir
+            {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
+            {{ note.title }}
+            {% if note.url %}</a>{% endif %}
+            {% if note.image %}
+                <br>
+                <img src="{{ note.image }}" alt="{{ note.title }}" width="200"/>
+            {% endif %}
         </div>
     {% endfor %}
 </div>
