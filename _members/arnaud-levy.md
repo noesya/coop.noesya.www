@@ -1,7 +1,9 @@
 ---
 title: Arnaud Levy
+last_name: Levy
 portrait: /assets/images/members/arnaud-levy/portrait.png
 portrait_alt: /assets/images/members/arnaud-levy/portrait-alt.png
+expertise: Gouvernance & communs
 summary:
     list:
         - title: Co-fondateur

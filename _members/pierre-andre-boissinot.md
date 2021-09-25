@@ -1,7 +1,9 @@
 ---
 title: Pierre-André Boissinot
+last_name: Boissinot
 portrait: /assets/images/members/pierre-andre-boissinot/portrait.png
 portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.png
+expertise: Robustesse & sécurité
 summary:
     list:
         - title: Co-fondateur

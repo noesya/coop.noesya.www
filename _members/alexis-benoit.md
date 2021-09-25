@@ -1,7 +1,9 @@
 ---
 title: Alexis Benoit
+last_name: Benoit
 portrait: /assets/images/members/alexis-benoit/portrait.png
 portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.png
+expertise: Jeu & expérience
 summary:
     list:
         - title: Co-fondateur

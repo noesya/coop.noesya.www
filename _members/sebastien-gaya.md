@@ -1,7 +1,9 @@
 ---
 title: Sébastien Gaya
+last_name: Gaya
 portrait: /assets/images/members/sebastien-gaya/portrait.png
 portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.png
+expertise: Système & optimisation
 summary:
     list:
         - title: Co-fondateur

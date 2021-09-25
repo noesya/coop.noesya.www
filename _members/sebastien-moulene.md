@@ -1,7 +1,9 @@
 ---
 title: Sébastien Moulène
+last_name: Moulène
 portrait: /assets/images/members/sebastien-moulene/portrait.png
 portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.png
+expertise: E-commerce & éditorial
 summary:
     list:
         - title: Co-fondateur
