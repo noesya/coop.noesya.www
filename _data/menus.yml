@@ -1,10 +1,12 @@
 primary:
   - title: Accueil
     url: /
-  - title: Manifeste
-    url: /manifeste
-  - title: Métiers
-    url: /metiers
+  - title: Communs numériques
+    url: /communs-numeriques
+  - title: Sites éco-conçus
+    url: /sites-eco-concus
+  - title: Expériences interactives
+    url: /experiences-interactives
   - title: Equipe
     url: /equipe
   - title: Engagements

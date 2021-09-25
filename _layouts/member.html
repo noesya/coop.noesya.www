@@ -3,39 +3,30 @@ layout: default
 ---
 
 <div class="container py-5">
-    <h1>{{ page.title }}</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="h1 text-muted">Équipe<p>
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ page.portrait }}" alt="{{ page.title }}">
+            <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
+        </div>
+    </div>
 </div>
 <section class="bg-light py-5">
     <div class="container">
+        <h2>Postes & Parcours</h2>
         <div class="row">
-            <h2>Postes & Parcours</h2>
-    
             <div class="col-md-6">
-                {{ page.summary.chapo | markdownify }}
-    
-                {% assign list = page.summary.list %}
-                {% for line in list %}
-                    <div class="row">
-                        <div class="col-md-4">
-                            {{ line.title }}
-                        </div>
-                        <div class="col-md-8">
-                            {{ line.content }}
-                        </div>
-                    </div>
+                {% for item in page.summary.list %}
+                    {% include member/item.html item=item %}
                 {% endfor %}
             </div>
-    
             <div class="col-md-6">
                 <div class="row">
-                    {% assign list = page.summary.more_list %}
-                    {% for line in list %}
-                        <div class="col-md-4">
-                            {{ line.title }}
-                        </div>
-                        <div class="col-md-8">
-                            {{ line.content | markdownify }}
-                        </div>
+                    {% for item in page.summary.more_list %}
+                        {% include member/item.html item=item %}
                     {% endfor %}
                 </div>
             </div>
@@ -43,22 +34,19 @@ layout: default
     </div>
 </section>
 
-<div class="container position-relative pb-5">
-    {% assign sections = page.sections %}
-    {% for section in sections %}
-    <section class="row py-5">
-        <div class="col-md-4 js-note-container">
-            <h2>{{ section.title }}</h2>
+<div class="container pb-5 position-relative">
+    {% for section in page.sections %}
+        <div class="row py-5">
+            <div class="col-md-4">
+                <h2>{{ section.title }}</h2>
+            </div>
+            <div class="col-md-8">
+                {{ section.content | markdownify | correct_punctuation }}
+            </div>
         </div>
-        <div class="col-md-8">
-            {{ section.content | markdownify }}
-        </div>
-    </section>
     {% endfor %}
 
     {% for note in page.notes %}
-        <aside class="note js-note" id="note-{{ forloop.index }}">
-            {{ note | prepend: "." | prepend: forloop.index | markdownify }}
-        </aside>
+        {% include note.html note=note %}
     {% endfor %}
 </div>

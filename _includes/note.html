@@ -1,0 +1,10 @@
+<div class="note js-note" id="note-{{ forloop.index }}">
+    {{ forloop.index }}. Voir
+    {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
+    {{ note.title }}
+    {% if note.url %}</a>{% endif %}
+    {% if note.image %}
+        <br>
+        <img src="{{ note.image }}" alt="{{ note.title }}" width="200"/>
+    {% endif %}
+</div>
