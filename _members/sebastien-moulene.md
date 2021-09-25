@@ -4,10 +4,11 @@ portrait: /assets/images/members/sebastien-moulene/portrait.png
 portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.png
 summary:
     list:
-        - content: Co-fondateur de Noesya
+        - title: Co-fondateur
+          content: Noesya
         - title: Métier
           content: Développeur front-end
-        - title: Certifié
+        - title: Certification
           content: Opquast (860/1000)
     more_list:
         - title: Distinctions

@@ -4,15 +4,17 @@ portrait: /assets/images/members/alexis-benoit/portrait.png
 portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.png
 summary:
     list:
-        - content: Co-fondateur de Noesya
-        - content: Maître de conférences associé, département Métiers du Multimédia et de l'Internet, Institut Universitaire de Technologie Bordeaux Montaigne
+        - title: Co-fondateur
+          content: Noesya
         - title: Métier
           content: Creative developer
-        - title: Certifié
+        - title: Métier
+          content: Maître de conférences associé, Département Métiers du Multimédia et de l'Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
+        - title: Certification
           content: Opquast (898/1000)
-        - title: Diplomé
-          content: DUT Métiers du Multimédia et de l'Internet
     more_list:
+        - title: Diplôme
+          content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l'Internet, *Université Bordeaux Montaigne*
         - title: Distinctions
           content: >
                 6 SOTD (site of the day) Awwwards<br>

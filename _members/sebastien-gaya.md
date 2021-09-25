@@ -4,15 +4,16 @@ portrait: /assets/images/members/sebastien-gaya/portrait.png
 portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.png
 summary:
     list:
-        - content: Co-fondateur de Noesya
+        - title: Co-fondateur
+          content: Noesya
         - title: Métier
           content: DevOps
-        - title: Certifié
+        - title: Certification
           content: Opquast expert (925/1000)
-        - title: Diplomé
-          content: Licence Professionnelle Développement d'applications Web et innovation numérique, Université de Bordeaux
-        - title: Diplomé
-          content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l'Internet, Université Bordeaux Montaigne
+        - title: Diplôme
+          content: Licence Professionnelle Développement d'applications Web et innovation numérique, *Université de Bordeaux*
+        - title: Diplôme
+          content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l'Internet, *Université Bordeaux Montaigne*
     more_list:
         - title: Certifié
           content: "Certifications OpenClassrooms :<br>

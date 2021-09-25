@@ -4,14 +4,15 @@ portrait: /assets/images/members/pierre-andre-boissinot/portrait.png
 portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.png
 summary:
     list:
-        - content: Co-fondateur de Noesya
+        - title: Co-fondateur
+          content: Noesya
         - title: Métier
           content: Développeur back-end
-        - title: Certifié
+        - title: Certification
           content: Opquast expert (910/1000)
-        - title: Diplomé
-          content: DUT Services et Réseaux de Communication, Université Paris-Est Marne-la-Vallée (maintenant Métiers du Multimédia et de l‘Internet)
     more_list:
+        - title: Diplôme
+          content: DUT Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l‘Internet), *Université Paris-Est Marne-la-Vallée*
 sections:
     - title: Identité
       content: 42 ans, marié, un enfant et un chat à Ville-d‘Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l‘Internet), je travaille d‘abord dans une startup, puis co-fonde l‘entreprise *Semio Design* en 2003. La structure est ensuite fusionnée à l‘agence *Les Poupées Russes*, que je quitte en 2021 pour créer Noesya.
