@@ -3,39 +3,30 @@ layout: default
 ---
 
 <div class="container py-5">
-    <h1>{{ page.title }}</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <p class="h1 text-muted">Équipe<p>
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ page.portrait }}" alt="{{ page.title }}">
+            <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
+        </div>
+    </div>
 </div>
 <div class="bg-light py-5">
     <div class="container">
+        <h2>Postes & Parcours</h2>
         <div class="row">
-            <h2>Postes & Parcours</h2>
-
             <div class="col-md-6">
-                {{ page.summary.chapo | markdownify }}
-
-                {% assign list = page.summary.list %}
-                {% for line in list %}
-                    <div class="row">
-                        <div class="col-md-4">
-                            {{ line.title }}
-                        </div>
-                        <div class="col-md-8">
-                            {{ line.content }}
-                        </div>
-                    </div>
+                {% for item in page.summary.list %}
+                    {% include member/item.html item=item %}
                 {% endfor %}
             </div>
-
             <div class="col-md-6">
                 <div class="row">
-                    {% assign list = page.summary.more_list %}
-                    {% for line in list %}
-                        <div class="col-md-4">
-                            {{ line.title }}
-                        </div>
-                        <div class="col-md-8">
-                            {{ line.content | markdownify }}
-                        </div>
+                    {% for item in page.summary.more_list %}
+                        {% include member/item.html item=item %}
                     {% endfor %}
                 </div>
             </div>
@@ -44,28 +35,18 @@ layout: default
 </div>
 
 <div class="container pb-5 position-relative">
-    {% assign sections = page.sections %}
-    {% for section in sections %}
-    <div class="row py-5">
-        <div class="col-md-4">
-            <h2>{{ section.title }}</h2>
+    {% for section in page.sections %}
+        <div class="row py-5">
+            <div class="col-md-4">
+                <h2>{{ section.title }}</h2>
+            </div>
+            <div class="col-md-8">
+                {{ section.content | markdownify | correct_punctuation }}
+            </div>
         </div>
-        <div class="col-md-8">
-            {{ section.content | markdownify }}
-        </div>
-    </div>
     {% endfor %}
 
     {% for note in page.notes %}
-        <div class="note js-note" id="note-{{ forloop.index }}">
-            {{ forloop.index }}. Voir
-            {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
-            {{ note.title }}
-            {% if note.url %}</a>{% endif %}
-            {% if note.image %}
-                <br>
-                <img src="{{ note.image }}" alt="{{ note.title }}" width="200"/>
-            {% endif %}
-        </div>
+        {% include note.html note=note %}
     {% endfor %}
 </div>

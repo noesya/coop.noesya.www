@@ -1,8 +1,13 @@
 ---
 title: Alexis Benoit
+portrait: /assets/images/members/alexis-benoit/portrait.png
+portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.png
 summary:
-    chapo: Maître de conférences associé, département Métiers du Multimédia et de l'Internet, Institut Universitaire de Technologie Bordeaux Montaigne
     list:
+        - content: Co-fondateur de Noesya
+        - content: Maître de conférences associé, département Métiers du Multimédia et de l'Internet, Institut Universitaire de Technologie Bordeaux Montaigne
+        - title: Métier
+          content: Creative developer
         - title: Certifié
           content: Opquast (898/1000)
         - title: Diplomé
@@ -10,16 +15,16 @@ summary:
     more_list:
         - title: Distinctions
           content: >
-                34 distinctions pour des productions web :
-                6 SOTD Awwwards
-                11 WOTD (website of the day) CSS Design Awards
-                1 WOTM (website of the month) CSS Design Awards
-                1 Best Studio Portfolio 2015 (CSS Design Awards)
-                1 Best project of the Year (CSS Design Awards)
-                6 French Index Design
-                4 FOTD (fwa of the day) FWA
-                2 MOTD (mobile of the day) FWA
-                1 Lovie Awards Bronze Medal
+                34 distinctions pour des productions web :<br>
+                6 SOTD Awwwards<br>
+                11 WOTD (website of the day) CSS Design Awards<br>
+                1 WOTM (website of the month) CSS Design Awards<br>
+                1 Best Studio Portfolio 2015 (CSS Design Awards)<br>
+                1 Best project of the Year (CSS Design Awards)<br>
+                6 French Index Design<br>
+                4 FOTD (fwa of the day) FWA<br>
+                2 MOTD (mobile of the day) FWA<br>
+                1 Lovie Awards Bronze Medal<br>
                 1 Webby Awards official selection (games)
 sections:
     - title: Identité
