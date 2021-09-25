@@ -1,16 +1,5 @@
-# jekyll-starter
+# Noesya
 
-## Plugins
-* Jekyll Minifier
-* Jekyll Picture Tag
-* Jekyll Sitemap
+## Maquette 
 
-
-Template
-Pour faire la mise à jour :
-
-```
-git remote add template https://github.com/noesya/jekyll-bs5
-git fetch --all
-git merge template/main --allow-unrelated-histories
-```
+https://www.figma.com/file/7KG0r0KsUBcxrt7iXGaR4m/Explorations?node-id=151%3A285

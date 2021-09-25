@@ -1,0 +1,13 @@
+<a class="burger" href="#menu">
+    <i></i>
+</a>
+
+<nav class="menu">
+    <ul>
+        {% for item in site.data.menus.primary %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

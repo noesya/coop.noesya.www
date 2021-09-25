@@ -1,0 +1,33 @@
+.burger
+    cursor: pointer
+    position: fixed
+    right: 30px
+    top: 30px
+    z-index: 2
+    padding: 20px
+    i, &:after, &:before
+        background: $black
+        content: ''
+        height: 1px
+        left: 5px
+        width: 21px
+        position: absolute
+        transition: 0.3s
+        transform-origin: center center
+    &:after
+        transform: translateY(-9px)
+    &:before
+        transform: translateY(9px)
+
+.menu
+    background: $white
+    bottom: 0
+    position: fixed
+    top: 0
+    right: 0
+
+.burger:hover
+    &:after
+        transform: rotate(-45deg)
+    &:before
+        transform: rotate(45deg)

@@ -5,7 +5,7 @@ layout: default
 <div class="container py-5">
     <h1>{{ page.title }}</h1>
 </div>
-<div class="bg-light py-5">
+<section class="bg-light py-5">
     <div class="container">
         <div class="row">
             <h2>Postes & Parcours</h2>
@@ -41,24 +41,24 @@ layout: default
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="container pb-5 position-relative">
+<div class="container position-relative pb-5">
     {% assign sections = page.sections %}
     {% for section in sections %}
-    <div class="row py-5">
-        <div class="col-md-4">
+    <section class="row py-5">
+        <div class="col-md-4 js-note-container">
             <h2>{{ section.title }}</h2>
         </div>
         <div class="col-md-8">
             {{ section.content | markdownify }}
         </div>
-    </div>
+    </section>
     {% endfor %}
 
     {% for note in page.notes %}
-        <div class="note js-note" id="note-{{ forloop.index }}">
+        <aside class="note js-note" id="note-{{ forloop.index }}">
             {{ note | prepend: "." | prepend: forloop.index | markdownify }}
-        </div>
+        </aside>
     {% endfor %}
 </div>

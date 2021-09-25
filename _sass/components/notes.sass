@@ -2,6 +2,9 @@
     p
         margin-bottom: 0
         padding-left: $container-padding-x
+    img
+        display: block
+        max-width: 100px
     &.is-fixed
         bottom: 0
         left: 0
@@ -15,6 +18,6 @@
             transform: translateY(0)
     &:not(.is-fixed)
         position: absolute
+        margin-top: -30px
         left: 0
-        transform: translateY(-100%)
-
+        width: 33.33333333%

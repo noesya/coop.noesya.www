@@ -64,10 +64,9 @@ sections:
         content: >
              C'est un projet entrepreneurial que j'ai depuis des années, mais là c'est encore mieux que ce que j'espérais ! Travailler avec des gens que j'apprécie, qui ont des valeurs, ça met la barre haut en termes d'ambition. Je n'imaginais pas qu'on pouvait concilier le travail et le sens, faire des choses utiles, un peu plus que juste trier ses poubelles. Être fier de faire du bon travail, mais surtout du travail utile, qui sert à des gens.
 
-notes: 
-    - >
-        Voir [MMI Bordeaux](https://www.mmibordeaux.com/)
+notes:
     - >
         Voir [Musée des Beaux Arts de Bordeaux](http://www.musba-bordeaux.fr)
-
+    - >
+        Voir [MMI Bordeaux](https://www.mmibordeaux.com/)
 ---
