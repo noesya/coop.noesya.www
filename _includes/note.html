@@ -1,5 +1,5 @@
-<div class="note js-note" id="note-{{ forloop.index }}">
-    {{ forloop.index }}. Voir
+<div class="note js-note" id="note-{{ note_index }}">
+    {{ note_index }}. Voir
     {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
     {{ note.title }}
     {% if note.url %}</a>{% endif %}

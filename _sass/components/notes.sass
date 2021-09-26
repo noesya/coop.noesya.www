@@ -1,5 +1,4 @@
 .note
-    background: $white
     &:hover
         z-index: 2
     p
@@ -13,14 +12,16 @@
         padding: 10px
         position: fixed
         width: 100%
-        background: $gray-200
+        background: $gray
         transform: translateY(100%)
         transition: 0.25s
+        z-index: 3
         &.is-visible
             transform: translateY(0)
     &:not(.is-fixed)
-        padding-left: $container-padding-x
         position: absolute
-        margin-top: -30px
-        left: 0
-        width: 33.33333333%
+        // padding-left: $container-padding-x
+        // position: absolute
+        // margin-top: -30px
+        // left: 0
+        // width: 33.33333333%

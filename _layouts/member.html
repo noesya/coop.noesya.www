@@ -9,7 +9,7 @@ layout: default
             <h1>{{page.title}}</h1>
         </div>
         <div class="col-md-6">
-            <img src="{{ page.portrait }}" alt="{{ page.title }}">
+            <img class="img-fluid" src="{{ page.portrait }}" alt="{{ page.title }}">
             <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
         </div>
     </div>
@@ -34,11 +34,16 @@ layout: default
     </div>
 </section>
 
-<div class="container pb-5 position-relative">
+<div class="container pb-5">
+    {% assign note_index = 0 %}
     {% for section in page.sections %}
         <div class="row py-5">
-            <div class="col-md-4">
+            <div class="col-md-4 position-relative">
                 <h2>{{section.title}}</h2>
+                {% for note in section.notes %}
+                    {% assign note_index = note_index | plus: 1 %}
+                    {% include note.html note=note index=note_index %}
+                {% endfor %}
             </div>
             <div class="col-md-8">
                 {{section.content | markdownify | correct_punctuation}}
@@ -46,7 +51,5 @@ layout: default
         </div>
     {% endfor %}
 
-    {% for note in page.notes %}
-        {% include note.html note=note %}
-    {% endfor %}
+    
 </div>

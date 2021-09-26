@@ -39,6 +39,14 @@ sections:
 
 
             En parallèle, j’ai donné pas mal de cours dans des écoles privées (ECV, Condé, ESP, ESD...) et j’ai rejoint en 2020 l’équipe pédagogique MMI Bordeaux<sup><a href="#note-2">2</a></sup> en tant que maître de conférences associé. J’enseigne le dev front et la narration interactive, avec beaucoup de belles choses à venir l’an prochain, nous prévoyons des installations interactives avec le Musée des Beaux Arts de Bordeaux<sup><a href="#note-3">3</a></sup>, ça va être vraiment bien !
+      notes:
+        - title: Viens-là
+          url: https://viens-la.com
+        - title: MMI Bordeaux
+          url: https://www.mmibordeaux.com
+        - title: Musée des Beaux Arts de Bordeaux
+          url: http://www.musba-bordeaux.fr
+
     - title: Fierté
       content: >
             Je suis fier de mes étudiants ! C’est une immense satisfaction de les voir progresser, franchir des étapes, acquérir des savoir-faire. J’étais un peu inquiet, et ça fait vraiment plaisir de constater que tout se passe bien, dans la joie, avec de très belles réalisations. C’est très différent du travail de production, souvent orienté par et pour des questions budgétaires. Là, c’est de l’humain. Je ne suis pas une personne très fière, en général, mais ça, j’en suis vraiment heureux.
@@ -48,6 +56,12 @@ sections:
 
 
             Je pense aussi à un jeu produit pour Ralph Lauren, un platformer avec des ours en peluche. On a commencé sur le Web, et ça s’est ensuite déployé dans les boutiques flagships : des bornes d’arcade à l’ancienne, et du multi-joueur en vitrine avec des QR codes qui permettent à 4 passants de jouer ensemble en utilisant leur téléphone comme manette. De grosses contraintes techniques, sans réseau dans les boutiques, avec un serveur Node en local à installer de nuit à Londres et à Paris, c’était une super expérience ! J’aime sortir du Web pour passer à une expérience physique.
+      notes: 
+        - title: Vivatech
+          url: https://vivatechnology.com
+        - title: Cher ami
+          url: https://www.cher-ami.tv
+
     - title: Qualité
       content: >
             La qualité c’est le soin apporté à tous les aspects : la façon de faire une chose, la façon de l’utiliser, la fluidité, l’utilité pour les usagers. Arriver à toucher les gens, si c’est une expérience, et à le faire bien, sans couture, élégant. C’est une chaîne de bon travail qui aboutit à un bon résultat. Le code, l’ergonomie des interfaces, tout doit être bien fait.
@@ -69,11 +83,25 @@ sections:
 
 
             Mes bons souvenirs à l’école, c’était la musique beaucoup plus que les cours. Et puis après 2 échecs, je suis rentré en MMI, et là, un nouveau monde s’est ouvert à moi : je suis passé de mauvais élève à major de promo ! L’apprentissage dans nos métiers, c’est toute la vie. Là, je suis en train d’apprendre la 3D, en participant au concours Alternate Realities<sup><a href="#note-10">10</a></sup>, avec le projet Vivatech j’ai eu envie de plus, et j’apprends à modéliser, à éclairer, à texturer...
+      notes:
+        - title: Narita Boy (Team 17)
+          url: https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html
+          image: /assets/images/members/alexis-benoit/narita-boy.jpg
+        - title: Ori and the Blind Forest
+          url: https://www.orithegame.com
+          image: /assets/images/members/alexis-benoit/ori.jpg
+        - title: Phare 23, Hugh Howey
+          url: https://www.actes-sud.fr/node/62766
+          image: /assets/images/members/alexis-benoit/phare-23.jpg
+        - title: Silo, Hugh Howey
+          url: https://www.actes-sud.fr/node/61134
+          image: /assets/images/members/alexis-benoit/silo.jpg
+        - title: Alternate realities
+          url: https://www.youtube.com/watch?v=iKBs9l8jS6Q
 
     - title: Noesya
       content: >
              C’est un projet entrepreneurial que j’ai depuis des années, mais là c’est encore mieux que ce que j’espérais ! Travailler avec des gens que j’apprécie, qui ont des valeurs, ça met la barre haut en termes d’ambition. Je n’imaginais pas qu’on pouvait concilier le travail et le sens, faire des choses utiles, un peu plus que juste trier ses poubelles. Être fier de faire du bon travail, mais surtout du travail utile, qui sert à des gens.
-
 notes:
     - title: Viens-là
       url: https://viens-la.com
@@ -81,22 +109,4 @@ notes:
       url: https://www.mmibordeaux.com
     - title: Musée des Beaux Arts de Bordeaux
       url: http://www.musba-bordeaux.fr
-    - title: Vivatech
-      url: https://vivatechnology.com
-    - title: Cher ami
-      url: https://www.cher-ami.tv
-    - title: Narita Boy (Team 17)
-      url: https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html
-      image: /assets/images/members/alexis-benoit/narita-boy.jpg
-    - title: Ori and the Blind Forest
-      url: https://www.orithegame.com
-      image: /assets/images/members/alexis-benoit/ori.jpg
-    - title: Phare 23, Hugh Howey
-      url: https://www.actes-sud.fr/node/62766
-      image: /assets/images/members/alexis-benoit/phare-23.jpg
-    - title: Silo, Hugh Howey
-      url: https://www.actes-sud.fr/node/61134
-      image: /assets/images/members/alexis-benoit/silo.jpg
-    - title: Alternate realities
-      url: https://www.youtube.com/watch?v=iKBs9l8jS6Q
 ---
