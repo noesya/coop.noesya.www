@@ -1,13 +1,19 @@
-<a class="burger" href="#menu" aria-label="Ouvrir le menu">
+<div class="burger">
+    <a href="#menu" aria-label="Ouvrir le menu"></a>
+    <a href="#" aria-label="Fermer le menu"></a>
     <i></i>
-</a>
+</div>
 
-<nav class="menu">
-    <ul>
-        {% for item in site.data.menus.primary %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
+<div class="menu">
+    <div class="container">
+        <nav class="row">
+            <ul class="col-md-11 offset-md-1">
+                {% for item in site.data.menus.primary %}
+                <li>
+                    <a href="{{ item.url }}">{{ item.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</div>

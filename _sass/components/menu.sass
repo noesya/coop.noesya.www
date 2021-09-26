@@ -1,33 +1,72 @@
 .burger
     cursor: pointer
-    position: fixed
-    right: 30px
-    top: 30px
+    padding: 21px
+    position: absolute
+    right: 0
+    top: 38px
     z-index: 2
-    padding: 20px
     i, &:after, &:before
         background: $black
         content: ''
         height: 1px
-        left: 5px
-        width: 21px
+        left: 10px
         position: absolute
-        transition: 0.3s
-        transform-origin: center center
+        transform-origin: center
+        transition: transform 0.38s cubic-bezier(0.45, 0, 0.55, 1)
+        width: 21px
     &:after
         transform: translateY(-9px)
     &:before
         transform: translateY(9px)
+    a
+        height: 100%
+        left: 0
+        position: absolute
+        top: 0
+        width: 100%
+        &:nth-child(2)
+            display: none
 
 .menu
-    background: $white
     bottom: 0
+    overflow: hidden
     position: fixed
-    top: 0
     right: 0
+    top: 0
+    transition: 0.35s
+    width: 0
+    .container, nav
+        height: 100%
+        position: relative
+        z-index: 2
+    ul
+        background: $white
+        height: 100%
+    &::after
+        content: ''
+        background: $white
+        width: 50vw
+        height: 100%
+        z-index: 1
+        right: 0
+        top: 0
+        position: absolute
 
-.burger:hover
-    &:after
-        transform: rotate(-45deg)
-    &:before
-        transform: rotate(45deg)
+#menu:target
+    .burger
+        i
+            transform: scaleX(0)
+        &:after
+            transform: rotate(-45deg)
+        &:before
+            transform: rotate(45deg)
+        a
+            &:nth-child(1)
+                display: none
+            &:nth-child(2)
+                display: block
+
+    .menu
+        width: 100%
+    // + main
+    //     background: $black
