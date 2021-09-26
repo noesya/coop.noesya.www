@@ -54,7 +54,7 @@ window.notes.manager = {
 
     listen: function () {
         'use strict';
-        window.addEventListener('scroll', this.update.bind(this));
+        window.addEventListener('scroll', this.scroll.bind(this));
         window.addEventListener('resize', this.resize.bind(this));
     },
 
@@ -63,6 +63,13 @@ window.notes.manager = {
         var isFixed = window.innerWidth < this.breakpoint;
         this.isFixed = isFixed;
         this.update();
+    },
+
+    scroll: function () {
+        'use strict';
+        if (this.isFixed) {
+            this.update();
+        }
     },
 
     update: function () {
