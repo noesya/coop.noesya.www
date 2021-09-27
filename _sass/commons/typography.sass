@@ -25,8 +25,9 @@ p, li, dl
     section &
         font-size: px2rem(25)
         line-height: px2rem(45)
-    dt &, dl & 
-        margin-bottom: px2rem(30)
+
+dt, dd
+    margin-bottom: px2rem(30)
 
 sup
     font-size: smaller
@@ -47,9 +48,8 @@ blockquote
 
 section
     p
-        margin-bottom: #{ $grid-gutter * 2}
+        margin-bottom: $grid-gutter * 2
     blockquote
         margin: #{$grid-gutter * 4} 0
     p + blockquote
-        margin-top: #{ $grid-gutter * 2}
-
+        margin-top: $grid-gutter * 2
