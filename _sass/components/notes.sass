@@ -1,6 +1,6 @@
 aside
     grid-column: 5/13
-    margin-bottom: $grid-gutter
+    padding-bottom: $grid-gutter
     &:hover
         z-index: 2
     p
@@ -12,7 +12,7 @@ aside
         background: $bg-secondary-color
         bottom: 0
         left: 0
-        padding: 10px
+        padding: $grid-gutter
         position: fixed
         transform: translateY(100%)
         transition: 0.25s
@@ -30,8 +30,3 @@ aside
     &.is-handled:not(.is-fixed)
         padding-top: px2rem(17.5)
         position: absolute
-        // padding-left: $container-padding-x
-        // position: absolute
-        // margin-top: -30px
-        // left: 0
-        // width: 33.33333333%

@@ -50,7 +50,7 @@ https://www.figma.com/file/7KG0r0KsUBcxrt7iXGaR4m/Explorations?node-id=151%3A285
 
 ## Grid
 
-Afficher la grille avec l'extension CSS Grid pour Chrome :
+Afficher la grille avec l'extension CSS Grid pour Chrome (https://chrome.google.com/webstore/detail/css-grid-overlay/hajfilceeneohkmcakehndmaeonhlack) :
 
 ```
 [
