@@ -2,9 +2,12 @@
     cursor: pointer
     padding: 21px
     position: absolute
-    right: 40px
+    right: 20px
     top: 40px
     z-index: 2
+    @include media-breakpoint-up(md)
+        right: 40px
+
     i, &::after, &::before
         background: $primary
         content: ''
