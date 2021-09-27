@@ -23,12 +23,12 @@ layout: default
     </div>
 </section>
 
-{% for section in page.sections %}
 <section>
+    {% for section in page.sections %}
     <h2>{{section.title}}</h2>
     {{section.content | markdownify | correct_punctuation}}
-</section>
 {% endfor %}
+</section>
 
 {% assign note_index = 0 %}
 <section>

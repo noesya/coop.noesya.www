@@ -1,12 +1,11 @@
 section
     display: grid
-    grid-gap: #{$grid-gutter * 2}px
+    grid-gap: 0 #{$grid-gutter * 2}px
     grid-template-columns: repeat(12, 1fr)
     margin: auto
     max-width: #{$grid-width}px
     padding: 0 #{$grid-gutter * 2}px
     h2
         grid-column: 1/4
-        grid-row: 1
-    p
+    p, blockquote
         grid-column: 5/11
