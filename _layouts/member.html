@@ -2,54 +2,43 @@
 layout: default
 ---
 
-<div class="container py-5">
-    <div class="row">
-        <div class="col-md-6">
-            <p class="h1 text-muted">Équipe<p>
-            <h1>{{page.title}}</h1>
-        </div>
-        <div class="col-md-6">
-            <img class="img-fluid" src="{{ page.portrait }}" alt="{{ page.title }}">
-            <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
-        </div>
-    </div>
+<div>
+    <p class="h1">Équipe<p>
+    <h1>{{page.title}}</h1>
+    <img src="{{ page.portrait }}" alt="{{ page.title }}">
+    <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
 </div>
-<section class="bg-light py-5">
-    <div class="container">
-        <h2>Postes & Parcours</h2>
-        <div class="row">
-            <div class="col-md-6">
-                {% for item in page.summary.list %}
-                    {% include member/item.html item=item %}
-                {% endfor %}
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    {% for item in page.summary.more_list %}
-                        {% include member/item.html item=item %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
+
+<section>
+    <h2>Postes & Parcours</h2>
+    <div>
+        {% for item in page.summary.list %}
+            {% include member/item.html item=item %}
+        {% endfor %}
+    </div>
+    <div>
+        {% for item in page.summary.more_list %}
+            {% include member/item.html item=item %}
+        {% endfor %}
     </div>
 </section>
 
-<div class="container pb-5">
-    {% assign note_index = 0 %}
-    {% for section in page.sections %}
-        <div class="row py-5">
-            <div class="col-md-4 position-relative">
-                <h2>{{section.title}}</h2>
-                {% for note in section.notes %}
-                    {% assign note_index = note_index | plus: 1 %}
-                    {% include note.html note=note index=note_index %}
-                {% endfor %}
-            </div>
-            <div class="col-md-8">
-                {{section.content | markdownify | correct_punctuation}}
-            </div>
-        </div>
-    {% endfor %}
 
-    
-</div>
+{% for section in page.sections %}
+<section>
+    <h2>{{section.title}}</h2>
+    {{section.content | markdownify | correct_punctuation}}
+</section>
+{% endfor %}
+
+{% assign note_index = 0 %}
+<section>
+    {% for section in page.sections %}
+        {% for note in section.notes %}
+            {% assign note_index = note_index | plus: 1 %}
+            {% include note.html note=note index=note_index %}
+        {% endfor %}
+    {% endfor %}
+</section>
+
+
