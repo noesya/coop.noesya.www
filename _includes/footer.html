@@ -2,15 +2,7 @@
     <div>
         <p><a href="/">{{site.title}}</a></p>
         <p><a href="/">{{site.baseline}}</a></p>
-        {% include menu.html %}
-        <nav aria-label="Pages légales">
-          <ul>
-          {% for item in site.data.menus.legal %}
-              <li>
-                  <a href="{{ item.url }}">{{ item.title }}</a>
-              </li>
-          {% endfor %}
-          </ul>
-        </nav>
+        {% include nav-primary.html %}
+        {% include nav-legal.html %}
     </div>
 </footer>
