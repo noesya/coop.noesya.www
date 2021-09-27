@@ -3,13 +3,13 @@ title: Équipe
 permalink: /equipe
 ---
 
-<div>
-    {% assign members = site.members | sort: 'last_name' %}
-    {% for member in members %}
-        <div>
-            <img src="{{ member.portrait }}" alt="{{  member.title }}">
-            <h2><a href="{{ member.url }}">{{ member.title }}</a></h2>
-            <p class="text-muted"><i>{{ member.expertise }}</i></p>
-        </div>
-    {% endfor %}
-</div>
+{% assign members = site.members | sort: 'last_name' %}
+{% for member in members %}
+  <article>
+      <a href="{{ member.url }}">
+          <img src="{{ member.portrait }}" alt="{{ member.title }}">
+          <h2>{{ member.title }}</h2>
+          <p><i>{{ member.expertise }}</i></p>
+      </a>
+  </article>
+{% endfor %}

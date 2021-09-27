@@ -10,7 +10,7 @@ layout: default
 </header>
 
 <section>
-    <h2>Postes & Parcours</h2>
+    <h2>Parcours</h2>
     <div>
         {% for item in page.summary.list %}
             {% include member/item.html item=item %}
@@ -25,9 +25,9 @@ layout: default
 
 <section>
     {% for section in page.sections %}
-    <h2>{{section.title}}</h2>
-    {{section.content | markdownify | correct_punctuation}}
-{% endfor %}
+        <h2>{{section.title}}</h2>
+        {{section.content | markdownify | correct_punctuation}}
+    {% endfor %}
 </section>
 
 {% assign note_index = 0 %}
@@ -39,5 +39,3 @@ layout: default
         {% endfor %}
     {% endfor %}
 </section>
-
-
