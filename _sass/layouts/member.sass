@@ -1,0 +1,26 @@
+main.member
+    section
+        +container
+        +grid
+    header + section
+        background-color: $bg-secondary-color
+        h2
+            grid-column: 1/7
+        h2 + p
+            grid-column: 7/13
+            text-align: right
+    dl
+        +grid(6)
+        grid-column: 1/7
+        dt
+            grid-column: 1/4
+        dd
+            grid-column: 4/7
+    dl + dl
+        grid-column: 7/13
+
+    section + section
+        h2
+            grid-column: 1/4
+        p, blockquote
+            grid-column: 5/11

@@ -1,8 +1,4 @@
-<div>
-    {% if item.title %}
-        {{ item.title }}
-        {{ item.content | markdownify | correct_punctuation }}
-    {% else %}
-        {{ item.content | markdownify | correct_punctuation }}
-    {% endif %}
-</div>
+{% if item.title %}
+<dt><em>{{ item.title }}</em></dt>
+{% endif %}
+<dd>{{ item.content | correct_punctuation }}</dd>

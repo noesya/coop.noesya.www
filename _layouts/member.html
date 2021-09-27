@@ -1,5 +1,6 @@
 ---
 layout: default
+type: member
 ---
 
 <header>
@@ -11,16 +12,17 @@ layout: default
 
 <section>
     <h2>Parcours</h2>
-    <div>
+    <p><em>{{ page.expertise }}</em></p>
+    <dl>
         {% for item in page.summary.list %}
             {% include member/item.html item=item %}
         {% endfor %}
-    </div>
-    <div>
+    </dl>
+    <dl>
         {% for item in page.summary.more_list %}
             {% include member/item.html item=item %}
         {% endfor %}
-    </div>
+    </dl>
 </section>
 
 <section>
