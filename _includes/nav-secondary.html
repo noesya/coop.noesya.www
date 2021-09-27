@@ -5,7 +5,7 @@
       {% if item.url %}
         <a href="{{ item.url }}"{% if item.url == '/' %} class="active"{% endif %}>{{ item.title }}</a>
       {% else %}
-        <span title="Site disponible plus tard">{{ item.title }}</span>
+        <span title="Ce site sera disponible bientôt...">{{ item.title }}</span>
       {% endif %}
     </li>
     {% endfor %}
