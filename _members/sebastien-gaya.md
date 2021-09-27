@@ -35,16 +35,16 @@ summary:
 sections:
     - title: Identité
       content: >
-          22 ans, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les Poupées Russes*, à Paris. J’ai rejoint l’équipe des Poupées Russes en tant que développeur back, puis j’ai démissionné en 2021 pour créer Noesya.
+          22 ans, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les Poupées Russes*, à Paris. J’ai rejoint l’équipe des *Poupées Russes* en tant que développeur back, puis j’ai démissionné en 2021 pour créer *Noesya*.
     - title: Fierté
       content: >
-          B2bylon<sup><a href="#note-1">1</a></sup> ! Une solution SaaS pour les entreprises avec différentes briques fonctionnelles : encyclopédie, catalogue de produits...  Cela demandait beaucoup de rigueur pour écrire un code qui restait propre et maintenable au fur et à mesure de l’élargissement du périmètre métier. Il faut beaucoup de réflexion et de compromis pour créer une solution viable à long terme.
+          *B2bylon*<sup><a href="#note-1">1</a></sup> ! Une solution SaaS pour les entreprises avec différentes briques fonctionnelles : encyclopédie, catalogue de produits...  Cela demandait beaucoup de rigueur pour écrire un code qui restait propre et maintenable au fur et à mesure de l’élargissement du périmètre métier. Il faut beaucoup de réflexion et de compromis pour créer une solution viable à long terme.
 
 
-          Ensuite, Hermès Métiers Training, avec l’ajout du système de challenges internes. L’outil est destiné aux vendeurs de la maison Hermès<sup><a href="#note-2">2</a></sup>, et fournit un socle d’informations sur les savoir faire, les métiers et les produits. Nous avons re-développé et intégré un système de compétition entre boutiques qui avait connu une première vie efficace sur le plan opérationnel, mais problématique sur le plan de la robustesse et de la facilité de mise en œuvre. C’était un défi en termes d’optimisation des données, les vendeurs sont très actifs sur un temps court, et il fallait à la fois une grande fiabilité de traitement, et une bonne rapidité de réponse, tant sur le jeu lui-même que sur l’analyse statistique.
+          Ensuite, Hermès Métiers Training, avec l’ajout du système de challenges internes. L’outil est destiné aux vendeurs de la maison *Hermès*<sup><a href="#note-2">2</a></sup>, et fournit un socle d’informations sur les savoir faire, les métiers et les produits. Nous avons re-développé et intégré un système de compétition entre boutiques qui avait connu une première vie efficace sur le plan opérationnel, mais problématique sur le plan de la robustesse et de la facilité de mise en œuvre. C’était un défi en termes d’optimisation des données, les vendeurs sont très actifs sur un temps court, et il fallait à la fois une grande fiabilité de traitement, et une bonne rapidité de réponse, tant sur le jeu lui-même que sur l’analyse statistique.
 
 
-          Enfin, Cartier Events, une plateforme de gestion d’événements dédiée aux boutiques Cartier<sup><a href="#note-3">3</a></sup> à l’international. J’ai codé tout le back-end, de la création des événements au processus de réservation des visiteurs, en passant par la gestion de QR codes servant de ticket d’entrée et tous les envois de mails aux différentes étapes d’invitation, de confirmation et de rappel.
+          Enfin, Cartier Events, une plateforme de gestion d’événements dédiée aux boutiques *Cartier*<sup><a href="#note-3">3</a></sup> à l’international. J’ai codé tout le back-end, de la création des événements au processus de réservation des visiteurs, en passant par la gestion de QR codes servant de ticket d’entrée et tous les envois de mails aux différentes étapes d’invitation, de confirmation et de rappel.
       notes:
         - title: B2bylon
           url: https://www.b2bylon.com
@@ -54,7 +54,7 @@ sections:
           url: https://www.cartier.com
     - title: Qualité
       content: >
-          Du travail bien fait, c’est un code propre, lisible et maintenable. Nous utilisons Code Climate<sup><a href="#note-3">3</a></sup> qui analyse le code statique et évalue la qualité sur différents indicateurs, notamment de duplication<sup><a href="#note-4">4</a></sup> et de complexité cyclomatique<sup><a href="#note-4">4</a></sup>. Je suis un peu spécialiste de la “climatisation“ : dès que la dette technique monte, je refactor le code de façon à la maintenir à 0 en permanence.
+          Du travail bien fait, c’est un code propre, lisible et maintenable. Nous utilisons *Code Climate*<sup><a href="#note-3">3</a></sup> qui analyse le code statique et évalue la qualité sur différents indicateurs, notamment de duplication<sup><a href="#note-4">4</a></sup> et de complexité cyclomatique<sup><a href="#note-4">4</a></sup>. Je suis un peu spécialiste de la “climatisation” : dès que la dette technique monte, je refactor le code de façon à la maintenir à 0 en permanence.
 
 
           Du bon code, c’est aussi du code qui s’exécute rapidement. Pour cela, nous utilisons Scout<sup><a href="#note-5">5</a></sup>, qui surveille les temps d’exécution de l’application et nous permet de détecter les goulets d’étranglement. Cela peut-être des problèmes de base de données, de gestion des objets, d’infrastructure, dans tous les cas ça impacte l’utilisateur, donc il faut résoudre. J’ai toujours un petit œil sur l’infrastructure technique et la sécurité...
@@ -78,7 +78,7 @@ sections:
           Des films, des séries, et mon Rubik’s Cube ! Ou plutôt, l’un de mes nombreux Rubik’s Cube, j’en ai toute une variété : 2x2, 3x3, 4x4, même un en triangle. Je ne suis pas très fort, mais je participe à des compétitions (137e aux championnats de France 2019<sup><a href="#note-6">6</a></sup>), j’essaie de progresser. Je suis ceinture noire de Judo, mais je ne pratique plus, j’ai très envie de Parkour, je ne tiens pas en place. Je joue aussi, mais il y a trop de bons jeux à finir et pas assez de temps dans la journée.
 
 
-          L’école, c’était chouette, plein de bons souvenirs. J’ai commencé à apprendre le développement au Lycée, en autodidacte sur OpenClassrooms, en suivant les MOOCs d’HTML et CSS. Après le bac, j’ai associé formation traditionnelle et auto-formation, avec Codecademy<sup><a href="#note-7">7</a></sup> et beaucoup de veille technologique. Je passe pas mal de temps à lire sur Medium. J’ai toujours des projets personnels qui me servent à tester des outils, React, par exemple. J’aime lire la documentation, apprendre de nouveaux langages et de nouveaux frameworks.
+          L’école, c’était chouette, plein de bons souvenirs. J’ai commencé à apprendre le développement au Lycée, en autodidacte sur OpenClassrooms, en suivant les MOOCs d’HTML et CSS. Après le bac, j’ai associé formation traditionnelle et auto-formation, avec *Codecademy*<sup><a href="#note-7">7</a></sup> et beaucoup de veille technologique. Je passe pas mal de temps à lire sur Medium. J’ai toujours des projets personnels qui me servent à tester des outils, React, par exemple. J’aime lire la documentation, apprendre de nouveaux langages et de nouveaux frameworks.
       notes:
         - title: World Cube Association
           url: https://www.worldcubeassociation.org/persons/2019GAYA01
