@@ -1,20 +1,20 @@
 <footer>
-    <div>
-        <p><a href="/">{{site.title}}</a></p>
-        <p><a href="/">{{site.baseline}}</a></p>
-        <ul>
-        {% for item in site.data.menus.primary %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
-        <ul>
-        {% for item in site.data.menus.legal %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
+  <div>
+    <p><a href="/">{{site.title}}</a></p>
+    <p><a href="/">{{site.baseline}}</a></p>
+    <ul>
+      {% for item in site.data.menus.primary %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for item in site.data.menus.legal %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </footer>

@@ -36,6 +36,11 @@ main.member
         @include grid(6)
         align-self: baseline
         grid-column: 1/7
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            width: 1px
         dt
             grid-column: 1/4
         dd
