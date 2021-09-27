@@ -28,13 +28,6 @@ defaults:
       type: "members"
     values:
       layout: "member"
-  -
-    scope:
-      path: ""
-      type: "commitments"
-    values:
-      layout: "commitment"
-
 collections:
   pages:
     output: true
@@ -44,9 +37,6 @@ collections:
   members:
     output: true
     permalink: /equipe/:slug
-  commitments:
-    output: true
-    permalink: /engagements/:slug
 
 plugins:
   - jekyll-minifier
