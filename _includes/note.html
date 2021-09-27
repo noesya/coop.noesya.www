@@ -1,4 +1,4 @@
-<aside class="js-note" id="note-{{ note_index }}">
+<aside class="js-note {% if note.image %} with-img {%- endif -%}" id="note-{{ note_index }}">
   {{ note_index }}. Voir
   {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
   {{ note.title }}
@@ -6,5 +6,6 @@
   {% if note.image %}
     <br>
     {% picture note "{{ note.image }}" --img alt="{{ note.title }}" title="{{ note.title }}" %}
+
   {% endif %}
 </aside>
