@@ -7,9 +7,21 @@ body > footer
     position: sticky
     div
         @include container
+        @include grid
     a
         color: $secondary
-    nav:first-of-type
-        li
-            font-size: px2rem(55)
-            line-height: px2rem(75)
+    address
+        &:first-of-type
+            grid-column: 1/4
+        &:last-of-type
+            grid-column: 4/8
+    nav
+        &:first-of-type
+            grid-column: 8/13
+            li
+                font-size: px2rem(55)
+                line-height: px2rem(75)
+        &:last-of-type
+            grid-column: 1/13
+            ul
+                display: flex
