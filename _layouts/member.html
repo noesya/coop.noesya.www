@@ -10,12 +10,12 @@ type: member
     </div>
     <div>
         <img src="{{ page.portrait }}" alt="{{ page.title }}">
-        <!-- <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi"> -->
+        <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi">
     </div>
 </header>
 
 <div>
-    <section>
+    <div>
         <h2>Parcours</h2>
         <p><em>{{ page.expertise }}</em></p>
         <dl>
@@ -28,7 +28,7 @@ type: member
                 {% include member/item.html item=item %}
             {% endfor %}
         </dl>
-    </section>
+    </div>
 </div>
 
 <section>
