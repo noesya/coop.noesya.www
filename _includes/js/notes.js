@@ -5,7 +5,7 @@ window.notes.manager = window.notes.manager || {};
 window.notes.Item = function (dom, previous) {
     'use strict';
     this.dom = dom;
-    this.parent = dom.parentNode;
+    // this.parent = dom.parentNode;
     this.y = 0;
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
@@ -54,7 +54,8 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.getTop = function (element) {
     'use strict';
-    return element.getBoundingClientRect().top + window.scrollY;
+    var offset = window.notes.manager.offsetTop;
+    return element.getBoundingClientRect().top + window.scrollY - offset;
 };
 
 window.notes.Item.prototype.bottom = function () {
@@ -90,11 +91,12 @@ window.notes.manager = {
         'use strict';
         var previous = this.pool[i - 1] || null;
 
-        if (previous) {
-            if (element.parentNode !== previous.parent) {
-                previous = null;
-            }
-        }
+        // Use this condition when aside are in differents sections
+        // if (previous) {
+        //     if (element.parentNode !== previous.parent) {
+        //         previous = null;
+        //     }
+        // }
 
         this.pool.push(new window.notes.Item(element, previous));
     },
@@ -122,6 +124,7 @@ window.notes.manager = {
         'use strict';
         var nearest = null,
             i;
+
         if (this.isFixed) {
             this.update();
         }
@@ -138,6 +141,8 @@ window.notes.manager = {
     update: function () {
         'use strict';
         var i;
+
+        this.offsetTop = document.querySelector('main').getBoundingClientRect().top + window.scrollY;
 
         for (i = 0; i < this.pool.length; i += 1) {
             this.pool[i].replace();
