@@ -39,11 +39,10 @@ type: member
 </section>
 
 {% assign note_index = 0 %}
-<section>
-    {% for section in page.sections %}
-        {% for note in section.notes %}
-            {% assign note_index = note_index | plus: 1 %}
-            {% include note.html note=note index=note_index %}
-        {% endfor %}
+{% for section in page.sections %}
+    {% for note in section.notes %}
+        {% assign note_index = note_index | plus: 1 %}
+        {% include note.html note=note index=note_index %}
     {% endfor %}
-</section>
+{% endfor %}
+

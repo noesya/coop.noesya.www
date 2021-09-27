@@ -1,8 +1,8 @@
 main.member
     header
-        +container
-        +grid(2)
-        padding: #{ $grid-gutter * 2}px 0
+        @include container
+        @include grid(2)
+        padding: #{ $grid-gutter * 2} 0
         & > div
             align-self: center
             img
@@ -15,15 +15,15 @@ main.member
                 &:nth-child(2)
                     display: block
     section
-        +container
-        +grid
+        @include container
+        @include grid
 
     header + div
         background-color: $bg-secondary-color
-        padding: #{ $grid-gutter * 4}px 0
+        padding: #{ $grid-gutter * 4} 0
         & > div
-            +container
-            +grid
+            @include container
+            @include grid
             h2
                 align-self: center
                 grid-column: 1/7
@@ -32,7 +32,8 @@ main.member
                 grid-column: 7/13
                 text-align: right
     dl
-        +grid(6)
+        @include grid(6)
+        align-self: baseline
         grid-column: 1/7
         dt
             grid-column: 1/4
@@ -47,8 +48,7 @@ main.member
         p, blockquote
             grid-column: 5/11
         h2, h2 + p
-            margin-top: #{ $grid-gutter * 16}px
+            margin-top: $grid-gutter * 16
         h2:first-child
             &, & + p
-                margin-top: #{ $grid-gutter * 4}px
-            
+                margin-top: $grid-gutter * 4
