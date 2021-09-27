@@ -30,12 +30,15 @@ main.member
                 grid-column: 1/7
             h2 + p
                 align-self: baseline
+                font-size: px2rem(30)
                 grid-column: 7/13
+                opacity: 0.3
                 text-align: right
     dl
         @include grid(6)
         align-self: baseline
         grid-column: 1/7
+        margin-top: 15px
         position: relative
         &::after
             content: ''

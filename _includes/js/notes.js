@@ -10,6 +10,7 @@ window.notes.Item = function (dom, previous) {
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
     this.isVisible = false;
+    this.dom.classList.add('is-handled');
     this.replace();
 };
 
@@ -36,7 +37,7 @@ window.notes.Item.prototype.updateVisibility = function () {
 
 window.notes.Item.prototype.updatePosition = function () {
     'use strict';
-    this.y = this.getTop(this.anchor) - this.getTop(this.parent);
+    this.y = this.getTop(this.anchor);
 
     if (this.previous) {
         this.preventOverlap();
@@ -53,7 +54,7 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.getTop = function (element) {
     'use strict';
-    return element.getBoundingClientRect().top;
+    return element.getBoundingClientRect().top + window.scrollY;
 };
 
 window.notes.Item.prototype.bottom = function () {
@@ -146,5 +147,5 @@ window.notes.manager = {
 
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
-    // window.notes.manager.init();
+    window.notes.manager.init();
 });

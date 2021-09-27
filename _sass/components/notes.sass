@@ -1,4 +1,7 @@
 aside
+    grid-column: 5/13
+    margin-bottom: $grid-gutter
+
     &:hover
         z-index: 2
     p
@@ -22,8 +25,8 @@ aside
         //     bottom: 12px
         //     position: absolute
         //     right: 12px
-    &:not(.is-fixed)
-        // position: absolute
+    &.is-handled:not(.is-fixed)
+        position: absolute
         // padding-left: $container-padding-x
         // position: absolute
         // margin-top: -30px
