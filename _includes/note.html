@@ -5,6 +5,6 @@
   {% if note.url %}</a>{% endif %}
   {% if note.image %}
     <br>
-    <img src="{{ note.image }}" alt="{{ note.title }}" width="200"/>
+    {% picture note "{{ note.image }}" --img alt="{{ note.title }}" title="{{ note.title }}" %}
   {% endif %}
 </aside>
