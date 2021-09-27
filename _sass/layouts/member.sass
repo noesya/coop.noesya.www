@@ -9,13 +9,15 @@ main.member
             img
                 display: block
                 width: 100%
+            picture
                 &:nth-child(2)
                     display: none
-            &:hover img
+            &:hover picture
                 &:nth-child(1)
                     display: none
                 &:nth-child(2)
                     display: block
+
     section
         @include container
         @include grid
@@ -55,16 +57,23 @@ main.member
             left: -#{$grid-gutter}
         grid-column: 7/13
     & > section
+        position: relative
         h2
             margin-top: $grid-gutter * 8
+        small
+            display: none
         @include media-breakpoint-up(md)
             h2
                 grid-column: 1/4
             p, blockquote
-                grid-column: 5/11
+                grid-column: 5/12
             h2, h2 + p
                 align-self: baseline
                 margin-top: $grid-gutter * 16
+            small
+                display: block
+                position: absolute
+                right: $grid-gutter * 2
             h2:first-child
                 &, & + p
                     margin-top: $grid-gutter * 4

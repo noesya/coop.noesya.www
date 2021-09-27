@@ -61,7 +61,7 @@ Afficher la grille avec l'extension CSS Grid pour Chrome (https://chrome.google.
     "from": 840,
     "gutters": 25,
     "margins": 50,
-    "maxWidth": 1440,
+    "maxWidth": 1340,
     "to": 7680
   }
 ]

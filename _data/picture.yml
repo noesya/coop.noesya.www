@@ -3,3 +3,11 @@ presets:
     formats: [webp, original] # Order matters!
     widths: [300, 600, 1000, 1400, 2000]
     dimension_attributes: true
+  member:
+    formats: [webp, original]
+    widths: [300, 645, 1290]
+    dimension_attributes: true
+  note:
+    formats: [webp, original]
+    widths: [124, 248]
+    dimension_attributes: true
