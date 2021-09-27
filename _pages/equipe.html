@@ -3,11 +3,11 @@ title: Équipe
 permalink: /equipe
 ---
 
-<div class="row">
+<div>
     {% assign members = site.members | sort: 'last_name' %}
     {% for member in members %}
-        <div class="col-md-4">
-            <img src="{{ member.portrait }}" alt="{{  member.title }}" class="img-fluid">
+        <div>
+            <img src="{{ member.portrait }}" alt="{{  member.title }}">
             <h2><a href="{{ member.url }}">{{ member.title }}</a></h2>
             <p class="text-muted"><i>{{ member.expertise }}</i></p>
         </div>
