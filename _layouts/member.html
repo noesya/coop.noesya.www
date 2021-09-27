@@ -37,9 +37,7 @@ type: member
     <h2>{{section.title}}</h2>
     {{section.content | markdownify | correct_punctuation}}
   {% endfor %}
-</section>
 
-<section>
   {% assign note_index = 0 %}
     {% for section in page.sections %}
       {% for note in section.notes %}
@@ -48,3 +46,4 @@ type: member
     {% endfor %}
   {% endfor %}
 </section>
+
