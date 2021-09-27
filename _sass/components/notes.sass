@@ -1,31 +1,32 @@
 aside
+    grid-column: 5/13
+    padding-bottom: $grid-gutter
     &:hover
         z-index: 2
     p
         margin-bottom: 0
     img
         display: block
-        max-width: 80px
+        max-width: 74px
     &.is-fixed
         background: $bg-secondary-color
         bottom: 0
         left: 0
-        padding: 10px
+        padding: $grid-gutter
         position: fixed
         transform: translateY(100%)
         transition: 0.25s
         width: 100%
         z-index: 3
         &.is-visible
-            transform: translateY(0)
-        // img
-        //     bottom: 12px
-        //     position: absolute
-        //     right: 12px
-    &:not(.is-fixed)
-        // position: absolute
-        // padding-left: $container-padding-x
-        // position: absolute
-        // margin-top: -30px
-        // left: 0
-        // width: 33.33333333%
+            &, img
+                transform: translateY(0)
+        img
+            bottom: 12px
+            position: absolute
+            right: 12px
+            transform: translateY(100%)
+
+    &.is-handled:not(.is-fixed)
+        padding-top: px2rem(17.5)
+        position: absolute

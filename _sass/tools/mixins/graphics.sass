@@ -1,1 +1,10 @@
-@mixin 
+@mixin border-line
+    position: relative
+    &::after
+        background: $border-color
+        content: ''
+        height: 100%
+        opacity: 0.1
+        position: absolute
+        width: 1px
+        @content

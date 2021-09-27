@@ -5,11 +5,12 @@ window.notes.manager = window.notes.manager || {};
 window.notes.Item = function (dom, previous) {
     'use strict';
     this.dom = dom;
-    this.parent = dom.parentNode;
+    // this.parent = dom.parentNode;
     this.y = 0;
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
     this.isVisible = false;
+    this.dom.classList.add('is-handled');
     this.replace();
 };
 
@@ -36,7 +37,7 @@ window.notes.Item.prototype.updateVisibility = function () {
 
 window.notes.Item.prototype.updatePosition = function () {
     'use strict';
-    this.y = this.getTop(this.anchor) - this.getTop(this.parent);
+    this.y = this.getTop(this.anchor);
 
     if (this.previous) {
         this.preventOverlap();
@@ -53,7 +54,8 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.getTop = function (element) {
     'use strict';
-    return element.getBoundingClientRect().top;
+    var offset = window.notes.manager.offsetTop;
+    return element.getBoundingClientRect().top + window.scrollY - offset;
 };
 
 window.notes.Item.prototype.bottom = function () {
@@ -89,11 +91,12 @@ window.notes.manager = {
         'use strict';
         var previous = this.pool[i - 1] || null;
 
-        if (previous) {
-            if (element.parentNode !== previous.parent) {
-                previous = null;
-            }
-        }
+        // Use this condition when aside are in differents sections
+        // if (previous) {
+        //     if (element.parentNode !== previous.parent) {
+        //         previous = null;
+        //     }
+        // }
 
         this.pool.push(new window.notes.Item(element, previous));
     },
@@ -121,6 +124,7 @@ window.notes.manager = {
         'use strict';
         var nearest = null,
             i;
+
         if (this.isFixed) {
             this.update();
         }
@@ -138,6 +142,8 @@ window.notes.manager = {
         'use strict';
         var i;
 
+        this.offsetTop = document.querySelector('main').getBoundingClientRect().top + window.scrollY;
+
         for (i = 0; i < this.pool.length; i += 1) {
             this.pool[i].replace();
         }
@@ -146,5 +152,5 @@ window.notes.manager = {
 
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
-    // window.notes.manager.init();
+    window.notes.manager.init();
 });
