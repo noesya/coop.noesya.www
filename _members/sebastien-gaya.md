@@ -54,10 +54,10 @@ sections:
           url: https://www.cartier.com
     - title: Qualité
       content: >
-          Du travail bien fait, c’est un code propre, lisible et maintenable. Nous utilisons *Code Climate*<sup><a href="#note-3">3</a></sup> qui analyse le code statique et évalue la qualité sur différents indicateurs, notamment de duplication<sup><a href="#note-4">4</a></sup> et de complexité cyclomatique<sup><a href="#note-4">4</a></sup>. Je suis un peu spécialiste de la “climatisation” : dès que la dette technique monte, je refactor le code de façon à la maintenir à 0 en permanence.
+          Du travail bien fait, c’est un code propre, lisible et maintenable. Nous utilisons *Code Climate*<sup><a href="#note-4">4</a></sup> qui analyse le code statique et évalue la qualité sur différents indicateurs, notamment de duplication<sup><a href="#note-5">5</a></sup> et de complexité cyclomatique<sup><a href="#note-6">6</a></sup>. Je suis un peu spécialiste de la “climatisation” : dès que la dette technique monte, je refactor le code de façon à la maintenir à 0 en permanence.
 
 
-          Du bon code, c’est aussi du code qui s’exécute rapidement. Pour cela, nous utilisons Scout<sup><a href="#note-5">5</a></sup>, qui surveille les temps d’exécution de l’application et nous permet de détecter les goulets d’étranglement. Cela peut-être des problèmes de base de données, de gestion des objets, d’infrastructure, dans tous les cas ça impacte l’utilisateur, donc il faut résoudre. J’ai toujours un petit œil sur l’infrastructure technique et la sécurité...
+          Du bon code, c’est aussi du code qui s’exécute rapidement. Pour cela, nous utilisons Scout<sup><a href="#note-7">7</a></sup>, qui surveille les temps d’exécution de l’application et nous permet de détecter les goulets d’étranglement. Cela peut-être des problèmes de base de données, de gestion des objets, d’infrastructure, dans tous les cas ça impacte l’utilisateur, donc il faut résoudre. J’ai toujours un petit œil sur l’infrastructure technique et la sécurité...
 
 
           <blockquote>Hacker un jour, hacker toujours !</blockquote>
@@ -75,10 +75,10 @@ sections:
            url: https://scoutapm.com
     - title: Curiosité
       content: >
-          Des films, des séries, et mon Rubik’s Cube ! Ou plutôt, l’un de mes nombreux Rubik’s Cube, j’en ai toute une variété : 2x2, 3x3, 4x4, même un en triangle. Je ne suis pas très fort, mais je participe à des compétitions (137e aux championnats de France 2019<sup><a href="#note-6">6</a></sup>), j’essaie de progresser. Je suis ceinture noire de Judo, mais je ne pratique plus, j’ai très envie de Parkour, je ne tiens pas en place. Je joue aussi, mais il y a trop de bons jeux à finir et pas assez de temps dans la journée.
+          Des films, des séries, et mon Rubik’s Cube ! Ou plutôt, l’un de mes nombreux Rubik’s Cube, j’en ai toute une variété : 2x2, 3x3, 4x4, même un en triangle. Je ne suis pas très fort, mais je participe à des compétitions (137e aux championnats de France 2019<sup><a href="#note-8">8</a></sup>), j’essaie de progresser. Je suis ceinture noire de Judo, mais je ne pratique plus, j’ai très envie de Parkour, je ne tiens pas en place. Je joue aussi, mais il y a trop de bons jeux à finir et pas assez de temps dans la journée.
 
 
-          L’école, c’était chouette, plein de bons souvenirs. J’ai commencé à apprendre le développement au Lycée, en autodidacte sur OpenClassrooms, en suivant les MOOCs d’HTML et CSS. Après le bac, j’ai associé formation traditionnelle et auto-formation, avec *Codecademy*<sup><a href="#note-7">7</a></sup> et beaucoup de veille technologique. Je passe pas mal de temps à lire sur Medium. J’ai toujours des projets personnels qui me servent à tester des outils, React, par exemple. J’aime lire la documentation, apprendre de nouveaux langages et de nouveaux frameworks.
+          L’école, c’était chouette, plein de bons souvenirs. J’ai commencé à apprendre le développement au Lycée, en autodidacte sur OpenClassrooms, en suivant les MOOCs d’HTML et CSS. Après le bac, j’ai associé formation traditionnelle et auto-formation, avec *Codecademy*<sup><a href="#note-9">9</a></sup> et beaucoup de veille technologique. Je passe pas mal de temps à lire sur Medium. J’ai toujours des projets personnels qui me servent à tester des outils, React, par exemple. J’aime lire la documentation, apprendre de nouveaux langages et de nouveaux frameworks.
       notes:
         - title: World Cube Association
           url: https://www.worldcubeassociation.org/persons/2019GAYA01

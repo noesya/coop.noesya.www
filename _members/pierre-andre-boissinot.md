@@ -17,7 +17,8 @@ summary:
           content: DUT Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), *Université Paris-Est Marne-la-Vallée*
 sections:
     - title: Identité
-      content: 42 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio Design* en 2003. La structure est ensuite fusionnée à l’agence *Les Poupées Russes*<sup><a href="#note-1">1</a></sup>, que je quitte en 2021 pour créer *Noesya*.
+      content: >
+          42 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio Design* en 2003. La structure est ensuite fusionnée à l’agence *Les Poupées Russes*<sup><a href="#note-1">1</a></sup>, que je quitte en 2021 pour créer *Noesya*.
       notes:
         - title: Les Poupées Russes
           url: https://www.lespoupees.paris
@@ -54,7 +55,7 @@ sections:
           Ma grande qualité, c’est de voir tous les scénarios qui peuvent se produire, les effets de bord, les cas extrêmes et improbables, comme un grand arbre de problèmes possibles. Ca me permet de débugger avant que le bug ne se produise. Cela permet d’éviter les comportements inattendus de l’application, aux conséquences parfois graves tant pour le business que pour la sécurité des données. C’est notamment pour cela que nous ne travaillons plus avec Wordpress : trop de vulnérabilités, pas assez de robustesse.
 
 
-          Je connais également plutôt bien les enjeux juridiques et éthiques liés à la sécurité Web, notamment le Règlement Général sur la Protection des Données<sup><a href="#note-5">5</a></sup> (RGPD). Au sein des *Poupées Russes*, j’ai géré tous les processus de conformité avec les services IT des clients de l’agence : *L’Oréal*, *Shiseido*, *Chanel*...
+          Je connais également plutôt bien les enjeux juridiques et éthiques liés à la sécurité Web, notamment le Règlement Général sur la Protection des Données<sup><a href="#note-6">6</a></sup> (RGPD). Au sein des *Poupées Russes*, j’ai géré tous les processus de conformité avec les services IT des clients de l’agence : *L’Oréal*, *Shiseido*, *Chanel*...
 
 
           Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. Cela fait des années que je travaille pour lancer des parfums ou des soins, alors que ces sujets ne m’intéressent pas vraiment. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les Lego, et construire une tour toute droite, ça ne me fait pas vibrer.
@@ -66,7 +67,7 @@ sections:
           url: https://www.cnil.fr/fr/reglement-europeen-protection-donnees
     - title: Curiosité
       content: >
-          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis François Bourgeon<sup><a href="#note-6">6</a></sup> en ce moment, c’est vraiment très bon. Netflix, même si je sais que l’empreinte écologique est désastreuse, j’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : Rome, Vikings, The Last Kingdom, The Tudors... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
+          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis François Bourgeon<sup><a href="#note-7">7</a></sup> en ce moment, c’est vraiment très bon. Netflix, même si je sais que l’empreinte écologique est désastreuse, j’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : Rome, Vikings, The Last Kingdom, The Tudors... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
 
 
           L’école pour moi, c’était plutôt ennuyeux : les quelques matières qui me plaisaient n’allaient pas assez vite, et les nombreuses matières qui ne me plaisaient pas allaient beaucoup trop lentement. Je suis jusqu’au-boutiste, quand un sujet me plaît je veux tout maîtriser. Il m’arrive de tourner longtemps autour d’un sujet trop difficile, je n’y arrive pas, mais j’insiste. En mathématiques par exemple, je sens mes lacunes. Parfois, je finis par comprendre, c’est une petite victoire !
