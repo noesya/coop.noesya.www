@@ -4,26 +4,32 @@ type: member
 ---
 
 <header>
-    <p class="h1">Équipe<p>
-    <h1>{{page.title}}</h1>
-    <img src="{{ page.portrait }}" alt="{{ page.title }}">
-    <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi">
+    <div>
+        <p class="h1">Équipe<p>
+        <h1>{{page.title}}</h1>
+    </div>
+    <div>
+        <img src="{{ page.portrait }}" alt="{{ page.title }}">
+        <!-- <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi"> -->
+    </div>
 </header>
 
-<section>
-    <h2>Parcours</h2>
-    <p><em>{{ page.expertise }}</em></p>
-    <dl>
-        {% for item in page.summary.list %}
-            {% include member/item.html item=item %}
-        {% endfor %}
-    </dl>
-    <dl>
-        {% for item in page.summary.more_list %}
-            {% include member/item.html item=item %}
-        {% endfor %}
-    </dl>
-</section>
+<div>
+    <section>
+        <h2>Parcours</h2>
+        <p><em>{{ page.expertise }}</em></p>
+        <dl>
+            {% for item in page.summary.list %}
+                {% include member/item.html item=item %}
+            {% endfor %}
+        </dl>
+        <dl>
+            {% for item in page.summary.more_list %}
+                {% include member/item.html item=item %}
+            {% endfor %}
+        </dl>
+    </section>
+</div>
 
 <section>
     {% for section in page.sections %}

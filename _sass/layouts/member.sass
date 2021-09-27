@@ -1,14 +1,15 @@
 main.member
-    section
-        +container
-        +grid
-    header + section
+    header
+        +grid(2)
+        
+    header + div
         background-color: $bg-secondary-color
-        h2
-            grid-column: 1/7
-        h2 + p
-            grid-column: 7/13
-            text-align: right
+        & > section
+            h2
+                grid-column: 1/7
+            h2 + p
+                grid-column: 7/13
+                text-align: right
     dl
         +grid(6)
         grid-column: 1/7
@@ -19,7 +20,9 @@ main.member
     dl + dl
         grid-column: 7/13
 
-    section + section
+    section
+        +container
+        +grid
         h2
             grid-column: 1/4
         p, blockquote
