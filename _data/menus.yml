@@ -11,6 +11,14 @@ primary:
     url: /equipe
   - title: Engagements
     url: /engagements
+secondary:
+  - title: site
+    url: /
+  - title: gouvernance
+  - title: reseau
+  - title: meta
+  - title: stack
+  - title: methode
 legal:
   - title: Mentions légales
     url: /mentions-legales

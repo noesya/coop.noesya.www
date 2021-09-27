@@ -1,9 +1,13 @@
 <nav aria-label="Navigation principale">
-    <ul>
-        {% for item in site.data.menus.primary %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+  <ul>
+    {% for item in site.data.menus.secondary %}
+    <li>
+      {% if item.url %}
+        <a href="{{ item.url }}"{% if item.url == '/' %} class="active"{% endif %}>{{ item.title }}</a>
+      {% else %}
+        <span title="Site disponible plus tard">{{ item.title }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
 </nav>
