@@ -25,10 +25,10 @@ main.member
             @include container
             @include grid
             h2
-                align-self: center
+                align-self: baseline
                 grid-column: 1/7
             h2 + p
-                align-self: center
+                align-self: baseline
                 grid-column: 7/13
                 text-align: right
     dl
@@ -48,6 +48,7 @@ main.member
         p, blockquote
             grid-column: 5/11
         h2, h2 + p
+            align-self: baseline
             margin-top: #{ $grid-gutter * 16}
         h2:first-child
             &, & + p
