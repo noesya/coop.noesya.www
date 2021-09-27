@@ -5,7 +5,7 @@
     right: 40px
     top: 40px
     z-index: 2
-    i, &:after, &:before
+    i, &::after, &::before
         background: $primary
         content: ''
         height: 1px
@@ -14,9 +14,9 @@
         transform-origin: center
         transition: transform 0.38s cubic-bezier(0.45, 0, 0.55, 1)
         width: 21px
-    &:after
+    &::after
         transform: translateY(-9px)
-    &:before
+    &::before
         transform: translateY(9px)
     a
         height: 100%
@@ -57,9 +57,9 @@
     .burger
         i
             transform: scaleX(0)
-        &:after
+        &::after
             transform: rotate(-45deg)
-        &:before
+        &::before
             transform: rotate(45deg)
         a
             &:nth-child(1)
