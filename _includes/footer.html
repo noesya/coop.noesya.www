@@ -1,26 +1,18 @@
-<footer class="bg-light py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <a href="/"><p class="h1">{{site.title}}</p></a>
-        <a href="/"><p class="h3">{{site.baseline}}</p></a>
-      </div>
-      <div class="col-md-6">
-        <ul class="nav flex-column mb-5">
-        {% for item in site.data.menus.primary %}
-          <li class="nav-item">
-            <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-        <ul class="nav flex-column small">
-        {% for item in site.data.menus.legal %}
-          <li class="nav-item">
-            <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
+<footer>
+    <a href="/"><p class="h1">{{site.title}}</p></a>
+    <a href="/"><p class="h3">{{site.baseline}}</p></a>
+    <ul>
+    {% for item in site.data.menus.primary %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+    <ul>
+    {% for item in site.data.menus.legal %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
 </footer>
