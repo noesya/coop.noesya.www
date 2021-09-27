@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div>
+<header>
     <p class="h1">Équipe<p>
     <h1>{{page.title}}</h1>
     <img src="{{ page.portrait }}" alt="{{ page.title }}">
-    <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi" class="d-none">
-</div>
+    <img src="{{ page.portrait_alt }}" alt="{{ page.title }} aussi">
+</header>
 
 <section>
     <h2>Postes & Parcours</h2>
@@ -22,7 +22,6 @@ layout: default
         {% endfor %}
     </div>
 </section>
-
 
 {% for section in page.sections %}
 <section>
