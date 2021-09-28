@@ -1,22 +1,14 @@
 ---
-layout: default
-class: metier
+layout: page
+class: page metier
 ---
 
-<header>
-  <h1>{{page.title}}</h1>
-</header>
-
-{% include sections-with-notes.html %}
-
-<section>
-  <h2>Réalisations</h2>
-  {% for work in page.works %}
-    <article>
-      {% picture member "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
-      <h3>{{ work.title }}</h3>
-      <p>{{ work.content }}</p>
-      <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
-    </article>
-  {% endfor %}
-</section>
+<h2>Réalisations</h2>
+{% for work in page.works %}
+  <article>
+    {% picture member "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+    <h3>{{ work.title }}</h3>
+    <p>{{ work.content }}</p>
+    <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
+  </article>
+{% endfor %}
