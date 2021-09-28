@@ -1,6 +1,7 @@
 ---
 title: Équipe
 permalink: /equipe
+layout: team
 nav:
     previous:
         title: Précédent
@@ -16,7 +17,7 @@ nav:
 {% for member in members %}
   <article>
     <a href="{{ member.url }}">
-      <img src="{{ member.portrait }}" alt="{{ member.title }}">
+      {% picture member "{{ member.portrait }}" --img alt="{{ member.title }}" title="{{ member.title }}" %}
       <h2>{{ member.title }}</h2>
       <p><i>{{ member.expertise }}</i></p>
     </a>
