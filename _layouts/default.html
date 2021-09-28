@@ -16,10 +16,12 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    {% include header.html %}
-    <main aria-label="Content" class="{{ page.layout }}">
-      {{ content }}
-    </main>
+    <div>
+      {% include header.html %}
+      <main aria-label="Content" class="{{ page.layout }}">
+        {{ content }}
+      </main>
+    </div>
     {% include footer.html %}
   </body>
   <script src="/assets/js/main.js"></script>

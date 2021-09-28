@@ -1,19 +1,23 @@
+.burger,
+.menu
+    position: fixed
+    top: 0
+
 .burger
     cursor: pointer
-    padding: 21px
-    position: absolute
-    right: 40px
-    top: 40px
-    z-index: 2
+    padding: $grid-gutter
+    right: 35px
+    top: 35px
+    z-index: 1
     i, &::after, &::before
         background: $primary
         content: ''
         height: 1px
-        left: 10px
+        left: 15px
         position: absolute
         transform-origin: center
         transition: transform 0.38s cubic-bezier(0.45, 0, 0.55, 1)
-        width: 21px
+        width: 20px
     &::after
         transform: translateY(-9px)
     &::before
@@ -29,6 +33,7 @@
             display: none
 
 .menu
+    background: $white
     bottom: 0
     overflow: hidden
     position: fixed
@@ -36,22 +41,22 @@
     top: 0
     transition: 0.35s
     width: 0
-    .container, nav
-        height: 100%
-        position: relative
-        z-index: 2
     ul
-        background: $white
         height: 100%
-    &::after
-        background: $white
-        content: ''
-        height: 100%
-        position: absolute
-        right: 0
-        top: 0
-        width: 50vw
-        z-index: 1
+        padding: $grid-gutter * 2
+    li
+        font-family: $font-family-sans-serif
+        font-size: px2rem(65)
+        line-height: px2rem(75)
+    // &::after
+    //     background: $white
+    //     content: ''
+    //     height: 100%
+    //     position: absolute
+    //     right: 0
+    //     top: 0
+    //     width: 50vw
+    //     z-index: 1
 
 #menu:target
     .burger
@@ -67,4 +72,4 @@
             &:nth-child(2)
                 display: block
     .menu
-        width: 100%
+        width: 85%
