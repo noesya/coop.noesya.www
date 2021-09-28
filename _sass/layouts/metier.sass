@@ -3,20 +3,24 @@ main.metier
         margin-bottom: $grid-gutter * 2
     article
         @include grid(12)
-        align-items: center
+        align-items: flex-start
         margin-bottom: $grid-gutter * 2
         picture
             grid-column: 1/5
-            grid-row: 1/4
+            grid-row: 1/5
             img
                 display: block
+        h3
+            font-family: $font-family-serif
+            font-size: px2rem(25)
+            margin-bottom: 10px
         h3, p, a
             grid-column: 5/9
         p
             color: $secondary
             font-size: px2rem(22)
             line-height: px2rem(36)
-            margin-bottom: 0
+            margin-bottom: 10px
 
         &:last-of-type
             margin-bottom: $grid-gutter * 3
