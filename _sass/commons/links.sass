@@ -3,9 +3,12 @@ a
     text-decoration-color: adjust-color(black, $alpha: -0.8)
     text-decoration-thickness: 1px
     text-underline-offset: 3px
-    transition: text-decoration 0.5s
+    transition: text-decoration 0.5s, color 0.3s ease
     &:hover
         text-decoration-color: black
     &[target="_blank"]
         &::after
             content: "+"
+
+    .is-menu-opened main &
+        color: $white

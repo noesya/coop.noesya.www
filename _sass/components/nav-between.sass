@@ -1,5 +1,7 @@
 main > nav
     background-color: $bg-secondary-color
+    .is-menu-opened &
+        background-color: $bg-secondary-color-reverse
     ul
         @include container
     a
@@ -8,6 +10,11 @@ main > nav
         font-family: $font-family-sans-serif
         padding-bottom: $grid-gutter * 2
         padding-top: $grid-gutter * 2
+    span
+        color: $secondary
+        transition: color .3s ease
+        .is-menu-opened &
+            color: $secondary-reverse
 
     @include media-breakpoint-up(md)
         ul
@@ -16,8 +23,7 @@ main > nav
             padding-bottom: $grid-gutter * 4
             padding-top: $grid-gutter * 4
             text-decoration: none
-        span
-            color: $secondary
+
         li + li
             @include border-line
                 left: -#{$grid-gutter}
