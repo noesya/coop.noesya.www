@@ -19,8 +19,9 @@
   <body>
     <div>
       {% include header.html %}
-      <main aria-label="Content" class="{{ layout.class }}">
+      <main aria-label="Content" class="{{ layout.class }} {{ page.class }}">
         {{ content }}
+        {% include navigation-between-pages.html %}
       </main>
     </div>
     {% include footer.html %}

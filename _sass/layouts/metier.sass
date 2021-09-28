@@ -1,11 +1,13 @@
 main.metier
-    header + section
-        @include media-breakpoint-up(md)
-            @include grid
-            position: relative
-            h2, p, blockquote
-                grid-column: 1/9
-            aside
-                &.is-handled:not(.is-fixed)
-                    grid-column: 10/13
-
+    section:first-of-type
+        @include grid(12)
+        p
+            grid-column: 1/9
+    article
+        @include grid(12)
+        picture
+            grid-column: 1/4
+        p
+            font-size: px2rem(22)
+            line-height: px2rem(36)
+            margin-bottom: 0
