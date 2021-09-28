@@ -33,9 +33,9 @@ main.member
                 grid-column: 1/7
             h2 + p
                 align-self: baseline
+                color: $gray-light
                 font-size: px2rem(30)
                 grid-column: 7/13
-                opacity: 0.3
                 text-align: right
     dl
         @include grid(6)
@@ -51,7 +51,7 @@ main.member
             grid-column: 1/4
         dd
             grid-column: 4/7
-            
+
     dl + dl
         @include border-line
             left: -#{$grid-gutter}

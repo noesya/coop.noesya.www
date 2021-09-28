@@ -3,29 +3,46 @@ title: Noesya
 permalink: /
 ---
 
-La Coopérative Noesya s’engage pour un numérique de grande qualité, éco-conçu, esthétique, éthique et durable.
+<h1>La Coopérative Noesya s’engage pour un numérique de grande qualité, éco-conçu, esthétique, éthique et durable.</h1>
 
+<ol>
+  {% for metier in site.metiers %}
+    <li><a href="{{ metier.url }}">{{ metier.title }}</a></li>
+  {% endfor %}
+</ol>
+
+<h2>Manifeste</h2>
+
+<p><em>Nous aimons</em></p>
 <ul>
-    {% for metier in site.metiers %}
-        <li><a href="{{ metier.url }}">{{ metier.title }}</a></li>
-    {% endfor %}
+  <li>la qualité</li>
+  <li>le travail bien fait</li>
 </ul>
 
-Nous aimons
-- la qualité
-- le travail bien fait
+<p><em>Nous pensons</em></p>
+<ul>
+  <li>que le code est un artisanat d’art</li>
+  <li>que le bon code est fait par de bons développeurs</li>
+  <li>qu’il faut des années pour devenir un bon développeur</li>
+</ul>
 
-Nous pensons
-- que le code est un artisanat d’art
-- que le bon code est fait par de bons développeurs
-- qu’il faut des années pour devenir un bon développeur
+<p><em>Nous voulons</em></p>
+<ul>
+  <li>être de bons artisans</li>
+  <li>vivre bien de notre travail</li>
+  <li>contribuer à un monde meilleur</li>
+</ul>
 
-Nous voulons
-- être de bons artisans
-- vivre bien de notre travail
-- contribuer à un monde meilleur
+<p><em>Nous croyons</em></p>
+<ul>
+  <li>à l’égalité</li>
+  <li>à l’éducation</li>
+  <li>à la coopérative</li>
+</ul>
 
-Nous croyons
-- à l’égalité
-- à l’éducation
-- à la coopérative
+<div>
+  <div>
+    <h2>Découvrez<br>Nos engagements</h2>
+    <h2>Rencontrez<br>Notre équipe</h2>
+  </div>
+</div>
