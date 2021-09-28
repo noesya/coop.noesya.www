@@ -65,4 +65,14 @@ sections:
     - title: Noesya
       content: >
           Une belle aventure, avec une équipe en qui j’ai une totale confiance. Nos profils sont complémentaires, nos valeurs sont communes, il y a de la bienveillance, de la courtoisie, des discussions ouvertes, de l’honnêteté, surtout. Et beaucoup de compétence, évidemment, c’est fondamental.
+
+nav:
+    previous:
+        title: Précédent
+        text: Arnaud Levy
+        url: /equipe/arnaud-levy
+    next:
+        title: Suivant
+        text: Engagements
+        url: /engagements
 ---

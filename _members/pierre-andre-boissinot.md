@@ -79,4 +79,13 @@ sections:
       content: >
           C’est une liberté ! L’indépendance retrouvée après pas mal d’années à être tenu en laisse. Le plaisir de travailler avec une bande de copains, des gens que je connais depuis longtemps, que j’ai choisis, et avec qui je suis ravi de construire. C’est aussi une façon de gagner ma vie correctement en faisant des choses qui m’intéressent, sur des sujets avec lesquels je me sens aligné.
 
+nav:
+ previous:
+     title: Précédent
+     text: Alexis Benoit
+     url: /equipe/alexis-benoit
+ next:
+     title: Suivant
+     text: Sébastien Gaya
+     url: /equipe/sebastien-gaya
 ---

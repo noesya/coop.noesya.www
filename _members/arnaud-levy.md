@@ -153,4 +153,14 @@ sections:
     - title: Noesya
       content: >
           C’est de la liberté et de la paix, ça fait du bien ! J’ai tourné une page à la fois riche et violente, pour en ouvrir une plus riche et moins violente. Créer Noesya avec ces quatre personnes, pour qui j’ai beaucoup d’estime, c’est aussi l’occasion de fonder une entreprise solide, impossible à racheter, à lucrativité limitée. Quand nous avons créé *Semio Design* avec Pierre-André en 2003, nous étions très concentrés sur le métier, moins sur la gouvernance. Aujourd’hui, avec les choix opérationnels, juridiques et stratégiques que nous avons faits, je crois que nous avons créé une structure robuste, alignée et transparente. L’époque est fascinante, il y a énormément à faire pour réparer ce qui peut l’être et créer une société juste dans un monde vivable. *Noesya*, c’est un endroit pour y contribuer.
+
+nav:
+    previous:
+        title: Précédent
+        text: Sébastien Gaya
+        url: /equipe/sebastien-gaya
+    next:
+        title: Suivant
+        text: Sébastien Moulène
+        url: /equipe/sebastien-moulene
 ---

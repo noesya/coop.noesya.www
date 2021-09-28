@@ -87,4 +87,14 @@ sections:
     - title: Noesya
       content: >
         Pour moi, c’est l’histoire de 5 développeurs qui mettent en commun leurs compétences, pour générer un impact positif. Développer les échanges entre les personnes, créer du lien, notamment dans le monde de l’éducation. C’est aussi le début d’une aventure, c’est la première fois que je crée une entreprise !
+
+nav:
+    previous:
+       title: Précédent
+       text: Pierre-André Boissinot
+       url: /equipe/pierre-andre-boissinot
+    next:
+       title: Suivant
+       text: Arnaud Levy
+       url: /equipe/arnaud-levy
 ---
