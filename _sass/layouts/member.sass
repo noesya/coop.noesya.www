@@ -28,6 +28,7 @@ main.member
             h2
                 align-self: baseline
                 grid-column: 1/7
+                margin-bottom: $grid-gutter
             h2 + p
                 align-self: baseline
                 color: $secondary
@@ -45,9 +46,9 @@ main.member
             position: absolute
             width: 1px
         dt
-            grid-column: 1/4
+            grid-column: 1/3
         dd
-            grid-column: 4/7
+            grid-column: 3/9
 
     dl + dl
         @include border-line
@@ -64,8 +65,7 @@ main.member
                 grid-column: 5/12
             h2, h2 + p
                 align-self: baseline
-                margin-top: $grid-gutter * 16
+                margin-top: $grid-gutter * 12
             h2:first-child
                 &, & + p
                     margin-top: $grid-gutter * 4
-

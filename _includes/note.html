@@ -6,7 +6,7 @@
   <span>
     {{ note_index }}. Voir
     {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
-    {{ note.title }}
+    {{note.title | correct_punctuation}}
     {% if note.url %}</a>{% endif %}
   </span>
 </aside>

@@ -7,7 +7,7 @@ expertise: E-commerce & éditorial
 summary:
     list:
         - title: Co-fondateur
-          content: Noesya
+          content: noesya
         - title: Métier
           content: Développeur front-end
         - title: Certification
@@ -65,7 +65,7 @@ sections:
         - title: sebouorhum.com
           url: https://www.sebouorhum.com
           image: /assets/images/members/sebastien-moulene/copenhagen.jpg
-    - title: Noesya
+    - title: noesya
       content: >
           Une belle aventure, avec une équipe en qui j’ai une totale confiance. Nos profils sont complémentaires, nos valeurs sont communes, il y a de la bienveillance, de la courtoisie, des discussions ouvertes, de l’honnêteté, surtout. Et beaucoup de compétence, évidemment, c’est fondamental.
 

@@ -7,7 +7,7 @@ expertise: Robustesse & sécurité
 summary:
     list:
         - title: Co-fondateur
-          content: Noesya
+          content: noesya
         - title: Métier
           content: Développeur back-end
         - title: Certification
@@ -18,7 +18,7 @@ summary:
 sections:
     - title: Identité
       content: >
-          42 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio&nbsp;Design* en 2003. La structure est ensuite fusionnée à l’agence *Les&nbsp;Poupées&nbsp;Russes*<sup><a href="#note-1">1</a></sup>, que je quitte en 2021 pour créer *Noesya*.
+          42 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio&nbsp;Design* en 2003. La structure est ensuite fusionnée à l’agence *Les&nbsp;Poupées&nbsp;Russes*<sup><a href="#note-1">1</a></sup>, que je quitte en 2021 pour créer *noesya*.
       notes:
         - title: Les Poupées Russes
           url: https://www.lespoupees.paris
@@ -27,13 +27,13 @@ sections:
           Mes projets préférés sont généralement récents, parce qu’ils matérialisent les progrès que je fais. Chaque projet me fait avancer.
 
 
-          Parmi les plus marquants, il y a la plateforme *B2bylon*<sup><a href="#note-2">2</a></sup>, créée pour *Les&nbsp;Poupées&nbsp;Russes* : multi-marques, multilingue, modulaire, c’était un défi en termes de périmètre fonctionnel et de robustesse. Nous l’avons conçue, développée et amenée en moins de 3 ans à une quinzaine de clients actifs pour environ 250&nbsp;k€&nbsp;/&nbsp;an en Software as a Service (SaaS). Webinar, catalogue produit, elearning, gamification, nous avons développé une vingtaine de modules fonctionnels déployables à la demande, dans des environnements clients cloisonnés aux design systems personnalisés. La plateforme a bénéficié de nombreux audits de sécurité et tests de pénétration, que j’ai supervisés en tant que Data Protection Officer des *Poupées&nbsp;Russes*.
+          Parmi les plus marquants, il y a la plateforme *B2bylon<sup><a href="#note-2">2</a></sup>*, créée pour *Les&nbsp;Poupées&nbsp;Russes* : multi-marques, multilingue, modulaire, c’était un défi en termes de périmètre fonctionnel et de robustesse. Nous l’avons conçue, développée et amenée en moins de 3 ans à une quinzaine de clients actifs pour environ 250&nbsp;k€&nbsp;/&nbsp;an en Software as a Service (SaaS). Webinar, catalogue produit, elearning, gamification, nous avons développé une vingtaine de modules fonctionnels déployables à la demande, dans des environnements clients cloisonnés aux design systems personnalisés. La plateforme a bénéficié de nombreux audits de sécurité et tests de pénétration, que j’ai supervisés en tant que Data Protection Officer des *Poupées&nbsp;Russes*.
 
 
-          Ensuite, l’encyclopédie de marque réalisée pour *Hermès*<sup><a href="#note-3">3</a></sup>, parce que j’aime cette maison, et que le résultat est superbe. Encore des problématiques de gestion de contenu et de traduction, des mécaniques ludiques et des enjeux d’optimisation, peu de nouveauté pour moi, mais un beau succès opérationnel !
+          Ensuite, l’encyclopédie de marque réalisée pour *Hermès<sup><a href="#note-3">3</a></sup>*, parce que j’aime cette maison, et que le résultat est superbe. Encore des problématiques de gestion de contenu et de traduction, des mécaniques ludiques et des enjeux d’optimisation, peu de nouveauté pour moi, mais un beau succès opérationnel !
 
 
-          Enfin, Flow, une plateforme que nous avons créée chez *L’Oréal*<sup><a href="#note-4">4</a></sup> et que nous maintenons depuis 10 ans. La plateforme utilise une grande variété de technologie, notamment des APIs et back-offices en Ruby on Rails et des applications natives iPad (Objective-C) et Windows (C#), et permet de gérer du contenu de vente et des données commerciales.
+          Enfin, Flow, une plateforme que nous avons créée chez *L’Oréal<sup><a href="#note-4">4</a></sup>* et que nous maintenons depuis 10 ans. La plateforme utilise une grande variété de technologie, notamment des APIs et back-offices en Ruby on Rails et des applications natives iPad (Objective-C) et Windows (C#), et permet de gérer du contenu de vente et des données commerciales.
       notes:
         - title: B2bylon
           url: https://www.b2bylon.com
@@ -67,7 +67,7 @@ sections:
           url: https://www.cnil.fr/fr/reglement-europeen-protection-donnees
     - title: Curiosité
       content: >
-          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis François&nbsp;Bourgeon<sup><a href="#note-7">7</a></sup> en ce moment, c’est vraiment très bon. Netflix, même si je sais que l’empreinte écologique est désastreuse, j’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : *Rome*, *Vikings*, *The Last Kingdom*, *The Tudors*... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
+          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis *François&nbsp;Bourgeon<sup><a href="#note-7">7</a></sup>* en ce moment, c’est vraiment très bon. Netflix, même si je sais que l’empreinte écologique est désastreuse, j’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : *Rome*, *Vikings*, *The Last Kingdom*, *The Tudors*... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
 
 
           L’école pour moi, c’était plutôt ennuyeux : les quelques matières qui me plaisaient n’allaient pas assez vite, et les nombreuses matières qui ne me plaisaient pas allaient beaucoup trop lentement. Je suis jusqu’au-boutiste, quand un sujet me plaît je veux tout maîtriser. Il m’arrive de tourner longtemps autour d’un sujet trop difficile, je n’y arrive pas, mais j’insiste. En mathématiques par exemple, je sens mes lacunes. Parfois, je finis par comprendre, c’est une petite victoire !
@@ -75,7 +75,7 @@ sections:
         - title: Les Passagers du Vent, François Bourgeon
           url: https://www.editions-delcourt.fr/bd/series/serie-les-passagers-du-vent/album-les-passagers-du-vent-integrale-t01-t05
           image: /assets/images/members/pierre-andre-boissinot/les-passagers-du-vent.jpg
-    - title: Noesya
+    - title: noesya
       content: >
           C’est une liberté ! L’indépendance retrouvée après pas mal d’années à être tenu en laisse. Le plaisir de travailler avec une bande de copains, des gens que je connais depuis longtemps, que j’ai choisis, et avec qui je suis ravi de construire. C’est aussi une façon de gagner ma vie correctement en faisant des choses qui m’intéressent, sur des sujets avec lesquels je me sens aligné.
 
