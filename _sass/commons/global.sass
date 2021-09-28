@@ -21,12 +21,15 @@ body
 body > div
     background-color: $bg-color
     position: relative
+    transition: background .3s ease, color .3s ease
     z-index: 1
     .is-menu-opened &
         background-color: $black
         color: $white
 
 img
+    height: auto
+    max-width: 100%
     &::selection
         background: transparent
     &::-moz-selection
