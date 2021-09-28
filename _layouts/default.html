@@ -19,7 +19,7 @@
   <body>
     <div>
       {% include header.html %}
-      <main aria-label="Content" class="{{ layout.class }} {{ page.class }}">
+      <main aria-label="Content" class="{{ page.class | default: layout.class }}">
         {{ content }}
         {% include navigation-between-pages.html %}
       </main>
