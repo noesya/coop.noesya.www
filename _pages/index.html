@@ -14,8 +14,9 @@ nav:
 ---
 
 <ol>
-  {% for metier in site.metiers %}
-    <li><a href="{{ metier.url }}">{{ metier.title }}</a></li>
+  {% assign metiers = site.metiers | sort: 'number' %}
+  {% for metier in metiers %}
+    <li><a href="{{ metier.url }}">{{ metier.short }}</a></li>
   {% endfor %}
 </ol>
 
