@@ -3,12 +3,12 @@ aside
     padding-bottom: $grid-gutter
     &:hover
         z-index: 2
-    p
-        margin-bottom: 0
     img
         display: block
         margin-top: 20px
         max-width: 124px
+    span
+        display: block
     &.is-fixed
         background: $bg-secondary-color
         bottom: 0
@@ -27,8 +27,8 @@ aside
             position: absolute
             right: 12px
             transform: translateY(100%)
-        &.with-img
-            padding-right: 150px
+        picture + span
+            padding-right: 120px
 
     &.is-handled:not(.is-fixed)
         grid-column: 1/7
