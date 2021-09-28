@@ -35,7 +35,7 @@ summary:
 sections:
     - title: Identité
       content: >
-          22 ans, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les Poupées Russes*, à Paris. J’ai rejoint l’équipe des *Poupées Russes* en tant que développeur back, puis j’ai démissionné en 2021 pour créer *Noesya*.
+          22 ans, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les&nbsp;Poupées&nbsp;Russes*, à Paris. J’ai rejoint l’équipe des *Poupées&nbsp;Russes* en tant que développeur back, puis j’ai démissionné en 2021 pour créer *Noesya*.
     - title: Fierté
       content: >
           *B2bylon*<sup><a href="#note-1">1</a></sup> ! Une solution SaaS pour les entreprises avec différentes briques fonctionnelles : encyclopédie, catalogue de produits...  Cela demandait beaucoup de rigueur pour écrire un code qui restait propre et maintenable au fur et à mesure de l’élargissement du périmètre métier. Il faut beaucoup de réflexion et de compromis pour créer une solution viable à long terme.
@@ -57,7 +57,7 @@ sections:
           Du travail bien fait, c’est un code propre, lisible et maintenable. Nous utilisons *Code Climate*<sup><a href="#note-4">4</a></sup> qui analyse le code statique et évalue la qualité sur différents indicateurs, notamment de duplication<sup><a href="#note-5">5</a></sup> et de complexité cyclomatique<sup><a href="#note-6">6</a></sup>. Je suis un peu spécialiste de la “climatisation” : dès que la dette technique monte, je refactor le code de façon à la maintenir à 0 en permanence.
 
 
-          Du bon code, c’est aussi du code qui s’exécute rapidement. Pour cela, nous utilisons Scout<sup><a href="#note-7">7</a></sup>, qui surveille les temps d’exécution de l’application et nous permet de détecter les goulets d’étranglement. Cela peut-être des problèmes de base de données, de gestion des objets, d’infrastructure, dans tous les cas ça impacte l’utilisateur, donc il faut résoudre. J’ai toujours un petit œil sur l’infrastructure technique et la sécurité...
+          Du bon code, c’est aussi du code qui s’exécute rapidement. Pour cela, nous utilisons *Scout&nbsp; APM*<sup><a href="#note-7">7</a></sup>, qui surveille les temps d’exécution de l’application et nous permet de détecter les goulets d’étranglement. Cela peut-être des problèmes de base de données, de gestion des objets, d’infrastructure, dans tous les cas ça impacte l’utilisateur, donc il faut résoudre. J’ai toujours un petit œil sur l’infrastructure technique et la sécurité...
 
 
           <blockquote>Hacker un jour, hacker toujours !</blockquote>
