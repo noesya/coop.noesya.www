@@ -9,7 +9,7 @@
           <a href="{{ item.url }}">{{ item.title }}</a>
         {% endif %}
       {% else %}
-        <span title="Ce site sera disponible bientôt...">{{ item.title }}</span>
+        <span title="Ce site sera disponible bientôt..." aria-hidden="true">{{ item.title }}</span>
       {% endif %}
     </li>
     {% endfor %}
