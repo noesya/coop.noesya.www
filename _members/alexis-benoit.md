@@ -52,11 +52,11 @@ sections:
             Je suis fier de mes étudiants ! C’est une immense satisfaction de les voir progresser, franchir des étapes, acquérir des savoir-faire. J’étais un peu inquiet, et ça fait vraiment plaisir de constater que tout se passe bien, dans la joie, avec de très belles réalisations. C’est très différent du travail de production, souvent orienté par et pour des questions budgétaires. Là, c’est de l’humain. Je ne suis pas une personne très fière, en général, mais ça, j’en suis vraiment heureux.
 
 
-            Sur un tout autre plan, je viens de participer à une production pour Vivatech, le salon de l’innovation<sup><a href="#note-4">4</a></sup>, avec l’agence lyonnaise Cher ami<sup><a href="#note-5">5</a></sup>. Un gros challenge technique, un showroom en 3D avec beaucoup de contenus, il a fallu créer des outils techniques pour permettre à l’équipe de calibrer la scénographie au détail près. Un vrai défi d’optimisation pour que tout soit fluide, avec une équipe à distance et un délai court, j’ai beaucoup appris et la prod est vraiment réussie !
+            Sur un tout autre plan, je viens de participer à une production pour Vivatech<sup><a href="#note-4">4</a></sup>, le salon de l’innovation, avec l’agence lyonnaise Cher ami<sup><a href="#note-5">5</a></sup>. Un gros challenge technique, un showroom en 3D avec beaucoup de contenus, il a fallu créer des outils techniques pour permettre à l’équipe de calibrer la scénographie au détail près. Un vrai défi d’optimisation pour que tout soit fluide, avec une équipe à distance et un délai court, j’ai beaucoup appris et la prod est vraiment réussie !
 
 
             Je pense aussi à un jeu produit pour Ralph Lauren, un platformer avec des ours en peluche. On a commencé sur le Web, et ça s’est ensuite déployé dans les boutiques flagships : des bornes d’arcade à l’ancienne, et du multi-joueur en vitrine avec des QR codes qui permettent à 4 passants de jouer ensemble en utilisant leur téléphone comme manette. De grosses contraintes techniques, sans réseau dans les boutiques, avec un serveur Node en local à installer de nuit à Londres et à Paris, c’était une super expérience ! J’aime sortir du Web pour passer à une expérience physique.
-      notes: 
+      notes:
         - title: Vivatech
           url: https://vivatechnology.com
         - title: Cher ami
@@ -74,16 +74,19 @@ sections:
 
 
             Du sens et du beau, le fond et la forme ensemble, là c’est parfait. J’adorerais travailler sur un projet pour Arte, un truc dense culturellement, avec des ambitions créatives fortes.
+
     - title: Curiosité
       content: >
-            7 ans de pop rock avec notre groupe, Katy’s Lips, c’était formidable ! Le Krakatoa, la Rock School Barbey, les bars et plein de concerts de rue, ça nous a liés tous ensemble et c’était une sacrée expérience de création artistique : du piano, de la guitare et du chant pour moi, un guitariste, un bassiste, un batteur et plein de potes qui passaient avec leur instrument. Des copains de lycée qui vivent la vie d’artistes, la logistique, les balances, le studio — l’un de nous en a fait son métier — on en reparle à chaque fois qu’on se voit, c’est une famille de musique dans laquelle on a grandi.
+            7 ans de pop rock avec notre groupe, *Katy’s Lips*<sup><a href="#note-6">6</a></sup>, c’était formidable ! Le Krakatoa, la Rock School Barbey, les bars et plein de concerts de rue, ça nous a liés tous ensemble et c’était une sacrée expérience de création artistique : du piano, de la guitare et du chant pour moi, un guitariste, un bassiste, un batteur et plein de potes qui passaient avec leur instrument. Des copains de lycée qui vivent la vie d’artistes, la logistique, les balances, le studio — l’un de nous en a fait son métier — on en reparle à chaque fois qu’on se voit, c’est une famille de musique dans laquelle on a grandi.
 
 
-            J’attaque la rénovation d’une deuxième maison, c’est tout à fait différent et passionnant aussi. Passer d’un truc tout cassé à un espace où on se sent bien, c’est plaisant, et ça fait du bien de faire des travaux physiques. Du jeu vidéo, aussi, confinement oblige. En ce moment, je joue à Narita Boy<sup><a href="#note-6">6</a></sup> sur Switch, un jeu indépendant crowdfundé, en pixel art, un hommage retro-gaming à la Synthwave dans lequel les personnages sont des programmes et des algorithmes, avec une super bande-son. J’ai beaucoup aimé Ori<sup><a href="#note-7">7</a></sup>, la bande-son est incroyable et les graphismes superbes, l’histoire très touchante, c’est une pépite. Et je lis beaucoup de science-fiction ! Dernièrement, Phare 23<sup><a href="#note-8">8</a></sup>, l’histoire d’un gardien de phare de l’espace confronté à la solitude. Howey a écrit ce livre avant Silo<sup><a href="#note-9">9</a></sup>, et c’est vraiment bien.
+            J’attaque la rénovation d’une deuxième maison, c’est tout à fait différent et passionnant aussi. Passer d’un truc tout cassé à un espace où on se sent bien, c’est plaisant, et ça fait du bien de faire des travaux physiques. Du jeu vidéo, aussi, confinement oblige. En ce moment, je joue à Narita Boy<sup><a href="#note-7">7</a></sup> sur Switch, un jeu indépendant crowdfundé, en pixel art, un hommage retro-gaming à la Synthwave dans lequel les personnages sont des programmes et des algorithmes, avec une super bande-son. J’ai beaucoup aimé Ori<sup><a href="#note-8">8</a></sup>, la bande-son est incroyable et les graphismes superbes, l’histoire très touchante, c’est une pépite. Et je lis beaucoup de science-fiction ! Dernièrement, Phare 23<sup><a href="#note-9">9</a></sup>, l’histoire d’un gardien de phare de l’espace confronté à la solitude. Howey a écrit ce livre avant Silo<sup><a href="#note-10">10</a></sup>, et c’est vraiment bien.
 
 
-            Mes bons souvenirs à l’école, c’était la musique beaucoup plus que les cours. Et puis après 2 échecs, je suis rentré en MMI, et là, un nouveau monde s’est ouvert à moi : je suis passé de mauvais élève à major de promo ! L’apprentissage dans nos métiers, c’est toute la vie. Là, je suis en train d’apprendre la 3D, en participant au concours Alternate Realities<sup><a href="#note-10">10</a></sup>, avec le projet Vivatech j’ai eu envie de plus, et j’apprends à modéliser, à éclairer, à texturer...
+            Mes bons souvenirs à l’école, c’était la musique beaucoup plus que les cours. Et puis après 2 échecs, je suis rentré en MMI, et là, un nouveau monde s’est ouvert à moi : je suis passé de mauvais élève à major de promo ! L’apprentissage dans nos métiers, c’est toute la vie. Là, je suis en train d’apprendre la 3D, en participant au concours Alternate Realities<sup><a href="#note-11">11</a></sup>, avec le projet Vivatech j’ai eu envie de plus, et j’apprends à modéliser, à éclairer, à texturer...
       notes:
+        - title: Katy's Lips
+          url: https://soundcloud.com/katyslips
         - title: Narita Boy (Team 17)
           url: https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html
           image: /assets/images/members/alexis-benoit/narita-boy.jpg

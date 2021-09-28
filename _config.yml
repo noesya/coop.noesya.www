@@ -1,4 +1,4 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.noesya.coop"
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Noesya" # the name of your site, e.g. ACME Corp.
 baseline: "Coopérative de développeurs"
@@ -28,13 +28,6 @@ defaults:
       type: "members"
     values:
       layout: "member"
-  -
-    scope:
-      path: ""
-      type: "commitments"
-    values:
-      layout: "commitment"
-
 collections:
   pages:
     output: true
@@ -44,9 +37,6 @@ collections:
   members:
     output: true
     permalink: /equipe/:slug
-  commitments:
-    output: true
-    permalink: /engagements/:slug
 
 plugins:
   - jekyll-minifier

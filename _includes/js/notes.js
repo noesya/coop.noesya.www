@@ -5,7 +5,7 @@ window.notes.manager = window.notes.manager || {};
 window.notes.Item = function (dom, previous) {
     'use strict';
     this.dom = dom;
-    // this.parent = dom.parentNode;
+    this.parent = dom.parentNode;
     this.y = 0;
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
@@ -37,7 +37,7 @@ window.notes.Item.prototype.updateVisibility = function () {
 
 window.notes.Item.prototype.updatePosition = function () {
     'use strict';
-    this.y = this.getTop(this.anchor);
+    this.y = this.getTop(this.anchor) - this.getTop(this.parent);
 
     if (this.previous) {
         this.preventOverlap();
@@ -54,8 +54,7 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.getTop = function (element) {
     'use strict';
-    var offset = window.notes.manager.offsetTop;
-    return element.getBoundingClientRect().top + window.scrollY - offset;
+    return element.getBoundingClientRect().top + window.scrollY;
 };
 
 window.notes.Item.prototype.bottom = function () {
@@ -142,7 +141,7 @@ window.notes.manager = {
         'use strict';
         var i;
 
-        this.offsetTop = document.querySelector('main').getBoundingClientRect().top + window.scrollY;
+        // this.offsetTop = document.querySelector('main').getBoundingClientRect().top + window.scrollY;
 
         for (i = 0; i < this.pool.length; i += 1) {
             this.pool[i].replace();

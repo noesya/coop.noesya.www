@@ -6,6 +6,13 @@ layout: default
   <h1>{{ page.title }}</h1>
 </header>
 
-<section>
-  {{ content }}
-</section>
+{% include sections-with-notes.html %}
+
+{% for work in page.works %}
+    <div>
+        <img src="{{ work.image }}" alt="{{ work.title }}">
+        <h3>{{ work.title }}</h3>
+        <p>{{ work.content }}</p>
+        <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
+    </div>
+{% endfor %}

@@ -1,0 +1,11 @@
+a
+    color: black
+    transition: text-decoration 0.5s
+    text-decoration-thickness: 1px
+    text-decoration-color: adjust-color(black, $alpha: -0.8)
+    text-underline-offset: 3px
+    &:hover
+        text-decoration-color: black
+    &[target="_blank"]
+        &::after
+            content: "+"

@@ -7,7 +7,8 @@ aside
         margin-bottom: 0
     img
         display: block
-        max-width: 74px
+        margin-top: 20px
+        max-width: 124px
     &.is-fixed
         background: $bg-secondary-color
         bottom: 0
@@ -26,7 +27,10 @@ aside
             position: absolute
             right: 12px
             transform: translateY(100%)
+        &.with-img
+            padding-right: 150px
 
     &.is-handled:not(.is-fixed)
+        grid-column: 1/7
         padding-top: px2rem(17.5)
         position: absolute

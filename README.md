@@ -1,5 +1,7 @@
 # Noesya
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7755f932-ad59-4c58-b029-c5d4bbde2015/deploy-status)](https://app.netlify.com/sites/noesya-www/deploys)
+
 ## Setup des domaines
 
 Dans Netlify, domaine principal (avec/sans www) et domaines secondaires (sans www)
@@ -59,7 +61,7 @@ Afficher la grille avec l'extension CSS Grid pour Chrome (https://chrome.google.
     "from": 840,
     "gutters": 25,
     "margins": 50,
-    "maxWidth": 1440,
+    "maxWidth": 1340,
     "to": 7680
   }
 ]
