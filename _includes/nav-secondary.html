@@ -6,7 +6,7 @@
         {% if item.url == site.url %}
             {{ item.title }}
         {% else %}
-            <a href="{{ item.url }}"{% if item.url == '/' %} class="active"{% endif %}>{{ item.title }}</a>
+            <a href="{{ item.url }}">{{ item.title }}</a>
         {% endif %}
       {% else %}
         <span title="Ce site sera disponible bientôt...">{{ item.title }}</span>
