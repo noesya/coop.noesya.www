@@ -8,15 +8,19 @@ h1, .h1, h2, h3
     font-family: $font-family-sans-serif
 
 h1, .h1
-    font-size: px2rem(65)
-    line-height: px2rem(90)
+    font-size: px2rem(36)
+    line-height: 1.4
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(65)
 
 .h1
     color: $gray
 
 h2
-    font-size: px2rem(45)
-    line-height: px2rem(90)
+    font-size: px2rem(28)
+    line-height: 1.4
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(45)
 
 p, li, dl
     font-size: px2rem(19)

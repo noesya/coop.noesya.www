@@ -1,33 +1,47 @@
 body > footer
     background-color: $primary
-    bottom: 0
     color: white
-    max-height: 100vh
-    overflow: hidden
     padding-bottom: $grid-gutter * 2
-    padding-top: $grid-gutter * 4
-    position: sticky
+    padding-top: $grid-gutter * 2
     div
         @include container
     address
+        margin-bottom: $grid-gutter * 2
         p
             margin-bottom: $grid-gutter
     a, span
         color: $secondary
-    a:hover, a.active
+    a:hover
         color: white
     nav
         &:first-of-type
             margin-bottom: $grid-gutter * 2
             li
                 font-family: $font-family-sans-serif
+                font-size: px2rem(35)
+                line-height: px2rem(45)
             span
-                opacity: .2
+                opacity: .3
+
+
+    @include media-breakpoint-height-up(md)
+        padding-bottom: $grid-gutter * 2
+        padding-top: $grid-gutter * 4
+        nav
+            &:first-of-type
+                li
+                    font-size: px2rem(55)
+                    line-height: px2rem(75)
 
 
     @include media-breakpoint-up(md)
+        bottom: 0
+        height: 100vh
+        overflow: hidden
+        position: sticky
         div
             @include grid
+            height: 100%
         address
             &:first-of-type
                 grid-column: 1/4
@@ -36,10 +50,14 @@ body > footer
         nav
             &:first-of-type
                 grid-column: 8/13
-                li
-                    font-size: px2rem(55)
-                    line-height: px2rem(75)
             &:last-of-type
                 grid-column: 1/13
+                grid-row: 2/2
                 ul
                     display: flex
+                li
+                    margin-right: $grid-gutter
+            & + a
+                grid-column: 10/13
+                grid-row: 2/2
+                text-align: right
