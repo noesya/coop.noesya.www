@@ -1,4 +1,4 @@
-<section class="js-p-index">
+<section {% if page.layout == "member" %} class="js-p-index" {% endif %}>
   {% for section in page.sections %}
     <h2>{{section.title}}</h2>
     {{section.content | markdownify | correct_punctuation}}

@@ -25,7 +25,7 @@
         transform: translateY(-9px)
     &::before
         transform: translateY(9px)
-    a
+    span
         height: 100%
         left: 0
         position: absolute
@@ -74,4 +74,6 @@
             &:nth-child(2)
                 display: block
     .menu
-        width: 85%
+        width: calc(50vw + min(1040px, calc(100vw - 400px)) / 2)
+        @include media-breakpoint-down(md)
+            width: 100%

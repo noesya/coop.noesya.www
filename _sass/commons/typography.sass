@@ -64,8 +64,12 @@ section
     p + blockquote
         margin-top: $grid-gutter * 2
     small
-        color: $border-color
+        color: $secondary
+        display: block
         font-size: px2rem(19)
         line-height: px2rem(30)
         margin-top: px2rem(9)
-        opacity: 0.4
+        position: absolute
+        right: $grid-gutter * 2
+        @include media-breakpoint-down(md)
+            display: none
