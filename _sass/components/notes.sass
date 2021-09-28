@@ -5,7 +5,7 @@ aside
         z-index: 2
     img
         display: block
-        margin-bottomgit: 20px
+        margin: 20px 0
         max-width: 124px
     span
         display: block
@@ -24,6 +24,7 @@ aside
                 transform: translateY(0)
         img
             bottom: 12px
+            margin: 0
             position: absolute
             right: 12px
             transform: translateY(100%)
@@ -31,6 +32,8 @@ aside
             padding-right: 120px
 
     &.is-handled:not(.is-fixed)
+        display: flex
+        flex-direction: column-reverse
         grid-column: 1/5
         padding-top: px2rem(17.5)
         position: absolute
