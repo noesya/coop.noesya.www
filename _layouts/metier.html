@@ -6,9 +6,15 @@ class: page metier
 <h2>Réalisations</h2>
 {% for work in page.works %}
   <article>
-    {% picture member "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+    {% picture "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
     <h3>{{ work.title }}</h3>
     <p>{{ work.content }}</p>
     <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
   </article>
 {% endfor %}
+
+<div>
+  {% picture member "{{ page.action.image }}" --img alt="" %}
+  <p>{{ page.action.title }}<br>
+    <a href="{{ page.action.title }}" target="_blank" ref="noreferer">{{ page.action.text }}</a></p>
+</div>
