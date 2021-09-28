@@ -1,9 +1,13 @@
-<nav aria-label="Navigation principale">
+<nav aria-label="Navigation dans l'écosystème">
   <ul>
-    {% for item in site.data.menus.secondary %}
+    {% for item in site.data.ecosystem.sites %}
     <li>
       {% if item.url %}
-        <a href="{{ item.url }}"{% if item.url == '/' %} class="active"{% endif %}>{{ item.title }}</a>
+        {% if item.url == site.url %}
+            {{ item.title }}
+        {% else %}
+            <a href="{{ item.url }}"{% if item.url == '/' %} class="active"{% endif %}>{{ item.title }}</a>
+        {% endif %}
       {% else %}
         <span title="Ce site sera disponible bientôt...">{{ item.title }}</span>
       {% endif %}
