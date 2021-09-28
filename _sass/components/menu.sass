@@ -39,6 +39,7 @@
     background: $white
     bottom: 0
     overflow: hidden
+    padding-top: $grid-gutter * 10
     position: fixed
     right: 0
     top: 0
@@ -46,14 +47,18 @@
     width: 0
     ul
         height: 100%
-        padding: $grid-gutter * 2
-        padding-top: $grid-gutter * 10
+        margin: 0 $grid-gutter * 2
+        &:hover
+            a
+                color: $secondary
+                &:hover
+                    color: $primary
     li
         @extend h1
         font-family: $font-family-sans-serif
-    a:hover
-        color: $secondary
-
+    a
+        display: block
+        transition: color .3s ease
 
 .is-menu-opened
     .burger
