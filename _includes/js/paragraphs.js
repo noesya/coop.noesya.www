@@ -8,5 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         index = document.createElement('small');
         index.innerText = '§' + (i + 1);
         paragraphs[i].prepend(index);
+        console.log('o')
     }
 });
