@@ -8,13 +8,16 @@ layout: default
 
 {% include sections-with-notes.html %}
 
-{% for work in page.works %}
-    <div>
-        <img src="{{ work.image }}" alt="{{ work.title }}">
-        <h3>{{ work.title }}</h3>
-        <p>{{ work.content }}</p>
-        <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
-    </div>
-{% endfor %}
+<section>
+  <h2>Réalisations</h2>
+  {% for work in page.works %}
+    <article>
+      {% picture member "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+      <h3>{{ work.title }}</h3>
+      <p>{{ work.content }}</p>
+      <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>
+    </article>
+  {% endfor %}
+</section>
 
 {% include navigation-between-pages.html %}
