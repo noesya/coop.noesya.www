@@ -30,27 +30,17 @@ main.index
     @include media-breakpoint-up(md)
         header
             @include grid(12)
-            padding-bottom: 0
             div
                 grid-column: 1/8
                 + div
+                    align-self: end
                     grid-column: 8/13
-                    padding-top: $grid-gutter * 2
-            h1
-                font-size: px2rem(55)
-                line-height: px2rem(75)
-            img
-                @include media-breakpoint-up(md)
-                    transition: filter .3s ease
-                    .is-menu-opened &
-                        filter: invert(1)
+                    padding-top: $grid-gutter * 3
         section
             ol, h2, dd
                 margin-bottom: $grid-gutter * 3
             ol
-                @include grid(4)
-                @include media-breakpoint-up(xxl)
-                    margin-top: - $grid-gutter * 2
+                @include grid(3)
             li
                 margin-bottom: $grid-gutter * 2
             dl
@@ -71,3 +61,25 @@ main.index
                 &:nth-of-type(4)
                     grid-column: 2/2
                     grid-row-start: 4
+
+
+    @include media-breakpoint-up(lg)
+        header
+            h1
+                font-size: px2rem(55)
+                line-height: px2rem(75)
+            div
+                + div
+                    padding-top: $grid-gutter * 2
+        section
+            ol, h2, dd
+                margin-bottom: $grid-gutter * 4
+
+
+    @include media-breakpoint-up(xxl)
+        header
+            padding-bottom: 0
+        section
+            ol
+                @include grid(4)
+                margin-top: - $grid-gutter * 2
