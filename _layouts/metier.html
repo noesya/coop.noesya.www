@@ -14,7 +14,7 @@ class: page metier
 {% endfor %}
 
 <div>
-  {% picture member "{{ page.action.image }}" --img alt="" %}
+  {% picture member "{{ page.action.image }}" --img alt="" loading="lazy" %}
   <p>{{ page.action.title }}<br>
     <a href="{{ page.action.url }}" target="_blank" ref="noreferer">{{ page.action.text }}</a></p>
 </div>
