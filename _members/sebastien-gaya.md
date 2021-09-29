@@ -1,8 +1,8 @@
 ---
 title: Sébastien Gaya
 last_name: Gaya
-portrait: /assets/images/members/sebastien-gaya/portrait.png
-portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.png
+portrait: /assets/images/members/sebastien-gaya/portrait.jpg
+portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.jpg
 expertise: Système & optimisation
 summary:
     list:
