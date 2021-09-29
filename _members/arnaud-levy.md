@@ -1,8 +1,8 @@
 ---
 title: Arnaud Levy
 last_name: Levy
-portrait: /assets/images/members/arnaud-levy/portrait.png
-portrait_alt: /assets/images/members/arnaud-levy/portrait-alt.png
+portrait: /assets/images/members/arnaud-levy/portrait.jpg
+portrait_alt: /assets/images/members/arnaud-levy/portrait-alt.jpg
 expertise: Gouvernance & communs
 summary:
     list:

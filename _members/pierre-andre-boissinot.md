@@ -1,8 +1,8 @@
 ---
 title: Pierre-André Boissinot
 last_name: Boissinot
-portrait: /assets/images/members/pierre-andre-boissinot/portrait.png
-portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.png
+portrait: /assets/images/members/pierre-andre-boissinot/portrait.jpg
+portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.jpg
 expertise: Robustesse & sécurité
 summary:
     list:
