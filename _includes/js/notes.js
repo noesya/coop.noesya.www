@@ -52,6 +52,12 @@ window.notes.Item.prototype.preventOverlap = function () {
     this.y = Math.max(this.y, this.y + distance);
 };
 
+window.notes.Item.prototype.preventTitleOverlap = function () {
+    'use strict';
+    var distance = this.previous.bottom() - this.y;
+    this.y = Math.max(this.y, this.y + distance);
+};
+
 window.notes.Item.prototype.getTop = function (element) {
     'use strict';
     return element.getBoundingClientRect().top + window.scrollY;
@@ -89,14 +95,6 @@ window.notes.manager = {
     generate: function (element, i) {
         'use strict';
         var previous = this.pool[i - 1] || null;
-
-        // Use this condition when aside are in differents sections
-        // if (previous) {
-        //     if (element.parentNode !== previous.parent) {
-        //         previous = null;
-        //     }
-        // }
-
         this.pool.push(new window.notes.Item(element, previous));
     },
 
@@ -140,9 +138,6 @@ window.notes.manager = {
     update: function () {
         'use strict';
         var i;
-
-        // this.offsetTop = document.querySelector('main').getBoundingClientRect().top + window.scrollY;
-
         for (i = 0; i < this.pool.length; i += 1) {
             this.pool[i].replace();
         }

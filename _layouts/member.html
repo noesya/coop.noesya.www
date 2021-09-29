@@ -15,7 +15,7 @@ class: member
 </header>
 
 <div>
-  <div>
+  <section>
     <h2>Parcours</h2>
     <p><em>{{ page.expertise }}</em></p>
     <dl>
@@ -28,7 +28,7 @@ class: member
         {% include member/item.html item=item %}
       {% endfor %}
     </dl>
-  </div>
+  </section>
 </div>
 
 {% include sections-with-notes.html %}
