@@ -9,7 +9,7 @@ main.metier
         margin-bottom: $grid-gutter * 2
         picture
             display: block
-            grid-column: 1/5
+            grid-column: 1/4
             grid-row: 1/5
             margin-bottom: 10px
             @include media-breakpoint-up(md)
@@ -21,7 +21,7 @@ main.metier
             font-size: px2rem(25)
             margin-bottom: 10px
         h3, p, a
-            grid-column: 5/9
+            grid-column: 4/9
         p
             color: $secondary
             font-size: px2rem(22)
@@ -31,19 +31,21 @@ main.metier
         &:last-of-type
             margin-bottom: $grid-gutter * 3
 
+        // Bloc de contact avec photo
         & + div
             @include grid(12)
+            padding-top: $grid-gutter * 2
             align-items: center
             picture
                 display: block
-                grid-column: 1/3
+                grid-column: 1/2
                 margin-bottom: 10px
-                max-width: 50%
+                width: 150px
                 @include media-breakpoint-up(md)
                     margin-bottom: 0
                     max-width: 100%
                 img
                     display: block
             p
-                grid-column: 3/12
+                grid-column: 2/12
                 margin-bottom: 0
