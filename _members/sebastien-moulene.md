@@ -45,7 +45,7 @@ sections:
           Du travail bien fait, c’est du travail qui dure dans le temps, stable, robuste. Du code propre, même s’il faut préciser le sens du mot, c’est très important : optimisé, bien pensé, minimisé autant que possible, organisé en composants pour favoriser la réutilisabilité.
 
 
-          <blockquote>Ma spécialité, c’est le e-commerce, j’adore ce secteur</blockquote>
+          <blockquote>Ma spécialité, c’est le e-commerce, j’adore ce secteur !</blockquote>
 
 
           J’aime développer le front, mais mon intérêt s’étend à toute l’expérience utilisateur, notamment à l’entrelacement entre le contenu éditorial et le commerce. D’une façon générale, j’aime les gros sites qui impliquent une pensée globale, long-terme, et une anticipation des évolutions.
