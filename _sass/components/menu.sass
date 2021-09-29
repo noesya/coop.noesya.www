@@ -51,7 +51,9 @@
         padding-top: $grid-gutter * 10
     ul
         height: 100%
-        margin: 0 $grid-gutter * 2
+        margin: 0 $grid-sm-margin * 2
+        @include media-breakpoint-up(md)
+            margin: 0 $grid-gutter * 2
         &:hover
             a
                 color: $secondary
@@ -60,6 +62,7 @@
     li
         @extend h1
         font-family: $font-family-sans-serif
+        margin-bottom: $grid-sm-margin
     a
         display: block
         transition: color .3s ease

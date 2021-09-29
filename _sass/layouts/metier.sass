@@ -1,4 +1,9 @@
 main.metier
+    picture
+        display: block
+        margin-bottom: 10px
+        @include media-breakpoint-up(md)
+            margin-bottom: 0
     article
         @include grid(12)
         align-items: flex-start
@@ -6,9 +11,6 @@ main.metier
         picture
             grid-column: 1/5
             grid-row: 1/5
-            margin-bottom: 10px
-            @include media-breakpoint-up(md)
-                margin-bottom: 0
             img
                 display: block
         h3
@@ -31,9 +33,9 @@ main.metier
             align-items: center
             picture
                 grid-column: 1/3
-                margin-bottom: 10px
+                max-width: 50%
                 @include media-breakpoint-up(md)
-                    margin-bottom: 0
+                    max-width: 100%
                 img
                     display: block
             p
