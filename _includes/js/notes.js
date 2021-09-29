@@ -54,8 +54,7 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.preventTitleOverlap = function () {
     'use strict';
-    var distance = this.previous.bottom() - this.y;
-    this.y = Math.max(this.y, this.y + distance);
+    // TODO
 };
 
 window.notes.Item.prototype.getTop = function (element) {
