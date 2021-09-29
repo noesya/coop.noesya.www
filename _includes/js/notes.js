@@ -49,6 +49,8 @@ window.notes.Item.prototype.updatePosition = function () {
         this.preventOverlap();
     }
 
+    this.preventTitleOverlap();
+
     this.dom.style.top = this.y + 'px';
 };
 
@@ -60,7 +62,22 @@ window.notes.Item.prototype.preventOverlap = function () {
 
 window.notes.Item.prototype.preventTitleOverlap = function () {
     'use strict';
-    // TODO
+    var titles = document.querySelectorAll('h2'),
+        i;
+
+    for (i = 0; i < titles.length; i += 1) {
+        this.testTitleOverlap(titles[i]);
+    }
+};
+
+window.notes.Item.prototype.testTitleOverlap = function (title) {
+    'use strict';
+    var top = this.getTop(title) - this.getTop(this.parent),
+        safer = 10,
+        bottom = top + title.offsetHeight;
+    if (this.y >= top - safer && this.y <= bottom + safer) {
+        this.y += bottom - this.y;
+    }
 };
 
 window.notes.Item.prototype.getTop = function (element) {
