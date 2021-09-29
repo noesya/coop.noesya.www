@@ -62,18 +62,20 @@ blockquote
     border-bottom: 1px $border-color solid
     border-top: 1px $border-color solid
     font-family: $font-family-sans-serif
-    font-size: px2rem(45)
-    line-height: px2rem(65)
+    font-size: px2rem(28)
+    line-height: 1.4
     padding: #{$grid-gutter * 2} 0
     text-align: center
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(45)
 
 section
     p
         margin-bottom: $grid-gutter * 2
     blockquote
-        margin: #{$grid-gutter * 4} 0
+        margin: #{$grid-gutter * 2} 0
     p + blockquote
-        margin-top: $grid-gutter * 2
+        margin-top: 0
     small
         color: $secondary
         display: block
