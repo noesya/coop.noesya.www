@@ -1,4 +1,8 @@
 main.index
+    header
+        div:first-of-type
+            margin-bottom: $grid-gutter
+            max-width: 50%
     section
         ol, h2, dd
             margin-bottom: $grid-gutter * 3
@@ -30,12 +34,17 @@ main.index
     @include media-breakpoint-up(md)
         header
             @include grid(12)
+            align-items: start
             div
+                grid-row-start: 1
+            div:last-of-type
                 grid-column: 1/8
-                + div
-                    align-self: end
-                    grid-column: 8/13
-                    padding-top: $grid-gutter * 3
+                padding-top: $grid-gutter * 10
+            div:first-of-type
+                grid-column: 9/12
+                margin-bottom: 0
+                max-width: none
+                padding-top: $grid-gutter * 3
         section
             ol, h2, dd
                 margin-bottom: $grid-gutter * 3
@@ -68,9 +77,8 @@ main.index
             h1
                 font-size: px2rem(55)
                 line-height: px2rem(75)
-            div
-                + div
-                    padding-top: $grid-gutter * 2
+            div:first-of-type
+                padding-top: $grid-gutter * 4
         section
             ol, h2, dd
                 margin-bottom: $grid-gutter * 4
@@ -82,4 +90,3 @@ main.index
         section
             ol
                 @include grid(4)
-                margin-top: - $grid-gutter * 2
