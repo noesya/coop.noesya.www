@@ -26,8 +26,11 @@ h2
         font-size: px2rem(45)
 
 p, li, dl
-    font-size: px2rem(19)
-    line-height: px2rem(30)
+    font-size: px2rem(14)
+    line-height: px2rem(24)
+    @include media-breakpoint-up(lg)
+        font-size: px2rem(19)
+        line-height: px2rem(30)
     section > &
         font-size: px2rem(22)
         line-height: px2rem(37)
