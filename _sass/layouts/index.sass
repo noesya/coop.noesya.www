@@ -1,24 +1,40 @@
 main.index
     section
-        ol, dd
-            margin-bottom: $grid-gutter
+        ol, h2, dd
+            margin-bottom: $grid-gutter * 3
         li
+            counter-increment: item
             font-size: px2rem(22)
             line-height: px2rem(36)
+            margin-bottom: $grid-gutter
+            &::before
+                content: counters(item, ".") ".\00a0 "
+                display: block
+                font-family: $font-family-sans-serif
+                font-size: px2rem(55)
+                line-height: 1
+            a
+                &::after
+                    background: url('/assets/images/icons/link.svg') no-repeat
+                    background-size: 100%
+                    content: ''
+                    display: inline-block
+                    height: 17px
+                    margin-left: 10px
+                    transition: transform .3s ease
+                    vertical-align: middle
+                    width: 17px
+                &:hover::after
+                    transform: translateX(5px)
 
     @include media-breakpoint-up(md)
         section
+            ol, h2, dd
+                margin-bottom: $grid-gutter * 3
             ol
                 @include grid(4)
             li
-                counter-increment: inst
                 margin-bottom: $grid-gutter * 2
-                &::before
-                    content: counter(inst)
-                    display: block
-                    font-family: $font-family-sans-serif
-                    font-size: px2rem(55)
-                    line-height: 1
             dl
                 @include grid(2)
             dt
@@ -36,8 +52,3 @@ main.index
                 &:nth-of-type(4)
                     grid-column: 2/2
                     grid-row-start: 4
-
-    @include media-breakpoint-up(lg)
-        section
-            ol, h2, dd
-                margin-bottom: $grid-gutter * 3

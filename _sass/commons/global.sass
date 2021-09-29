@@ -23,9 +23,10 @@ body > main
     position: relative
     transition: background .3s ease, color .3s ease
     z-index: 1
-    .is-menu-opened &
-        background-color: $black
-        color: $white
+    @include media-breakpoint-up(md)
+        .is-menu-opened &
+            background-color: $black
+            color: $white
 
 img
     height: auto

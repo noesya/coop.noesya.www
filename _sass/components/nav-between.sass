@@ -1,7 +1,8 @@
 main > nav
     background-color: $bg-secondary-color
-    .is-menu-opened &
-        background-color: $bg-secondary-color-reverse
+    @include media-breakpoint-up(md)
+        .is-menu-opened &
+            background-color: $bg-secondary-color-reverse
     ul
         @include container
     a

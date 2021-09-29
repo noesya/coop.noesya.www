@@ -3,4 +3,6 @@ main
         @include container
         padding-bottom: $grid-gutter * 2
         & > div:first-child, & > h1
-            padding-top: $grid-gutter * 10
+            padding-top: $grid-gutter * 5
+            @include media-breakpoint-up(md)
+                padding-top: $grid-gutter * 10
