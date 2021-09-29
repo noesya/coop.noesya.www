@@ -1,8 +1,8 @@
 ---
 title: Sébastien Moulène
 last_name: Moulène
-portrait: /assets/images/members/sebastien-moulene/portrait.png
-portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.png
+portrait: /assets/images/members/sebastien-moulene/portrait.jpg
+portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.jpg
 expertise: E-commerce & éditorial
 summary:
     list:
