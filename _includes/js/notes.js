@@ -14,10 +14,16 @@ window.notes.Item = function (dom, previous) {
         this.dom.classList.add('is-handled');
     }.bind(this), 1);
     this.replace();
+    this.ready();
 };
 window.notes.Item.prototype.ready = function () {
     'use strict';
-    this.replace();
+    this.anchor.addEventListener('mouseenter', function () {
+        this.dom.classList.add('is-hovered');
+    }.bind(this));
+    this.anchor.addEventListener('mouseleave', function () {
+        this.dom.classList.remove('is-hovered');
+    }.bind(this));
 };
 
 window.notes.Item.prototype.replace = function () {
