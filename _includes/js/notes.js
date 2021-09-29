@@ -160,7 +160,7 @@ window.notes.manager = {
             this.update();
         // }
         for (i = this.pool.length - 1; i >= 0; i -= 1) {
-            if (this.pool[i].isVisible && (!nearest || !this.isFixed)) {
+            if (this.pool[i].isVisible && !nearest) {
                 nearest = this.pool[i];
                 nearest.dom.classList.add('is-visible');
             } else {

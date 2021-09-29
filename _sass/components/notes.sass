@@ -45,9 +45,12 @@ aside
         position: absolute
         img
             filter: grayscale(1)
-            opacity: 0.2
+            opacity: 0
+            position: absolute
             // transform: translateX($grid-gutter)
             transition: 0.33s $easeInOutQuad
+            top: 0
+            left: calc(1340px * 11/12)
         &.is-visible
             img
                 opacity: 1
@@ -55,3 +58,4 @@ aside
         &:hover, &.is-hovered
             img
                 filter: grayscale(0)
+                opacity: 1
