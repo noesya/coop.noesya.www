@@ -10,7 +10,13 @@ window.notes.Item = function (dom, previous) {
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
     this.isVisible = false;
-    this.dom.classList.add('is-handled');
+    setTimeout(function () {
+        this.dom.classList.add('is-handled');
+    }.bind(this), 1);
+    this.replace();
+};
+window.notes.Item.prototype.ready = function () {
+    'use strict';
     this.replace();
 };
 

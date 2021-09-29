@@ -16,9 +16,13 @@ aside
         padding: 20px $grid-gutter
         position: fixed
         transform: translateY(100%)
-        transition: 0.25s
         width: 100%
         z-index: 3
+        &.is-handled
+            transition: 0.25s
+            img
+                transition: 0.33s
+
         &.is-visible
             &, img
                 transform: translateY(0)
@@ -28,6 +32,7 @@ aside
             position: absolute
             right: 12px
             transform: translateY(100%)
+
         picture + p
             padding-right: 120px
 
