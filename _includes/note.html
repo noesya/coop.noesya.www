@@ -3,10 +3,10 @@
     {% picture note "{{ note.image }}" --img alt="{{ note.title }}" title="{{ note.title }}" %}
   {% endif %}
 
-  <span>
+  <div>
     {{ note_index }}. Voir
     {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
-    {{note.title | correct_punctuation}}
+    {{note.title | markdownify | correct_punctuation}}
     {% if note.url %}</a>{% endif %}
-  </span>
+  </div>
 </aside>
