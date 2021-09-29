@@ -11,8 +11,15 @@ body > footer
             margin-bottom: $grid-gutter
     li span, a
         color: $secondary-reverse
-    a:hover
-        color: white
+    a
+        &:hover
+            color: white
+        &[target='_blank']
+            &::after
+                filter: invert(.5)
+            &:hover
+                &::after
+                    filter: invert(1)
     nav
         &:first-of-type
             margin-bottom: $grid-gutter * 2
