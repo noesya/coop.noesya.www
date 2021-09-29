@@ -97,6 +97,7 @@ sections:
           image: /assets/images/members/alexis-benoit/phare-23.jpg
         - title: Silo, Hugh Howey
           url: https://www.actes-sud.fr/node/61134
+          image: /assets/images/members/alexis-benoit/silo.jpg
         - title: Alternate realities
           url: https://www.youtube.com/watch?v=iKBs9l8jS6Q
 

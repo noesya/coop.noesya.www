@@ -14,7 +14,9 @@ h1, .h1
         font-size: px2rem(65)
 
 h1
-    margin-bottom: $grid-gutter * 5
+    margin-bottom: $grid-gutter * 2
+    @include media-breakpoint-up(lg)
+        margin-bottom: $grid-gutter * 5
 
 .h1
     &, a
@@ -48,8 +50,8 @@ aside
 // Chapitres métiers et équipe
 p
     section > &
-        font-size: px2rem(22)
-        line-height: px2rem(37)
+        font-size: px2rem(20)
+        line-height: px2rem(32)
         @include media-breakpoint-up(lg)
             font-size: px2rem(25)
             line-height: px2rem(45)
