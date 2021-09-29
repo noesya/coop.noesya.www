@@ -8,10 +8,9 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
-        - title: Métier
+        - title: Métiers
           content: Développeur back-end
-        - title: Métier
-          content: Maître de conférences associé et directeur des études, département Métiers du Multimédia et de l’Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
+        - content: Maître de conférences associé et directeur des études, département Métiers du Multimédia et de l’Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
         - title: Mission
           content: Référent “Approche Par Compétences” pour le déploiement du Bachelor Universitaire de Technologie, *Association des Directeurs d’IUT (ADIUT)*
         - title: Co-fondateur
@@ -20,25 +19,19 @@ summary:
           content: "*Time for the Planet*"
         - title: Membre
           content: "*The Shifters*"
-        - title: Membre
-          content: "*Tech for good France*"
+        - content: "*Tech for good France*"
     more_list:
-        - title: Certification
+        - title: Certifications
           content: Opquast expert (965/1000)
-        - title: Certification
-          content: Numérique Responsable, *Institut du Numérique Responsable*
-        - title: Certification
-          content: "L’avenir de la décision : connaître et agir en complexité, *ESSEC Business School* (MOOC)"
-        - title: Certification
-          content: "Learning How to Learn: Powerful mental tools to help you master tough subjects, *University of California* (MOOC)"
-        - title: Certification
-          content: Gestion des entreprises du luxe et de la mode, *Università Commerciale ’Luigi Bocconi’* (MOOC)
+        - content: Numérique Responsable, *Institut du Numérique Responsable*
+        - content: "L’avenir de la décision : connaître et agir en complexité, *ESSEC Business School* (MOOC)"
+        - content: "Learning How to Learn: Powerful mental tools to help you master tough subjects, *University of California* (MOOC)"
+        - content: Gestion des entreprises du luxe et de la mode, *Università Commerciale ’Luigi Bocconi’* (MOOC)
         - title: Formation
           content: Developing Apps for iOS, by Paul Hegarty, *Stanford Continuing Studies* (MOOC)
-        - title: Diplôme
+        - title: Diplômes
           content: Master Humanités numériques, parcours Dispositifs numériques éducatifs, *Institut des Sciences de l’Information et de la Communication, Université Bordeaux Montaigne* (VAE)
-        - title: Diplôme
-          content: Diplôme Universitaire de Technologie Information Communication option Publicité, *Université Bordeaux Montaigne*
+        - content: Diplôme Universitaire de Technologie Information Communication option Publicité, *Université Bordeaux Montaigne*
 sections:
     - title: Identité
       content: >
