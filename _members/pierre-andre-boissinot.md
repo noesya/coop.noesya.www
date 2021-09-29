@@ -43,7 +43,10 @@ sections:
           url: https://www.loreal.com
     - title: Qualité
       content: >
-          Du travail bien fait, c’est d’abord de la propreté, au sens d’Oncle Bob<sup><a href="#note-5">5</a></sup>: du code léger, pas trop verbeux, où chaque chose est à sa place. C’est aussi du code que l’on peut relire. Il faut coder pour les autres, notamment pour le soi du futur. Si je me relis dans deux ans, je dois comprendre facilement ce que j’ai écrit, et je veux que toute l’équipe puisse comprendre.
+          Du travail bien fait, c’est d’abord de la propreté, au sens d’Oncle Bob<sup><a href="#note-5">5</a></sup>: du code léger, pas trop verbeux, où chaque chose est à sa place. C’est aussi du code que l’on peut relire. Si je me relis dans deux ans, je dois comprendre facilement ce que j’ai écrit, et je veux que toute l’équipe puisse comprendre.
+
+
+          <blockquote>Il faut coder pour les autres, notamment pour le soi du futur</blockquote>
 
 
           C’est évidemment du code qui fait ce qu’il doit faire ! C’est navrant de le préciser, mais beaucoup de développeurs produisent du code qui n’est pas fonctionnel, ou pas totalement fonctionnel.
@@ -58,7 +61,7 @@ sections:
           Je connais également plutôt bien les enjeux juridiques et éthiques liés à la sécurité Web, notamment le Règlement Général sur la Protection des Données<sup><a href="#note-6">6</a></sup> (RGPD). Au sein des *Poupées&nbsp;Russes*, j’ai géré tous les processus de conformité avec les services IT des clients de l’agence : *L’Oréal*, *Shiseido*, *Chanel*...
 
 
-          Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. Cela fait des années que je travaille pour lancer des parfums ou des soins, alors que ces sujets ne m’intéressent pas vraiment. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les Lego, et construire une tour toute droite, ça ne me fait pas vibrer.
+          Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. Cela fait des années que je travaille pour lancer des parfums ou des soins, alors que ces sujets ne m’intéressent pas vraiment. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les *Lego*, et construire une tour toute droite, ça ne me fait pas vibrer.
       notes:
         - title: Coder proprement, Robert C. Martin
           url: https://www.pearson.fr/fr/book/?GCOI=27440100385990

@@ -70,7 +70,7 @@ sections:
             Mon domaine de prédilection, c’est la narration et l’émotion. Un Web qui raconte et qui fait ressentir. Je suis de plus en plus sensible à l’accessibilité de l’expérience, toucher avec peu, arriver à une belle intensité émotionnelle avec une solution technique sobre, minimale.
 
 
-            <blockquote>Le projet idéal est beau sur toute la ligne : le contenu, la forme, la technique...</blockquote>
+            <blockquote>Le projet idéal est beau sur toute la&nbsp;ligne : le&nbsp;contenu, la&nbsp;forme, la&nbsp;technique...</blockquote>
 
 
             Du sens et du beau, le fond et la forme ensemble, là c’est parfait. J’adorerais travailler sur un projet pour Arte, un truc dense culturellement, avec des ambitions créatives fortes.
