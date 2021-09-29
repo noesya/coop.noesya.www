@@ -163,20 +163,6 @@ window.notes.manager = {
         }
     },
 
-    select: function () {
-        'use strict';
-        var nearest = null,
-            i;
-        for (i = this.pool.length - 1; i >= 0; i -= 1) {
-            if (this.pool[i].isVisible && !nearest) {
-                nearest = this.pool[i];
-                nearest.dom.classList.add('is-visible');
-            } else {
-                this.pool[i].dom.classList.remove('is-visible');
-            }
-        }
-    },
-
     update: function () {
         'use strict';
         var i;
