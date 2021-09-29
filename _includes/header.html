@@ -1,9 +1,9 @@
 <header id="menu">
   <a href="/"><img src="/assets/images/logo-noesya.svg" alt="{{ site.title }}" width="100" height="26"></a>
-  <div class="burger" onclick="document.documentElement.classList.toggle('is-menu-opened')">
-    <span aria-label="Ouvrir le menu"></span>
-    <span aria-label="Fermer le menu"></span>
+  <button class="burger" onclick="document.documentElement.classList.toggle('is-menu-opened')" aria-label="Ouvrir / Fermer le menu">
+    <span></span>
+    <span></span>
     <i></i>
-  </div>
+  </button>
   {% include nav-primary.html %}
 </header>

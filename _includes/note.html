@@ -3,7 +3,7 @@
   {{ note_index }}.
 {% endcapture %}
 
-{% capture note_content %} 
+{% capture note_content %}
   {{index}} Voir {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noferrer">{% endif %}
     {{ note.title }}
   {% if note.url %}</a>{% endif %}
@@ -11,7 +11,7 @@
 
 <aside class="js-note" id="note-{{ note_index }}">
   {% if note.image %}
-    {% picture note "{{ note.image }}" --img alt="{{ note.title }}" title="{{ note.title }}" %}
+    {% picture note "{{ note.image }}" --img alt="{{ note.title }}" title="{{ note.title }}" loading="lazy" %}
   {% endif %}
   {{ note_content | markdownify | correct_punctuation }}
 </aside>
