@@ -1,3 +1,5 @@
+
+
 window.notes = window.notes || {};
 window.notes.Item = window.notes.Item || {};
 window.notes.manager = window.notes.manager || {};
@@ -74,9 +76,11 @@ window.notes.Item.prototype.testTitleOverlap = function (title) {
     'use strict';
     var top = this.getTop(title) - this.getTop(this.parent),
         safer = 10,
-        bottom = top + title.offsetHeight;
+        bottom = top + title.offsetHeight,
+        offset = Math.max(bottom - this.y, window.notes.manager.lineHeight);
+
     if (this.y >= top - safer && this.y <= bottom + safer) {
-        this.y += bottom - this.y;
+        this.y += offset;
     }
 };
 
@@ -95,6 +99,7 @@ window.notes.manager = {
     isFixed: false,
     pool: [],
     nearest: null,
+    lineHeight: 45,
     init: function () {
         'use strict';
         var i,
@@ -129,6 +134,8 @@ window.notes.manager = {
 
     resize: function () {
         'use strict';
+        this.lineHeight = getComputedStyle(document.querySelector('section > p')).lineHeight;
+        this.lineHeight = parseInt(this.lineHeight.replace('px', ''), 10);
         this.setMode();
         this.update();
     },
