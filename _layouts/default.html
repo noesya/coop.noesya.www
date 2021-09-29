@@ -17,13 +17,11 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    <div>
-      {% include header.html %}
-      <main aria-label="Content" class="{{ page.class | default: layout.class }}">
-        {{ content }}
-        {% include navigation-between-pages.html %}
-      </main>
-    </div>
+    {% include header.html %}
+    <main aria-label="Content" class="{{ page.class | default: layout.class }}">
+      {{ content }}
+      {% include navigation-between-pages.html %}
+    </main>
     {% include footer.html %}
   </body>
   <script src="/assets/js/main.js"></script>

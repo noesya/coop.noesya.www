@@ -1,4 +1,4 @@
-body > div > header
+body > header
     @include container
     left: 0
     padding-top: $grid-sm-margin * 2
@@ -12,6 +12,7 @@ body > div > header
         text-decoration: none
     > a
         display: inline-block
+        mix-blend-mode: negative
         transition: filter .3s ease
         .is-menu-opened &
             filter: invert(1)
