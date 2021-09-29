@@ -49,7 +49,8 @@ main.index
                 margin-bottom: $grid-gutter * 3
             ol
                 @include grid(4)
-                margin-top: - $grid-gutter * 2
+                @include media-breakpoint-up(xxl)
+                    margin-top: - $grid-gutter * 2
             li
                 margin-bottom: $grid-gutter * 2
             dl

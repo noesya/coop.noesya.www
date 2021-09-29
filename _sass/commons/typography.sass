@@ -29,8 +29,11 @@ p, li, dl
     font-size: px2rem(19)
     line-height: px2rem(30)
     section > &
-        font-size: px2rem(25)
-        line-height: px2rem(45)
+        font-size: px2rem(22)
+        line-height: px2rem(37)
+        @include media-breakpoint-up(lg)
+            font-size: px2rem(25)
+            line-height: px2rem(45)
 
 dt, dd
     margin-bottom: px2rem(30)
