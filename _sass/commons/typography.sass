@@ -13,6 +13,9 @@ h1, .h1
     @include media-breakpoint-up(lg)
         font-size: px2rem(65)
 
+h1
+    margin-bottom: $grid-gutter * 5
+
 .h1
     &, a
         color: $secondary
@@ -25,12 +28,24 @@ h2
     @include media-breakpoint-up(lg)
         font-size: px2rem(45)
 
+// La plupart des textes
 p, li, dl
-    font-size: px2rem(14)
-    line-height: px2rem(24)
-    @include media-breakpoint-up(lg)
-        font-size: px2rem(19)
-        line-height: px2rem(30)
+    font-size: px2rem(19)
+    line-height: px2rem(30)
+    section &
+        font-size: px2rem(25)
+        line-height: px2rem(45)
+
+// Notes
+aside
+    p
+        font-size: px2rem(14)
+        line-height: px2rem(24)
+        @include media-breakpoint-up(lg)
+            font-size: px2rem(16)
+            line-height: px2rem(28)
+
+// Chapitres métiers et équipe
 p
     section > &
         font-size: px2rem(22)
