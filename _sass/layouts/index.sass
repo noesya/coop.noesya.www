@@ -28,15 +28,28 @@ main.index
                     transform: translateX(5px)
 
     @include media-breakpoint-up(md)
+        header
+            @include grid(12)
+            padding-bottom: 0
+            div
+                grid-column: 1/8
+                + div
+                    grid-column: 8/13
+                    padding-top: $grid-gutter * 2
+            h1
+                font-size: px2rem(55)
+                line-height: px2rem(75)
         section
             ol, h2, dd
                 margin-bottom: $grid-gutter * 3
             ol
                 @include grid(4)
+                margin-top: - $grid-gutter * 2
             li
                 margin-bottom: $grid-gutter * 2
             dl
                 @include grid(2)
+                margin-bottom: $grid-gutter * 5
             dt
                 &:nth-of-type(2)
                     grid-column: 2/2
