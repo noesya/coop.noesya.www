@@ -8,10 +8,9 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
-        - title: Métier
+        - title: Métiers
           content: Creative developer
-        - title: Métier
-          content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
+        - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
         - title: Certification
           content: Opquast (898/1000)
         - title: Diplôme
