@@ -39,6 +39,11 @@ main.index
             h1
                 font-size: px2rem(55)
                 line-height: px2rem(75)
+            img
+                @include media-breakpoint-up(md)
+                    transition: filter .3s ease
+                    .is-menu-opened &
+                        filter: invert(1)
         section
             ol, h2, dd
                 margin-bottom: $grid-gutter * 3

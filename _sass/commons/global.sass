@@ -21,9 +21,9 @@ body
 body > main
     background-color: $bg-color
     position: relative
-    transition: background .3s ease, color .3s ease
     z-index: 1
     @include media-breakpoint-up(md)
+        transition: background .3s ease, color .3s ease
         .is-menu-opened &
             background-color: $black
             color: $white
