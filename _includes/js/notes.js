@@ -1,5 +1,3 @@
-
-
 window.notes = window.notes || {};
 window.notes.Item = window.notes.Item || {};
 window.notes.manager = window.notes.manager || {};
@@ -28,11 +26,12 @@ window.notes.Item.prototype.replace = function () {
     if (window.notes.manager.isFixed) {
         this.dom.classList.add('is-fixed');
         this.dom.style.top = '';
-        this.updateVisibility();
     } else {
         this.dom.classList.remove('is-fixed');
         this.updatePosition();
     }
+
+    this.updateVisibility();
 };
 
 window.notes.Item.prototype.updateVisibility = function () {
@@ -151,9 +150,23 @@ window.notes.manager = {
         var nearest = null,
             i;
 
-        if (this.isFixed) {
+        // if (this.isFixed) {
             this.update();
+        // }
+        for (i = this.pool.length - 1; i >= 0; i -= 1) {
+            if (this.pool[i].isVisible && (!nearest || !this.isFixed)) {
+                nearest = this.pool[i];
+                nearest.dom.classList.add('is-visible');
+            } else {
+                this.pool[i].dom.classList.remove('is-visible');
+            }
         }
+    },
+
+    select: function () {
+        'use strict';
+        var nearest = null,
+            i;
         for (i = this.pool.length - 1; i >= 0; i -= 1) {
             if (this.pool[i].isVisible && !nearest) {
                 nearest = this.pool[i];

@@ -5,7 +5,7 @@ aside
         z-index: 2
     img
         display: block
-        margin: 20px 0
+        margin: $grid-gutter/2 0
         max-width: 124px
     p
         margin-bottom: 0
@@ -19,9 +19,9 @@ aside
         width: 100%
         z-index: 3
         &.is-handled
-            transition: 0.25s
+            transition: 0.25s $easeInOutQuad
             img
-                transition: 0.33s
+                transition: 0.33s $easeInOutQuad
 
         &.is-visible
             &, img
@@ -40,4 +40,14 @@ aside
         display: flex
         flex-direction: column-reverse
         grid-column: 1/5
+        padding-bottom: $grid-gutter/2
         position: absolute
+        img
+            opacity: 0
+            transform: translateX(-$grid-gutter)
+            transition: 0.33s $easeInOutQuad
+        &.is-visible
+            img
+                opacity: 1
+                transform: translateY(0)
+
