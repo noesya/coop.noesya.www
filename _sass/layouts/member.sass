@@ -22,6 +22,10 @@ main.member
     header + div
         background-color: $bg-secondary-color
         padding: #{ $grid-gutter * 4} 0
+        @include media-breakpoint-up(md)
+            transition: background .3s ease
+            .is-menu-opened &
+                background-color: $bg-secondary-color-reverse
         & > section
             @include container
             @include grid
