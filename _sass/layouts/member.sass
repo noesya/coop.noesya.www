@@ -34,7 +34,8 @@ main.member
                 color: $secondary
                 font-size: px2rem(30)
                 grid-column: 7/13
-                text-align: right
+                @include media-breakpoint-up(md)
+                    text-align: right
     dl
         @include grid(6)
         align-self: baseline

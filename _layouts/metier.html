@@ -6,7 +6,9 @@ class: page metier
 <h2>Réalisations</h2>
 {% for work in page.works %}
   <article>
-    {% picture "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+    {% if work.image %}
+      {% picture "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+    {% endif %}
     <h3>{{ work.title }}</h3>
     <p>{{ work.content }}</p>
     <a href="{{ work.url }}" target="_blank" rel="noreferrer">Visiter le site</a>

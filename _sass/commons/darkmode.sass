@@ -7,9 +7,38 @@
         background: rgba($white, .3)
         color: $primary
 
-    body
+    body,
+    body > main
         background-color: $primary
 
-    body,
+    body
+        color: $white
+
     a
         color: $white
+        text-decoration-color: adjust-color(white, $alpha: -0.8)
+        &:hover
+            text-decoration-color: white
+
+    a[target="_blank"]::after
+        filter: invert(1)
+
+    body > header
+        > a
+            filter: invert(1)
+
+    .burger
+        i, &::after, &::before
+            background: $white
+
+    main > nav
+        background-color: $bg-secondary-color-reverse
+        span
+            color: $secondary-reverse
+
+    main.index
+        section
+            li
+                a
+                    &::after
+                        filter: invert(1)
