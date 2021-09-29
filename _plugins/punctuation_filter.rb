@@ -1,10 +1,8 @@
 module Jekyll::PunctuationFilter
   def correct_punctuation(string)
     correct = string.to_s
-    space = '&#8239;'
-    signs = [';', ':', '!', '?']
-    signs.each do |sign|
-      correct = correct.gsub " #{sign}", "#{space}#{sign}"
+    [';', ':', '!', '?'].each do |sign|
+      correct = correct.gsub " #{sign}", "&#8239;#{sign}"
     end
     correct
   end
