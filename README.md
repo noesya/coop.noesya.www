@@ -46,11 +46,10 @@ https://www.figma.com/file/7KG0r0KsUBcxrt7iXGaR4m/Explorations?node-id=151%3A285
 
 ## Research
 
-
 - Button size :  https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/
 - Vertical Grid tool : https://chrome.google.com/webstore/detail/grid-ruler/joadogiaiabhmggdifljlpkclnpfncmj/related?hl=en
-
 - Jekyll::Converter:Scss issue with css min and max https://github.com/sass/node-sass/issues/2815
+
 ## Grid
 
 Afficher la grille avec l'extension CSS Grid pour Chrome (https://chrome.google.com/webstore/detail/css-grid-overlay/hajfilceeneohkmcakehndmaeonhlack) :
