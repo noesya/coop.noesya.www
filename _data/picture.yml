@@ -1,13 +1,18 @@
 presets:
   default:
     formats: [webp, original] # Order matters!
-    widths: [300, 600, 1000, 1400, 2000]
+    # widths: [300, 600, 1000, 1400, 2000]
+    widths: [375, 576, 640, 750, 768, 1080, 1152, 1200, 1366, 1440, 1536, 1920]
     dimension_attributes: true
   member:
     formats: [webp, original]
-    widths: [300, 645, 1290]
+    widths: [300, 413, 520, 558, 618, 630, 645, 826, 874, 1290]
     dimension_attributes: true
   note:
     formats: [webp, original]
     widths: [124, 248]
+    dimension_attributes: true
+  owl:
+    formats: [webp, original]
+    widths: [153, 208, 298, 306, 316, 355, 596]
     dimension_attributes: true
