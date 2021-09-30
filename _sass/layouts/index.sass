@@ -39,9 +39,9 @@ main.index
                 grid-row-start: 1
             div:last-of-type
                 grid-column: 1/8
-                padding-top: $grid-gutter * 9
+                padding-top: $grid-gutter * 7
             div:first-of-type
-                grid-column: 9/12
+                grid-column: 8/13
                 margin-bottom: 0
                 max-width: none
                 padding-top: $grid-gutter * 3
@@ -84,9 +84,19 @@ main.index
                 margin-bottom: $grid-gutter * 4
 
 
+    @include media-breakpoint-up(xl)
+        header
+            div:first-of-type
+                grid-column: 8/12
+            div:last-of-type
+                padding-top: $grid-gutter * 9
+
+
     @include media-breakpoint-up(xxl)
         header
             padding-bottom: 0
+            div:first-of-type
+                grid-column: 9/12
         section
             ol
                 @include grid(4)
