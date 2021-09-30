@@ -1,6 +1,7 @@
 ---
 title: Sébastien Moulène
 last_name: Moulène
+description: "Sébastien Moulène, co-fondateur de noesya, développeur front-end"
 portrait: /assets/images/members/sebastien-moulene/portrait.jpg
 portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.jpg
 expertise: E-commerce & éditorial

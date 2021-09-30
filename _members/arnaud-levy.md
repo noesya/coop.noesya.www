@@ -1,6 +1,7 @@
 ---
 title: Arnaud Levy
 last_name: Levy
+description: "Arnaud Levy, co-fondateur de noesya, développeur back-end"
 portrait: /assets/images/members/arnaud-levy/portrait.jpg
 portrait_alt: /assets/images/members/arnaud-levy/portrait-alt.jpg
 expertise: Gouvernance & communs
