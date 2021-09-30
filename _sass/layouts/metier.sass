@@ -19,6 +19,8 @@ main.metier
                 margin-bottom: 0
             img
                 display: block
+                filter: grayscale(1)
+                transition: 0.33s $easeInOutQuad
         h3
             font-family: $font-family-serif
             font-size: px2rem(25)
@@ -52,3 +54,6 @@ main.metier
             p
                 grid-column: 2/12
                 margin-bottom: 0
+        &:hover
+            img
+                filter: grayscale(0)
