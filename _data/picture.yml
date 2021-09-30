@@ -12,3 +12,7 @@ presets:
     formats: [webp, original]
     widths: [124, 248]
     dimension_attributes: true
+  owl:
+    formats: [webp, original]
+    widths: [153, 208, 298, 306, 316, 355, 596]
+    dimension_attributes: true
