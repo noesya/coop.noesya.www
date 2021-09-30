@@ -13,8 +13,8 @@ summary:
         - title: Certification
           content: Opquast expert (925/1000)
         - title: Diplômes
-          content: Licence Professionnelle Développement d’applications Web et innovation numérique, *Université de Bordeaux*
-        - content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, *Université Bordeaux Montaigne*
+          content: Licence Professionnelle Développement d’applications Web et innovation numérique, Université de Bordeaux
+        - content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
     more_list:
         - title: Certifications OpenClassrooms
           content: "Créez une application responsive pour l’iPhone et l’iPad<br>

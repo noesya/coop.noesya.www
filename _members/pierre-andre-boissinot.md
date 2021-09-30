@@ -14,7 +14,7 @@ summary:
           content: Opquast expert (910/1000)
     more_list:
         - title: Diplôme
-          content: DUT Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), *Université Paris-Est Marne-la-Vallée*
+          content: DUT Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), Université Paris-Est Marne-la-Vallée
 sections:
     - title: Identité
       content: >

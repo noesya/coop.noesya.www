@@ -10,11 +10,11 @@ summary:
           content: noesya
         - title: Métiers
           content: Creative developer
-        - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, *Institut Universitaire de Technologie Bordeaux Montaigne*
+        - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
         - title: Certification
           content: Opquast (898/1000)
         - title: Diplôme
-          content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, *Université Bordeaux Montaigne*
+          content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
     more_list:
         - title: Distinctions
           content: >
@@ -37,7 +37,7 @@ sections:
             Je suis ensuite rentré à Bordeaux, chez *Ubisoft*, pour travailler sur un outil d’agrégation de data RH, finances, gestion de projets, qui permettait de faire de la visualisation de données au niveau macro sur tous les studios. C’était une belle expérience, avec notamment un atelier de 10 jours à Québec pour travailler avec l’équipe canadienne. J’étais au sein de l’équipe "tool", qui fournit des outils aux studios, donc c’était très focus jeux, avec des passionnés : un rêve de gosse ! J’ai ensuite travaillé pour *Lost&nbsp;Mechanics* comme creative dev, où j’ai produit beaucoup de jeux, des apps Apple TV, des installations... On a même fait une application de gestion pour le transport d’organes entre les hôpitaux !
 
 
-            En parallèle, j’ai donné pas mal de cours dans des écoles privées (*ECV*, *Condé*, *ESP*, *ESD*...) et j’ai rejoint en 2020 l’équipe pédagogique *MMI&nbsp;Bordeaux<sup><a href="#note-2">2</a></sup>* en tant que maître de conférences associé. J’enseigne le dev front et la narration interactive, avec beaucoup de belles choses à venir l’an prochain, nous prévoyons des installations interactives avec le *Musée des Beaux Arts de Bordeaux<sup><a href="#note-3">3</a></sup>*, ça va être vraiment bien !
+            En parallèle, j’ai donné pas mal de cours dans des écoles privées (*ECV*, *Condé*, *ESP*, *ESD*...) et j’ai rejoint en 2020 l’équipe pédagogique *MMI&nbsp;Bordeaux<sup><a href="#note-2">2</a></sup>* en tant que maître de conférences associé. J’enseigne le dev front et la narration interactive, avec beaucoup de belles choses à venir l’an prochain, nous prévoyons des installations avec le *Musée des Beaux Arts de Bordeaux<sup><a href="#note-3">3</a></sup>*, ça va être vraiment bien !
       notes:
         - title: Viens-là
           url: https://viens-la.com
