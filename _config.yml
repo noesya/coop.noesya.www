@@ -1,6 +1,5 @@
 url: "https://www.noesya.coop"
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "noesya" # the name of your site, e.g. ACME Corp.
+title: "noesya"
 baseline: "Coopérative de développeurs"
 email: "contact@noesya.coop"
 lang: fr
