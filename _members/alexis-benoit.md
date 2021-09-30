@@ -10,6 +10,7 @@ summary:
           content: noesya
         - title: Métiers
           content: Creative developer
+        - content: Co-gérant
         - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
         - title: Certification
           content: Opquast (898/1000)

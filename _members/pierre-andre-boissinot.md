@@ -8,8 +8,9 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
-        - title: Métier
+        - title: Métiers
           content: Développeur back-end
+        - content: Co-gérant
         - title: Certification
           content: Opquast expert (910/1000)
     more_list:
