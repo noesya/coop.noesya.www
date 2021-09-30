@@ -1,6 +1,7 @@
 ---
 title: Pierre-André Boissinot
 last_name: Boissinot
+description: "Pierre-André Boissinot, co-fondateur et co-gérant de noesya, développeur back-end"
 portrait: /assets/images/members/pierre-andre-boissinot/portrait.jpg
 portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.jpg
 expertise: Robustesse & sécurité

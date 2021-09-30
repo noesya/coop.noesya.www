@@ -1,6 +1,7 @@
 ---
 title: Sébastien Gaya
 last_name: Gaya
+description: "Sébastien Gaya, co-fondateur de noesya, DevOps, Data Protection Officer"
 portrait: /assets/images/members/sebastien-gaya/portrait.jpg
 portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.jpg
 expertise: Système & optimisation
@@ -8,8 +9,9 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
-        - title: Métier
+        - title: Métiers
           content: DevOps
+        - content: Data Protection Officer
         - title: Certification
           content: Opquast expert (925/1000)
         - title: Diplômes

@@ -1,6 +1,7 @@
 ---
 title: Alexis Benoit
 last_name: Benoit
+description: "Alexis Benoit, co-fondateur et co-gérant de noesya, creative developer"
 portrait: /assets/images/members/alexis-benoit/portrait.jpg
 portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.jpg
 expertise: Jeu & expérience
