@@ -1,3 +1,7 @@
 section
     @include container
-
+    margin-bottom: $grid-gutter * 2
+    @include media-breakpoint-up(md)
+        margin-bottom: $grid-gutter * 4
+    @include media-breakpoint-up(xl)
+        margin-bottom: $grid-gutter * 8

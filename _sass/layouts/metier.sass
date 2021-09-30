@@ -3,6 +3,9 @@ main.metier
         @include grid(12)
         h1
             grid-column: 1/9
+        & + section
+            @include media-breakpoint-up(md)
+                margin-bottom: $grid-gutter * 2
     article
         @include grid(12)
         align-items: flex-start
@@ -34,8 +37,8 @@ main.metier
         // Bloc de contact avec photo
         & + div
             @include grid(12)
-            padding-top: $grid-gutter * 2
             align-items: center
+            padding-top: $grid-gutter * 2
             picture
                 display: block
                 grid-column: 1/2
