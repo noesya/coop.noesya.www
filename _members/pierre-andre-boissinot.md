@@ -65,7 +65,7 @@ sections:
 
           Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. Cela fait des années que je travaille pour lancer des parfums ou des soins, alors que ces sujets ne m’intéressent pas vraiment. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les *Lego*, et construire une tour toute droite, ça ne me fait pas vibrer.
       notes:
-        - title: Coder proprement, Robert C. Martin
+        - title: Coder proprement, Robert&nbsp;C.&nbsp;Martin
           url: https://www.pearson.fr/fr/book/?GCOI=27440100385990
           image: /assets/images/members/pierre-andre-boissinot/coder-proprement.jpg
         - title: Règlement Général sur la Protection des Données
@@ -77,7 +77,7 @@ sections:
 
           L’école pour moi, c’était plutôt ennuyeux : les quelques matières qui me plaisaient n’allaient pas assez vite, et les nombreuses matières qui ne me plaisaient pas allaient beaucoup trop lentement. Je suis jusqu’au-boutiste, quand un sujet me plaît je veux tout maîtriser. Il m’arrive de tourner longtemps autour d’un sujet trop difficile, je n’y arrive pas, mais j’insiste. En mathématiques par exemple, je sens mes lacunes. Parfois, je finis par comprendre, c’est une petite victoire !
       notes:
-        - title: Les Passagers du Vent, François Bourgeon
+        - title: Les Passagers du Vent, François&nbsp;Bourgeon
           url: https://www.editions-delcourt.fr/bd/series/serie-les-passagers-du-vent/album-les-passagers-du-vent-integrale-t01-t05
           image: /assets/images/members/pierre-andre-boissinot/les-passagers-du-vent.jpg
     - title: noesya

@@ -82,16 +82,16 @@ sections:
           url: https://observatoire.iutmmi.fr
         - title: Ars Industrialis
           url: https://arsindustrialis.org/pharmakon
-        - title: Techno-féodalisme, *Cédric Durand*
+        - title: Techno-féodalisme, *Cédric&nbsp;Durand*
           url: https://www.editionsladecouverte.fr/technofeodalisme-9782355221156
           image: /assets/images/members/arnaud-levy/techno-feodalisme.jpg
-        - title: L'économie de l'attention, *Yves Citton*
+        - title: L'économie de l'attention, *Yves&nbsp;Citton*
           url: https://www.editionsladecouverte.fr/l_economie_de_l_attention-9782707178701
           image: /assets/images/members/arnaud-levy/economie-attention.jpg
-        - title: En attendant les robots, *Antonio A. Casilli*
+        - title: En attendant les robots, *Antonio&nbsp;A.&nbsp;Casilli*
           url: https://www.seuil.com/ouvrage/en-attendant-les-robots-antonio-a-casilli/9782021401882
           image: /assets/images/members/arnaud-levy/en-attendant-les-robots.jpg
-        - title: Understanding Knowledge as a Commons, *Charlotte Hess & Elinor Ostrom*
+        - title: Understanding Knowledge as a Commons, *Charlotte&nbsp;Hess & Elinor&nbsp;Ostrom*
           url: https://mitpress.mit.edu/books/understanding-knowledge-commons
           image: /assets/images/members/arnaud-levy/understanding-knowledge-as-a-commons.jpg
         - title: "Les Communs Numériques : un modèle innovant de développement des ressources numériques "
