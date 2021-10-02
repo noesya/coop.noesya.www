@@ -27,11 +27,33 @@ main > nav
         a
             padding-bottom: $grid-gutter * 4
             padding-top: $grid-gutter * 4
+            position: relative
+            z-index: 1
         span
             transition: color .3s ease
             .is-menu-opened &
                 color: $secondary-reverse
+        li
+            position: relative
+            &::before
+                background: $white
+                content: ''
+                height: 100%
+                left: calc((50vw - #{$grid-width / 2 - $grid-gutter * 2}) * -1)
+                mix-blend-mode: exclusion
+                position: absolute
+                top: 0
+                transition: width 0.35s $easeInOutQuad
+                width: 0
+                z-index: 2
+            &:hover
+                &::before
+                    transition: width 4s $easeInOutQuad
+                    width: 50vw
         li + li
             @include border-line
                 left: -#{$grid-gutter}
             padding-left: $grid-gutter
+            &::before
+                left: -$grid-gutter
+                right: auto

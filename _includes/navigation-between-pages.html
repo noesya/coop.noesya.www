@@ -1,13 +1,13 @@
 {% if page.nav %}
   <nav>
     <ul>
-      <li>
+      <li data-link-delay="4">
         <a href="{{page.nav.previous.url}}">
           <span>{{page.nav.previous.title}}</span><br>
           {{page.nav.previous.text}}
         </a>
       </li>
-      <li>
+      <li  data-link-delay="4">
         <a href="{{page.nav.next.url}}">
           <span>{{page.nav.next.title}}</span><br>
           {{page.nav.next.text}}
