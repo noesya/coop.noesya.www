@@ -1,9 +1,10 @@
 main > nav
     background-color: $bg-secondary-color
     ul
-        @include container
-        > li
-            border-bottom: 1px solid $border-color
+        li
+            @include container
+            &:first-child
+                border-bottom: 1px solid $border-color
     a
         @extend h2
         display: block
@@ -15,12 +16,12 @@ main > nav
     span
         color: $secondary-on-gray
 
-
     @include media-breakpoint-up(md)
         transition: background .3s ease
         .is-menu-opened &
             background-color: $bg-secondary-color-reverse
         ul
+            @include container
             @include grid(2)
             > li
                 border-bottom: none
@@ -48,7 +49,7 @@ main > nav
                 z-index: 2
             &:hover
                 &::before
-                    transition: width 4s $easeInOutQuad
+                    transition: width 3s $easeInOutQuad
                     width: 50vw
         li + li
             @include border-line
