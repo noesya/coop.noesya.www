@@ -2,6 +2,8 @@ main > nav
     background-color: $bg-secondary-color
     ul
         @include container
+        > li
+            border-bottom: 1px solid $border-color
     a
         @extend h2
         display: block
@@ -9,6 +11,7 @@ main > nav
         margin-bottom: 0
         padding-bottom: $grid-gutter * 2
         padding-top: $grid-gutter * 2
+        text-decoration: none
     span
         color: $secondary-on-gray
 
@@ -19,10 +22,11 @@ main > nav
             background-color: $bg-secondary-color-reverse
         ul
             @include grid(2)
+            > li
+                border-bottom: none
         a
             padding-bottom: $grid-gutter * 4
             padding-top: $grid-gutter * 4
-            text-decoration: none
         span
             transition: color .3s ease
             .is-menu-opened &
