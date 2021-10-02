@@ -34,7 +34,7 @@ window.menu = {
 
         this.y = y;
     }
-}
+};
 
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
