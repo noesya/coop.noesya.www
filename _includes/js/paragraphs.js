@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+(function () {
     'use strict';
     var paragraphs = document.querySelectorAll('.js-p-index > p'),
         i,
@@ -9,4 +9,4 @@ document.addEventListener('DOMContentLoaded', function () {
         index.innerText = '§' + (i + 1);
         paragraphs[i].prepend(index);
     }
-});
+}());

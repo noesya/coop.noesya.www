@@ -29,7 +29,4 @@ window.hoverLinks = {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-    'use strict';
-    window.hoverLinks.init();
-});
+window.hoverLinks.init();

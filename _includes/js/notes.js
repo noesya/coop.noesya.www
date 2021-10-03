@@ -179,7 +179,4 @@ window.notes.manager = {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-    'use strict';
-    window.notes.manager.init();
-});
+window.notes.manager.init();

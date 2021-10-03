@@ -36,7 +36,4 @@ window.menu = {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function () {
-    'use strict';
-    window.menu.init();
-});
+window.menu.init();
