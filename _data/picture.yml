@@ -29,7 +29,7 @@ presets:
   owl_footer:
     formats: [webp, original]
     widths: [153, 208, 298, 306, 316, 355, 596]
-    dimension_attributes: false
+    dimension_attributes: true
     sizes:
       mobile: 100px
       tablet: 40vw
