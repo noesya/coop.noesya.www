@@ -19,15 +19,13 @@ main.index
                 line-height: 1
             a
                 &::after
-                    background: url('/assets/images/icons/link.svg') no-repeat
-                    background-size: 100%
-                    content: ''
+                    @include icon
+                    content: "\e901"
                     display: inline-block
-                    height: 17px
+                    font-size: px2rem(17)
                     margin-left: 10px
                     transition: transform .3s ease
                     vertical-align: middle
-                    width: 17px
                 &:hover::after
                     transform: translateX(5px)
 

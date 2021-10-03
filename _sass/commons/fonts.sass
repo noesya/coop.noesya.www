@@ -18,3 +18,27 @@
     font-style: normal
     font-weight: 500
     src: url('../fonts/soehne/soehne-web-buch.woff2') format('woff2')
+
+@font-face
+    font-display: block
+    font-family: 'icons'
+    font-style: normal
+    font-weight: normal
+    src: url('../fonts/icons.woff') format('woff')
+
+@mixin icon
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-family: 'icons' !important
+    font-style: normal
+    font-variant: normal
+    font-weight: normal
+    line-height: 1
+    speak: never
+    text-transform: none
+
+.icon-link-blank:before
+    content: "\e900"
+
+.icon-link:before
+    content: "\e901"
