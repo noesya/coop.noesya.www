@@ -7,7 +7,7 @@ class: page metier
 {% for work in page.works %}
   <article>
     {% if work.image %}
-      {% picture "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
+      {% picture work "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
     {% endif %}
     <h3>{{ work.title }}</h3>
     <p>{{ work.content }}</p>
