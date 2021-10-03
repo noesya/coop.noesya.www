@@ -2,9 +2,10 @@ main > nav
     background-color: $bg-secondary-color
     ul
         li
-            @include container
-            &:first-child
-                border-bottom: 1px solid $border-color
+            @include media-breakpoint-down(md)
+                @include container
+                &:first-child
+                    border-bottom: 1px solid $border-color
     a
         @extend h2
         display: block
@@ -40,7 +41,7 @@ main > nav
                 background: $white
                 content: ''
                 height: 100%
-                left: calc((50vw - #{$grid-width / 2 - $grid-gutter * 2}) * -1)
+                left: calc((max(50vw, #{$grid-width/2}) - #{$grid-width / 2 - $grid-gutter * 2}) * -1)
                 mix-blend-mode: exclusion
                 position: absolute
                 top: 0
