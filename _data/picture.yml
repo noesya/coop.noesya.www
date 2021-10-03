@@ -1,3 +1,9 @@
+media_queries:
+  mobile: 'max-width: 576px'
+  tablet: 'min-width: 576px'
+  laptop: 'min-width: 992px'
+  desktop: 'min-width: 1200px'
+
 presets:
   default:
     formats: [webp, original] # Order matters!
@@ -8,6 +14,10 @@ presets:
     formats: [webp, original]
     widths: [300, 413, 520, 558, 618, 630, 645, 826, 874, 1290]
     dimension_attributes: true
+    sizes:
+      mobile: 300px
+      tablet: 40vw
+      desktop: calc(50vw - 100px)
   note:
     formats: [webp, original]
     widths: [124, 248]
@@ -16,3 +26,11 @@ presets:
     formats: [webp, original]
     widths: [153, 208, 298, 306, 316, 355, 596]
     dimension_attributes: true
+  owl_footer:
+    formats: [webp, original]
+    widths: [153, 208, 298, 306, 316, 355, 596]
+    dimension_attributes: false
+    sizes:
+      mobile: 100px
+      tablet: 40vw
+      desktop: 15vw
