@@ -19,12 +19,13 @@ function js () {
 
 function css () {
   return gulp.src('_site/**/*.css')
-    // .pipe(purgecss({
-    //   content: ['_site/**/*.html']
-    // }))
+    .pipe(purgecss({
+      content: ['_site/**/*.html']
+    }))
     .pipe(prefix())
     .pipe(cleanCSS())
     .pipe(gulp.dest('_site'));
 };
 
-exports.default = gulp.parallel(css, js, html);
+exports.default = gulp.parallel(js);
+// exports.default = gulp.parallel(css, js, html);
