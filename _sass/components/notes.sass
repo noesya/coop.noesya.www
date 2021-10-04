@@ -49,8 +49,12 @@ aside
             opacity: 0.9
             transition: 0.33s $easeInOutQuad
         &:hover, &.is-hovered
-            a
-                text-decoration-color: black
             img
                 filter: grayscale(0)
                 opacity: 1
+    &:hover, &.is-hovered
+        a
+            text-decoration-color: black
+        img
+            filter: grayscale(0)
+            opacity: 1
