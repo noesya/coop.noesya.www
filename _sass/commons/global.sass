@@ -7,6 +7,8 @@ body
     background-color: $bg-color
     color: $primary
     text-rendering: geometricPrecision
+    &.is-loading *
+        transition-duration: 0
 
 ::selection
     background: rgba($primary, .7)

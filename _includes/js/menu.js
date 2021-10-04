@@ -9,7 +9,7 @@ window.menu = {
         this.bind();
 
         setTimeout(function () {
-            this.dom.querySelector('.menu').classList.add('is-ready');
+            document.body.classList.remove('is-loading');
         }.bind(this), 10);
     },
     bind: function () {
