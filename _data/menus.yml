@@ -14,9 +14,9 @@ legal:
     url: /mentions-legales
   - title: Politique de sobriété
     url: /politique-de-sobriete
-contact:
+contacts:
+  - title: LinkedIn
+    url: https://www.linkedin.com/company/noesyacoop
   - title: contact@noesya.coop
     url: mailto:contact@noesya.coop
     class: u-email
-  - title: LinkedIn
-    url: https://www.linkedin.com/company/noesyacoop

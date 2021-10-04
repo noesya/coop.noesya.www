@@ -33,7 +33,7 @@ body > footer
                 margin-bottom: $grid-gutter
                 &::after
                     content: none
-        &:last-of-type
+        &.contact, &.legal
             li
                 font-size: px2rem(22)
                 line-height: px2rem(36)
@@ -80,19 +80,20 @@ body > footer
                     grid-column: 1/2
                     grid-row: 2/2
                     text-align: right
-            &:last-of-type
+            &.legal, &.contact
                 align-self: end
-                grid-column: 1/13
+                grid-column: 1/9
                 grid-row: 3/3
                 ul
                     display: flex
                 li
                     margin-right: $grid-gutter
-                & + a
-                    align-self: end
-                    grid-column: 10/13
-                    grid-row: 3/3
-                    text-align: right
+                    white-space: nowrap
+            &.contact
+                align-self: end
+                grid-column: 8/13
+                justify-self: end
+                text-align: right
         picture
             align-self: end
             grid-column: 4/6
