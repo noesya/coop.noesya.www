@@ -10,6 +10,7 @@ window.notes.Item = function (dom, previous) {
     this.previous = previous || null;
     this.anchor = document.querySelector('a[href="#' + dom.id + '"]');
     this.isVisible = false;
+    this.verticalOffset = 6;
     setTimeout(function () {
         this.dom.classList.add('is-handled');
     }.bind(this), 1);
@@ -57,6 +58,8 @@ window.notes.Item.prototype.updatePosition = function () {
     }
 
     this.preventTitleOverlap();
+
+    this.y += this.verticalOffset;
 
     this.dom.style.top = this.y + 'px';
 };
