@@ -53,3 +53,12 @@
                 a
                     &::after
                         filter: invert(0)
+    main.team
+        p
+            color: $secondary-reverse
+
+    main.member
+        header+div
+            background-color: $bg-secondary-color-reverse
+            > section h2+p
+                color: $secondary-on-gray-reverse
