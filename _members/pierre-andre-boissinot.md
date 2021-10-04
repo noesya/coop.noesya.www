@@ -63,7 +63,7 @@ sections:
           Je connais également plutôt bien les enjeux juridiques et éthiques liés à la sécurité Web, notamment le Règlement Général sur la Protection des Données<sup><a href="#note-6">6</a></sup> (RGPD). Au sein des *Poupées&nbsp;Russes*, j’ai géré tous les processus de conformité avec les services IT des clients de l’agence : *L’Oréal*, *Shiseido*, *Chanel*...
 
 
-          Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. Cela fait des années que je travaille pour lancer des parfums ou des soins, alors que ces sujets ne m’intéressent pas vraiment. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les *Lego*, et construire une tour toute droite, ça ne me fait pas vibrer.
+          Le projet idéal est intéressant éthiquement, intellectuellement et techniquement. C’est un projet aligné avec mes valeurs, bénéfique pour l’humanité et pour la Terre. C’est un projet qui me pousse techniquement, avec un contenu qui me touche ou m’apprend. J’ai envie de travailler sur de l’utile et du stimulant. Sur le plan technique, j’aime assembler de nouvelles choses, résoudre de nouveaux problèmes, dans de nouveaux contextes : j’aime beaucoup les *Lego*, et plus le modèle est complexe, plus ça me fait vibrer.
       notes:
         - title: Coder proprement, Robert&nbsp;C.&nbsp;Martin
           url: https://www.pearson.fr/fr/book/?GCOI=27440100385990
@@ -72,7 +72,7 @@ sections:
           url: https://www.cnil.fr/fr/reglement-europeen-protection-donnees
     - title: Curiosité
       content: >
-          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis *François&nbsp;Bourgeon<sup><a href="#note-7">7</a></sup>* en ce moment, c’est vraiment très bon. Netflix, même si je sais que l’empreinte écologique est désastreuse, j’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : *Rome*, *Vikings*, *The Last Kingdom*, *The Tudors*... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
+          Je lis beaucoup, notamment de la bande dessinée franco-belge. Peu de manga, peu de comics, je suis  attaché à la ligne claire et à notre patrimoine européen. Je relis *François&nbsp;Bourgeon<sup><a href="#note-7">7</a></sup>* en ce moment, c’est vraiment très bon. Je regarde Netflix, même si je sais que l’empreinte écologique est désastreuse. J’adore le cinéma et le format série. En ce moment, je rattrape *How i met your mother* avec plaisir, et j’aime les séries historiques : *Rome*, *Vikings*, *The Last Kingdom*, *The Tudors*... Et j’adore les châteaux-forts ! Quels que soient les endroits où je voyage (pas en avion, je le supporte mal), je me débrouille toujours pour aller visiter un ou deux châteaux. Je suis fasciné par la construction médiévale, même si je suis heureux de ne pas avoir vécu à cette époque.
 
 
           L’école pour moi, c’était plutôt ennuyeux : les quelques matières qui me plaisaient n’allaient pas assez vite, et les nombreuses matières qui ne me plaisaient pas allaient beaucoup trop lentement. Je suis jusqu’au-boutiste, quand un sujet me plaît je veux tout maîtriser. Il m’arrive de tourner longtemps autour d’un sujet trop difficile, je n’y arrive pas, mais j’insiste. En mathématiques par exemple, je sens mes lacunes. Parfois, je finis par comprendre, c’est une petite victoire !
@@ -82,7 +82,7 @@ sections:
           image: /assets/images/members/pierre-andre-boissinot/les-passagers-du-vent.jpg
     - title: noesya
       content: >
-          C’est une liberté ! L’indépendance retrouvée après pas mal d’années à être tenu en laisse. Le plaisir de travailler avec une bande de copains, des gens que je connais depuis longtemps, que j’ai choisis, et avec qui je suis ravi de construire. C’est aussi une façon de gagner ma vie correctement en faisant des choses qui m’intéressent, sur des sujets avec lesquels je me sens aligné.
+          C’est le nouveau grand projet sur lequel j'ai envie de construire. et j'espère qu'il durera aussi longtemps - voir plus - que le précédent. C'est aussi le plaisir de travailler avec une bande de copains, des gens que je connais depuis longtemps, que j’ai choisis, et avec qui je suis ravi de construire. C’est aussi une façon de gagner ma vie correctement en faisant des choses qui m’intéressent, sur des sujets avec lesquels je me sens aligné.
 
 nav:
  previous:
