@@ -7,6 +7,8 @@ window.menu = {
         this.button = this.dom.querySelector('button');
 
         this.bind();
+
+        this.dom.querySelector('.menu').classList.add('is-ready');
     },
     bind: function () {
         'use strict';
