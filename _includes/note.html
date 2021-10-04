@@ -4,9 +4,7 @@
 {% endcapture %}
 
 {% capture note_content %}
-  {{index}} Voir {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noreferrer">{% endif %}
-    {{ note.title }}
-  {% if note.url %}</a>{% endif %}
+  {{index}} Voir {% if note.url %}<a href="{{ note.url }}" target="_blank" rel="noreferrer">{% endif %}{{ note.title }}{% if note.url %}</a>{% endif %}
 {% endcapture %}
 
 <aside class="js-note" id="note-{{ note_index }}">
