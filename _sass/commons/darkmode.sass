@@ -19,17 +19,39 @@
         text-decoration-color: rgba($white, 0.2)
         &:hover
             text-decoration-color: $white
+        @include media-breakpoint-up(md)
+            .is-menu-opened main &
+                color: $black
 
     body > header
         > a
             filter: invert(1)
+            @include media-breakpoint-up(md)
+                .is-menu-opened &
+                    filter: invert(0)
+
+    body > main
+        @include media-breakpoint-up(md)
+            .is-menu-opened &
+                background-color: $white
+                color: $black
 
     .burger
         i, &::after, &::before
             background: $white
+        span
+            &::after, &::before
+                background: $white
 
-    .menu a
-        color: $primary
+    .menu
+        background-color: $primary
+        a
+            color: $white
+        ul:hover
+            a
+                color: $secondary-reverse
+                &:hover
+                    color: $white
 
     main > nav
         background-color: $bg-secondary-color-reverse
@@ -37,6 +59,12 @@
             color: $secondary-reverse
         li+li::after
             background: $border-color-reverse
+        @include media-breakpoint-up(md)
+            .is-menu-opened &
+                background-color: $bg-secondary-color
+            span
+                .is-menu-opened &
+                    color: $secondary
 
     body > footer
         background-color: $white
