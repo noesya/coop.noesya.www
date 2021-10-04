@@ -25,6 +25,12 @@ body > header
         @include media-breakpoint-up(md)
             .is-menu-opened &
                 filter: invert(1)
+    @include media-breakpoint-up(md)
+        > a img
+            transition: opacity 0.35s
+        &.is-hidden
+            > a img
+                opacity: 0
     @include media-breakpoint-down(md)
         transition: transform .35s $easeInOutQuad
         &.is-hidden
