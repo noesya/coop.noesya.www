@@ -6,10 +6,12 @@ main.index
     section
         ol, h2, dd
             margin-bottom: $grid-gutter * 3
+        dl,
         li
-            counter-increment: item
             font-size: px2rem(22)
             line-height: px2rem(36)
+        li
+            counter-increment: item
             margin-bottom: $grid-gutter
             &::before
                 content: counters(item, ".") ".\00a0 "
