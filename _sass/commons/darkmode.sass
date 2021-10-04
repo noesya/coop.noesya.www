@@ -90,3 +90,9 @@
             background-color: $bg-secondary-color-reverse
             > section h2+p
                 color: $secondary-on-gray-reverse
+            @include media-breakpoint-up(md)
+                .is-menu-opened &
+                    background-color: $bg-secondary-color
+                span
+                    .is-menu-opened &
+                        color: $secondary
