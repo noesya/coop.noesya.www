@@ -122,6 +122,8 @@ window.notes.manager = {
 
         this.resize();
         this.listen();
+
+        setTimeout(this.resize.bind(this), 100);
     },
 
     generate: function (element, i) {
@@ -135,6 +137,7 @@ window.notes.manager = {
         window.addEventListener('scroll', this.scroll.bind(this));
         window.addEventListener('resize', this.resize.bind(this));
         window.addEventListener('load', this.resize.bind(this));
+        window.addEventListener('DOMContentLoaded', this.resize.bind(this));
     },
 
     resize: function () {
