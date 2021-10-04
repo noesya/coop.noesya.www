@@ -9,14 +9,20 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
+          microtype: experience
         - title: Métiers
           content: DevOps
+          microtype: experience
         - content: Data Protection Officer
+          microtype: experience
         - title: Certification
           content: Opquast expert (925/1000)
+          microtype: education
         - title: Diplômes
           content: Licence Professionnelle Développement d’applications Web et innovation numérique, Université de Bordeaux
+          microtype: education
         - content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
+          microtype: education
     more_list:
         - title: Certifications OpenClassrooms
           content: "Créez une application responsive pour l’iPhone et l’iPad<br>
@@ -31,6 +37,7 @@ summary:
               Concevez votre site web avec PHP et MySQL<br>
               Apprenez à créer votre site web avec HTML5 et CSS3<br>
               Comprendre le Web"
+          microtype: skill
 
 sections:
     - title: Identité

@@ -12,8 +12,9 @@ summary:
           microtype: experience
         - title: Métiers
           content: Creative developer
-          skill: experience
+          microtype: experience
         - content: Co-gérant
+          microtype: experience
         - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
           microtype: experience
         - title: Certification
