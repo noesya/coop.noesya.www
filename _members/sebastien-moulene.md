@@ -9,10 +9,13 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
+          microtype: experience
         - title: Métier
           content: Développeur front-end
+          microtype: experience
         - title: Certification
           content: Opquast (860/1000)
+          microtype: education
     more_list:
         - title: Distinctions
           content: >
