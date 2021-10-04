@@ -11,6 +11,8 @@ class: page
     {% include sections-with-notes.html %}
 {% endif %}
 
+{% if content != "" %}
 <section>
   {{ content }}
 </section>
+{% endif %}
