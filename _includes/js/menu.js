@@ -10,7 +10,7 @@ window.menu = {
 
         setTimeout(function () {
             document.body.classList.remove('is-loading');
-        }.bind(this), 10);
+        }.bind(this), 100);
     },
     bind: function () {
         'use strict';
