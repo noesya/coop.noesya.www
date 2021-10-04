@@ -53,7 +53,6 @@ body > footer
         overflow: hidden
         position: fixed
         width: 100%
-        // position: sticky
         div
             @include grid
             align-items: start
@@ -83,6 +82,8 @@ body > footer
                 li
                     margin-right: $grid-gutter
                     white-space: nowrap
+                    &:last-child
+                        margin-right: 0
                     a
                         padding: 10px 0
             &.contacts
