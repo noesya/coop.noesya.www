@@ -9,6 +9,8 @@ body
     text-rendering: geometricPrecision
     &.is-loading *
         transition-duration: 0s !important
+    @include media-breakpoint-up(lg)
+        padding-bottom: 100vh
 
 ::selection
     background: rgba($primary, .7)

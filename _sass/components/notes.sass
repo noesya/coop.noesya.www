@@ -15,6 +15,7 @@ aside
         bottom: 0
         left: 0
         padding: 5px 15px 10px 10px
+        padding-bottom: env(safe-area-inset-bottom, 10px)
         position: fixed
         transform: translateY(100%)
         width: 100%
@@ -34,7 +35,6 @@ aside
             position: absolute
             right: 12px
             transform: translateY(100%)
-
         picture + p
             padding-right: 120px
 
@@ -42,15 +42,20 @@ aside
         display: flex
         flex-direction: column-reverse
         grid-column: 1/5
-        padding-bottom: $grid-gutter/2
+        padding-bottom: 0
         position: absolute
         img
             filter: grayscale(1)
+            margin-bottom: $grid-gutter/2
             opacity: 0.9
             transition: 0.33s $easeInOutQuad
         &:hover, &.is-hovered
-            a
-                text-decoration-color: black
             img
                 filter: grayscale(0)
                 opacity: 1
+    &:hover, &.is-hovered
+        a
+            text-decoration-color: black
+        img
+            filter: grayscale(0)
+            opacity: 1

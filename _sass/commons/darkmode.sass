@@ -16,12 +16,27 @@
 
     a
         color: $white
-        text-decoration-color: rgba($white, 0.2)
+        text-decoration-color: rgba($white, 0.5)
         &:hover
             text-decoration-color: $white
         @include media-breakpoint-up(md)
             .is-menu-opened main &
                 color: $black
+                text-decoration-color: rgba($primary, 0.2)
+
+    .h1
+        &, a
+            color: $secondary-reverse
+            .is-menu-opened &
+                color: $secondary
+
+    aside
+        &.is-fixed
+            background: $bg-secondary-color-reverse
+            color: $white
+        &:hover, &.is-hovered
+            a
+                text-decoration-color: $white
 
     body > header
         > a
@@ -59,6 +74,9 @@
             color: $secondary-reverse
         li+li::after
             background: $border-color-reverse
+        @include media-breakpoint-down(md)
+            ul li:first-child
+                border-bottom-color: $border-color-reverse
         @include media-breakpoint-up(md)
             .is-menu-opened &
                 background-color: $bg-secondary-color
@@ -72,10 +90,8 @@
         li span, a
             color: $secondary
         a
-            text-decoration-color: rgba($primary, 0.2)
             &:hover
                 color: $primary
-                text-decoration-color: $primary
 
     main.index
         section
@@ -86,9 +102,27 @@
     main.team
         p
             color: $secondary-reverse
+    
+    main.metier
+        article
+            p
+                color: $secondary-reverse
+
+    main.metier
+        article
+            p
+                color: $secondary-reverse
+                .is-menu-opened &
+                    color: $secondary
 
     main.member
         header+div
             background-color: $bg-secondary-color-reverse
             > section h2+p
                 color: $secondary-on-gray-reverse
+            @include media-breakpoint-up(md)
+                .is-menu-opened &
+                    background-color: $bg-secondary-color
+                span
+                    .is-menu-opened &
+                        color: $secondary
