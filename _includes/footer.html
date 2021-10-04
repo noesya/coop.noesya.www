@@ -3,49 +3,17 @@
     <address class="h-card">
       <p class="p-name">noesya Paris</p>
       <span class="p-street-address">15 rue Hélène</span><br>
-      <span class="p-postal-code">75017</span> <span class="p-locality">Paris</span>
+      <span class="p-postal-code">75017</span>&nbsp;<span class="p-locality">Paris</span>
     </address>
     <address class="h-card">
       <p class="p-name">noesya Bordeaux</p>
       <span class="p-street-address">5 rue Frédéric Joliot Curie</span><br>
-      <span class="p-postal-code">33150</span> <span class="p-locality">Cenon</span>
+      <span class="p-postal-code">33150</span>&nbsp;<span class="p-locality">Cenon</span>
     </address>
-    <nav aria-label="Navigation dans l'écosystème" class="ecosystem">
-      <ul>
-        {% for item in site.data.ecosystem.sites %}
-        <li>
-          {% if item.url %}
-            {% if item.url == site.url %}
-              {{ item.title }}
-            {% else %}
-              <a href="{{ item.url }}">{{ item.title }}</a>
-            {% endif %}
-          {% else %}
-            <span title="Ce site sera disponible bientôt..." aria-hidden="true">{{ item.title }}</span>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include nav/ecosystem.html %}
     <!-- <a href="https://bcorporation.net" target="_blank" rel="noreferrer"><img src="/assets/images/logo-bcorp.svg" alt="Certified B-Corporation" width="63" height="103"></a> -->
     {% picture owl_footer "/assets/images/chouette/small.png" --img alt="La chouette noesya" %}
-    <nav aria-label="Pages légales" class="legal">
-      <ul>
-        {% for item in site.data.menus.legal %}
-        <li>
-          <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
-    <nav aria-label="Contacts" class="contact">
-      <ul>
-        {% for item in site.data.menus.contact %}
-        <li>
-            <a href="{{site.url}}" target="_blank" class="{{item.class}}">{{item.title}}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include nav/legal.html %}
+    {% include nav/contacts.html %}
   </div>
 </footer>
