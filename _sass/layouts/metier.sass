@@ -32,8 +32,10 @@ main.metier
             font-size: px2rem(22)
             line-height: px2rem(36)
             margin-bottom: 10px
-            .is-menu-opened &
-                color: $secondary-reverse
+            @include media-breakpoint-up(md)
+                transition: color .3s ease
+                .is-menu-opened &
+                    color: $secondary-reverse
 
         &:last-of-type
             margin-bottom: $grid-gutter * 3
