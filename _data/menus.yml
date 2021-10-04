@@ -17,5 +17,6 @@ legal:
 contact:
   - title: contact@noesya.coop
     url: mailto:contact@noesya.coop
+    class: u-email
   - title: LinkedIn
     url: https://www.linkedin.com/company/noesyacoop
