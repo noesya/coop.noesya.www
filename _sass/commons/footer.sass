@@ -14,12 +14,6 @@ body > footer
     a
         &:hover
             color: white
-        &[target='_blank']
-            &::after
-                opacity: .5
-            &:hover
-                &::after
-                    opacity: 1
     nav
         &:first-of-type
             margin-bottom: $grid-gutter * 2
@@ -89,6 +83,8 @@ body > footer
                 li
                     margin-right: $grid-gutter
                     white-space: nowrap
+                    a
+                        padding: 10px 0
             &.contacts
                 align-self: end
                 grid-column: 8/13
