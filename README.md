@@ -5,7 +5,7 @@
 ## Setup des domaines
 
 Dans Netlify, domaine principal (avec/sans www) et domaines secondaires (sans www)
-- `noesya.netlify.app` (par défaut)
+- `noesya-www.netlify.app` (par défaut)
 - `www.noesya.coop` (principal)
 - `noesya.coop` (redirige vers principal)
 - `noesya.com` (alias)
@@ -17,7 +17,7 @@ Table de redirections dans le fichier [`netlify.toml`](https://github.com/noesya
 
 ```
 @ 300 IN A 75.2.60.5
-www 300 IN CNAME noesya.netlify.app.
+www 300 IN CNAME noesya-www.netlify.app.
 ```
 
 ### noesya.com

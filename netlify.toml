@@ -16,3 +16,15 @@
   to = "https://www.noesya.coop/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://noesya.fr/*"
+  to = "https://www.noesya.coop/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.noesya.fr/*"
+  to = "https://www.noesya.coop/:splat"
+  status = 301
+  force = true
