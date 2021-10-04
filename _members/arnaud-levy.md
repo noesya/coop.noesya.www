@@ -119,10 +119,10 @@ sections:
 
           Mon projet idéal est aussi technique que politique. Il porte une transformation, une redirection, une amélioration du vivre ensemble. C’est un sujet compliqué, le bien commun. Il n’y a pas de consensus. Mais une quarantaine d’années à vivre sur Terre m’ont donné quelques convictions : la démocratie, l’impôt<sup><a href="#note-16">16</a></sup>, l’accès gratuit pour tous à la culture, à l’art, à l’éducation et à la santé, la limitation des écarts de revenus et de patrimoines, notamment. Ce n’est jamais simple, parce que toutes ces problématiques s’entrecroisent, tout est relié. Mais c’est dans ce sens que je veux travailler : mettre le numérique au service du bien commun.
       notes:
-        - title: De l’Architecture, *Vitruve*
+        - title: "*De l’Architecture*, Vitruve"
           url: https://www.lesbelleslettres.com/livre/410-de-l-architecture
           image: /assets/images/members/arnaud-levy/vitruve.jpg
-        - title: Pour une révolution fiscale, *Camille Landais, Emmanuel Saez et Thomas Piketty*
+        - title: "*Pour une révolution fiscale*, Camille Landais, Emmanuel Saez & Thomas Piketty"
           url: https://www.revolution-fiscale.fr
           image: /assets/images/members/arnaud-levy/revolution-fiscale.png
     - title: Curiosité
@@ -138,13 +138,13 @@ sections:
 
           L’école, c’était surtout des bons souvenirs. Après le lycée, mes potes partaient en prépa et j’avais l’impression qu’ils allaient au goulag. Je savais que je n’étais pas capable de ça, donc j’ai choisi une autre voie. Ensuite j’ai regretté de ne pas avoir consacré plus de temps à étudier, il y a tellement de domaines passionnants ! Histoire de l’art, typographie, sociologie, langues, je n’avais pas perçu au départ à quel point l’Université est un espace de liberté. Alors j’ai beaucoup appris par moi-même, et je pousse mes étudiants à s’auto-former. Je crois, comme le dit *Barbara Stiegler*, que l’enseignement est une aventure collective<sup><a href="#note-19">19</a></sup>. Le caractère essentiel est dans la relation plus que dans le contenu : donner confiance et donner des clés, pour aider chaque personne à se développer. Et je crois que l’école doit fournir des “kits de base” dans de nombreuses disciplines pour permettre de pratiquer le métier de citoyen : les problèmes complexes nécessitent une culture interdisciplinaire. C’est peut-être le grand défi de l’Université.
       notes:
-        - title: Detroit, *Quantic Dream*
+        - title: "*Detroit*, Quantic Dream"
           url: https://www.quanticdream.com/fr/detroit-become-human
           image: /assets/images/members/arnaud-levy/detroit.jpg
-        - title: La renaissance des communs, *David Bollier*
+        - title: "*La renaissance des communs*, David Bollier"
           url: https://www.eclm.fr/livre/la-renaissance-des-communs/
           image: /assets/images/members/arnaud-levy/la-renaissance-des-communs.jpg
-        - title: l’interview de *Barbara Stiegler*
+        - title: "l’interview de Barbara Stiegler"
           url: https://www.youtube.com/watch?v=cIjbLK3w5Ks
     - title: noesya
       content: >

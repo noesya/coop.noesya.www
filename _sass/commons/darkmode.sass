@@ -20,9 +20,6 @@
         &:hover
             text-decoration-color: white
 
-    a[target="_blank"]::after
-        filter: invert(1)
-
     body > header
         > a
             filter: invert(1)
@@ -31,14 +28,28 @@
         i, &::after, &::before
             background: $white
 
+    .menu a
+        color: $primary
+
     main > nav
         background-color: $bg-secondary-color-reverse
         span
             color: $secondary-reverse
+
+    body > footer
+        background-color: $white
+        color: $primary
+        li span, a
+            color: $secondary
+        a
+            text-decoration-color: adjust-color($primary, $alpha: -0.8)
+            &:hover
+                color: $primary
+                text-decoration-color: $primary
 
     main.index
         section
             li
                 a
                     &::after
-                        filter: invert(1)
+                        filter: invert(0)

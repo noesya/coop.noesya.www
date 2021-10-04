@@ -16,10 +16,10 @@ body > footer
             color: white
         &[target='_blank']
             &::after
-                filter: invert(.5)
+                opacity: .5
             &:hover
                 &::after
-                    filter: invert(1)
+                    opacity: 1
     nav
         &:first-of-type
             margin-bottom: $grid-gutter * 2
