@@ -1,4 +1,4 @@
 {% if item.title %}
 <dt><em>{{item.title}}</em></dt>
 {% endif %}
-<dd>{{item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' | correct_punctuation}}</dd>
+<dd {% if item.microtype %} class="{{ item.microtype }}" {%- endif -%}>{{item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' | correct_punctuation}}</dd>

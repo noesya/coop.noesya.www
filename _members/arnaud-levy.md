@@ -9,30 +9,44 @@ summary:
     list:
         - title: Co-fondateur
           content: noesya
+          microtype: experience
         - title: Métiers
           content: Développeur back-end
+          microtype: experience
         - content: Maître de conférences associé et directeur des études, département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
+          microtype: experience
         - title: Mission
           content: Référent “Approche Par Compétences” pour le déploiement du Bachelor Universitaire de Technologie, Association des Directeurs d’IUT (ADIUT)
+          microtype: experience
         - title: Co-fondateur
           content: "<a href=\"https://www.reboot2021.org\" target=\"_blank\" rel=\"noreferrer\">Reboot !</a>, l’événement étudiant de la communication responsable"
+          microtype: experience
         - title: Associé
           content: Time for the Planet
+          microtype: affiliation
         - title: Membre
-          content: The Shifters
-        - content: Tech for good France
+          content: The Shifters, Tech for good France
+          microtype: affiliation
     more_list:
         - title: Certifications
           content: Opquast expert (965/1000)
+          microtype: education
         - content: Numérique Responsable, Institut du Numérique Responsable
+          microtype: education
         - content: "L’avenir de la décision : connaître et agir en complexité, ESSEC Business School (MOOC)"
+          microtype: education
         - content: "Learning How to Learn: Powerful mental tools to help you master tough subjects, University of California (MOOC)"
+          microtype: education
         - content: Gestion des entreprises du luxe et de la mode, Università Commerciale ’Luigi Bocconi’ (MOOC)
+          microtype: education
         - title: Formation
           content: Developing Apps for iOS, by Paul Hegarty, Stanford Continuing Studies (MOOC)
+          microtype: education
         - title: Diplômes
           content: Master Humanités numériques, parcours Dispositifs numériques éducatifs, Institut des Sciences de l’Information et de la Communication, Université Bordeaux Montaigne (VAE)
+          microtype: education
         - content: Diplôme Universitaire de Technologie Information Communication option Publicité, Université Bordeaux Montaigne
+          microtype: education
 sections:
     - title: Identité
       content: >
@@ -43,7 +57,7 @@ sections:
           J’ai arrêté la période d’essai au bout de deux ou trois semaines, et décidé d’accepter une offre de collègues rencontrés dans l’agence de communication, qui démarraient une startup de communication écran. On dit maintenant “digital signage”, ça désigne les écrans qui posent tant de problèmes de consommation énergétique et de pollution visuelle, mais à l’époque je ne le comprenais pas comme aujourd’hui. J’y ai travaillé entre 2001 et 2003, et j’ai beaucoup appris sur la production interdisciplinaire : des films, du print, des animations, des problématiques de gestion de données, une grande hybridation technologique vidéo / multimédia / print / web / 3D. Ça confirmait mon goût pour les mélanges de problématiques et les croisements technologiques. La startup a échoué, comme souvent. Nous étions alors trois personnes qui travaillaient bien ensemble, dont Pierre-André, que je connais depuis le collège, alors nous avons créé *Semio Design* en 2003. Nous faisions diverses choses : de l’écran, du multimédia, un peu de print, d’identité, et puis avec le temps, ça c’est centré sur le Web. Beaucoup de Flash, du Flex, de l’HTML, du PHP, de beaux projets, notamment pour le groupe *L’Oréal* : des problématiques multilingues à une époque où l’Unicode n’était pas encore omniprésent.
 
 
-          En parallèle, un nouveau département Services et Réseaux de Communication (SRC) ouvrait à *l’Institut Universitaire de Technologie (IUT) Bordeaux Montaigne*, porté par l’équipe du DUT Information-Communication. *Pierre Lacrampe*, le responsable de la formation, m’a sollicité pour recruter la première promotion d’étudiants, en 2002. 19 ans après, j’y suis toujours. En 2006, je suis devenu maître de conférences associé en design et technologies de l’information.
+          En parallèle, un nouveau département Services et Réseaux de Communication (SRC) ouvrait à *l’Institut Universitaire de Technologie (IUT) Bordeaux Montaigne*, porté par l’équipe du DUT Information-Communication. *Pierre Lacrampe*, le responsable de la formation, m’a sollicité pour recruter la première promotion d’étudiants, en 2002. 19&nbsp;ans après, j’y suis toujours. En 2006, je suis devenu maître de conférences associé en design et technologies de l’information.
 
           <blockquote>J’ai continué le dialogue entre pratique professionnelle et enseignement : faire, apprendre, transmettre.</blockquote>
 
@@ -72,7 +86,7 @@ sections:
         Je suis fier d’avoir participé, au sein d’un petit groupe de travail piloté par *David Annebicque*, à intégrer les enjeux écologiques et éthiques au nouveau PPN MMI. Les DUT deviennent en 2021 des Bachelors Universitaires de Technologie (BUT), et tous les PPN ont été réécrits à cette occasion. Pour ce faire, nous avons adopté l’Approche Par Compétences (APC) conceptualisée par Jacques Tardif, avec l’accompagnement de *Marianne Poumay* et *François Georges* du *LabSET<sup><a href="#note-5">5</a></sup>*. J’aime l’APC pour son approche dialogique : une vision humaniste, universitaire et culturelle liée à un pragmatisme pédagogique orienté métiers. Afin de nourrir ce dialogue, j’ai mis en place un Observatoire<sup><a href="#note-6">6</a></sup> et fait une vingtaine d’entretiens avec des professionnels de haut niveau. Cela a permis de co-construire le référentiel de compétences, en l’affinant par passes successives nourries des échanges avec les collègues enseignants et chercheurs. Je suis heureux d’avoir intégré au PPN la sobriété numérique, la qualité Web, le design d’expérience et une vision plus politique du Web. Comme l’écrivait *Bernard Stiegler*, le numérique est un pharmakon<sup><a href="#note-7">7</a></sup>, à la fois poison et remède. Poison quand il se met au service du néo-libéralisme, du marketing, du webmarketing ou de la vente, ce qui aboutit au techno-féodalisme<sup><a href="#note-8">8</a></sup>, à l’économie de l’attention<sup><a href="#note-9">9</a></sup> ou à la prolétarisation de type “travail du clic”<sup><a href="#note-10">10</a></sup>. Remède quand il se met au service de tous, par le logiciel libre, les licences Creative Commons, les communs de la connaissance<sup><a href="#note-11">11</a></sup> et les communs numériques<sup><a href="#note-12">12</a></sup>. C’est ce numérique sobre, accessible, inclusif, ouvert, au service du bien commun, qui contribuera à faire face à l’anthropocène.
 
 
-        Enfin, le projet *Reboot !*<sup><a href="#note-13">13</a></sup> est aussi l’œuvre d’un collectif. Avec quelques consœurs et confrères, professionnel·le·s engagé·e·s de la communication, nous avons créé un événement de formation à la communication responsable, qui a lieu le 30 septembre et le 1<sup>er</sup> octobre. Ce qui est magique avec l’interdisciplinarité, c’est que chaque personne porte des façons de faire qui lui semblent naturelles, logiques : pour un développeur, fabriquer quelque chose en source ouverte et laisser les gens proposer sans essayer d’organiser ou de contrôler, c’est normal. Mais dans l’événementiel, cette approche est révolutionnaire ! En quelques mois, de façon bénévole, nous avons rassemblé des partenaires comme *l’ADEME*, *l’Institut du Numérique Responsable*, les *Nations Unies* ou *The Shift Project* pour proposer des conférences et des ressources de grande qualité à près de 8000 étudiants. Et tout est gratuit ! Financement des médias, sobriété numérique, post-croissance, sexisme, dark patterns, greenwashing, les sujets et les intervenants sont absolument passionnants. Le plus drôle, c’est la réaction des écoles privées, qui ont du mal à comprendre que ce soit gratuit ;) C’est passionnant en termes de gouvernance : j’ai vu de l’intelligence collective à l’œuvre pour la première fois. Auparavant, j’avais observé que le terme était franchement mensonger. Il s’agissait surtout de gestion du changement : faire semblant d’écouter les gens, modifier un détail, et faire croire que c’est co-conçu. Là, tout a été vraiment co-conçu, sans supervision. Il s’est passé des mois avant que l’on ait besoin d’écrire une charte éthique<sup><a href="#note-14">14</a></sup> pour structurer notre fonctionnement. Cet exercice aussi était très intéressant, il s’agit de faire en sorte que les choses puissent marcher sans les fondateurs. Il faut définir les principes constitutifs, comme pour un pays ou une recette de cuisine. C’est aussi une sorte de passage à l’échelle, qui a nourri *noesya*.
+        Enfin, le projet *Reboot !*<sup><a href="#note-13">13</a></sup> est aussi l’œuvre d’un collectif. Avec quelques consœurs et confrères, professionnel·le·s engagé·e·s de la communication, nous avons créé un événement de formation à la communication responsable, qui a eu lieu le 30 septembre et le 1<sup>er</sup> octobre 2021. Ce qui est magique avec l’interdisciplinarité, c’est que chaque personne porte des façons de faire qui lui semblent naturelles, logiques : pour un développeur, fabriquer quelque chose en source ouverte et laisser les gens proposer sans essayer d’organiser ou de contrôler, c’est normal. Mais dans l’événementiel, cette approche est révolutionnaire ! En quelques mois, de façon bénévole, nous avons rassemblé des partenaires comme *l’ADEME*, *l’Institut du Numérique Responsable*, les *Nations Unies* ou *The Shift Project* pour proposer des conférences et des ressources de grande qualité à près de 8000 étudiants. Et tout est gratuit ! Financement des médias, sobriété numérique, post-croissance, urgence climatique, dark patterns, greenwashing, les sujets et les intervenants sont absolument passionnants. Le plus drôle, c’est la réaction des écoles privées, qui ont du mal à comprendre que ce soit gratuit ;) C’est passionnant en termes de gouvernance : j’ai vu de l’intelligence collective à l’œuvre pour la première fois. Auparavant, j’avais observé que le terme était franchement mensonger. Il s’agissait surtout de gestion du changement : faire semblant d’écouter les gens, modifier un détail, et faire croire que c’est co-conçu. Là, tout a été vraiment co-conçu, sans supervision. Il s’est passé des mois avant que l’on ait besoin d’écrire une charte éthique<sup><a href="#note-14">14</a></sup> pour structurer notre fonctionnement. Cet exercice aussi était très intéressant, il s’agit de faire en sorte que les choses puissent marcher sans les fondateurs. Il faut définir les principes constitutifs, comme pour un pays ou une recette de cuisine. C’est aussi une sorte de passage à l’échelle, qui a nourri *noesya*.
       notes:
         - title: Ensemble à table
           url: https://www.ensembleatable.fr
@@ -105,7 +119,7 @@ sections:
           J’emprunte à *Vitruve* la définition du travail bien fait : firmitas, utilitas, et venustas<sup><a href="#note-15">15</a></sup>.
 
 
-          Robuste (firmitas), parce qu’on est pas assez riches pour acheter des choses pas chères. Il faut que les choses soient bien faites pour permettre de les réparer et de les utiliser longtemps. C’est une trop grande déperdition d’énergie de faire des sites, puis de les jeter et de les refaire. Il faut faire bien, et prendre soin. Je rejoins en cela Pierre-André : il faut construire dans la perspective du temps long, même si ce n’est pas le cas. Tout devrait toujours être bien fait. Attention, bien fait ne veut pas dire parfait : la perfection, c’est très toxique, c’est un mauvais objectif. Fait, c’est mieux que parfait. Et bien fait, c’est mieux que fait.
+          Robuste (firmitas), parce qu’on n’est pas assez riches pour acheter des choses pas chères. Il faut que les choses soient bien faites pour permettre de les réparer et de les utiliser longtemps. C’est une trop grande déperdition d’énergie de faire des sites, puis de les jeter et de les refaire. Il faut faire bien, et prendre soin. Je rejoins en cela Pierre-André : il faut construire dans la perspective du temps long, même si ce n’est pas le cas. Tout devrait toujours être bien fait. Attention, bien fait ne veut pas dire parfait : la perfection, c’est très toxique, c’est un mauvais objectif. Fait, c’est mieux que parfait. Et bien fait, c’est mieux que fait.
 
 
           Utile (utilitas), c’est à dire qui sert vraiment. Ca paraît évident, mais on a vu 1000 briefs qui s’inscrivent dans une chaîne d’inutilité : un effet wow qui ne sert à rien, dans un site qui ne sert à rien, dans le cadre d’une campagne qui ne sert à rien, pour promouvoir un produit qui ne sert à rien, qui adresse un besoin construit de toutes pièces, on aurait là une définition du bullshit marketing. La notion d’utilité est vaste et compliquée, parce qu’elle se mesure à l’aune d’une vision du monde et varie en fonction des contextes, mais c’est un objectif à viser.
@@ -117,7 +131,7 @@ sections:
           Ma spécialité, c’est le complexe, le chaos initial. Quand rien n’est encore posé, qu’on a un tissu de problématiques diverses, des métiers qui se comprennent mal, des enjeux de sécurité et de technique, des confrontations de perspectives, par exemple le court-terme du marketing contre le long terme de l’IT, c’est le moment de tous les possibles et c’est ce que je préfère. Faire naître une architecture à partir de cette matière mouvante, modéliser les entités, imaginer les flux, prototyper l’application, je suis à l’aise. Et après je suis incapable de le finir et de le rendre vraiment robuste, donc je passe la main à Pierre-André, c’est notre complémentarité depuis 20 ans !
 
 
-          Mon projet idéal est aussi technique que politique. Il porte une transformation, une redirection, une amélioration du vivre ensemble. C’est un sujet compliqué, le bien commun. Il n’y a pas de consensus. Mais une quarantaine d’années à vivre sur Terre m’ont donné quelques convictions : la démocratie, l’impôt<sup><a href="#note-16">16</a></sup>, l’accès gratuit pour tous à la culture, à l’art, à l’éducation et à la santé, la limitation des écarts de revenus et de patrimoines, notamment. Ce n’est jamais simple, parce que toutes ces problématiques s’entrecroisent, tout est relié. Mais c’est dans ce sens que je veux travailler : mettre le numérique au service du bien commun.
+          Mon projet idéal est aussi technique que politique. Il porte une transformation, une redirection, une amélioration du vivre ensemble. C’est un sujet compliqué, le bien commun. Il n’y a pas de consensus. Mais une quarantaine d’années à vivre sur Terre m’a donné quelques convictions : la démocratie, l’impôt<sup><a href="#note-16">16</a></sup>, l’accès gratuit pour tous à la culture, à l’art, à l’éducation et à la santé, la limitation des écarts de revenus et de patrimoines, notamment. Ce n’est jamais simple, parce que toutes ces problématiques s’entrecroisent, tout est relié. Mais c’est dans ce sens que je veux travailler : mettre le numérique au service du bien commun.
       notes:
         - title: "*De l’Architecture*, Vitruve"
           url: https://www.lesbelleslettres.com/livre/410-de-l-architecture
