@@ -16,9 +16,9 @@
 
     a
         color: $white
-        text-decoration-color: adjust-color(white, $alpha: -0.8)
+        text-decoration-color: rgba($white, 0.2)
         &:hover
-            text-decoration-color: white
+            text-decoration-color: $white
 
     body > header
         > a
@@ -37,13 +37,14 @@
             color: $secondary-reverse
         li+li::after
             background: $border-color-reverse
+
     body > footer
         background-color: $white
         color: $primary
         li span, a
             color: rgba($secondary, 0.7)
         a
-            text-decoration-color: adjust-color($primary, $alpha: -0.8)
+            text-decoration-color: rgba($primary, 0.2)
             &:hover
                 color: $primary
                 text-decoration-color: $primary

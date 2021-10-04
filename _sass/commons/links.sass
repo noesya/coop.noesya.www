@@ -1,18 +1,17 @@
 a
-    color: black
-    text-decoration-color: adjust-color(black, $alpha: -0.8)
+    color: $primary
+    text-decoration-color: rgba($primary, .2)
     text-decoration-thickness: 1px
     text-underline-offset: 3px
     transition: text-decoration .3s, color .3s ease
     &:hover
-        text-decoration-color: black
+        text-decoration-color: $primary
     &[target="_blank"]
         &::after
             @include icon
             content: "\e900"
             font-size: .75em
             margin-left: .3rem
-            transition: filter .3s ease
     @include media-breakpoint-up(md)
         .is-menu-opened main &
             color: $white
