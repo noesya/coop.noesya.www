@@ -8,7 +8,9 @@ window.menu = {
 
         this.bind();
 
-        this.dom.querySelector('.menu').classList.add('is-ready');
+        setTimeout(function () {
+            this.dom.querySelector('.menu').classList.add('is-ready');
+        }.bind(this), 10);
     },
     bind: function () {
         'use strict';

@@ -39,6 +39,7 @@ collections:
     permalink: /equipe/:slug
 
 plugins:
+  - jekyll-minifier
   - jekyll-sitemap
 
 sass:
