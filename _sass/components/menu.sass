@@ -76,10 +76,9 @@
     right: 0
     top: 0
     transform: translateX(100%)
+    transition: transform .3s ease
     width: 100%
-    will-change: transform
-    &.is-ready
-        transition: transform .3s ease
+    will-change: transformgit
     @include media-breakpoint-up(md)
         padding-top: $grid-gutter * 10
         width: calc(50vw + min(1040px, calc(100vw - 400px)) / 2)
