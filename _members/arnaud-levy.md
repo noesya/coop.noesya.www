@@ -62,7 +62,7 @@ sections:
           url: https://www.lespoupees.paris
         - title: B2bylon
           url: https://www.b2bylon.com
-        - title: "Université, pédagogie, innovation : cherchez l’intrus !"
+        - title: "*Université, pédagogie, innovation : cherchez l’intrus !*, Marlène Dulaurans & Arnaud Levy"
           url: https://pratiquescom.hypotheses.org/680
     - title: Fierté
       content: >
@@ -82,19 +82,19 @@ sections:
           url: https://observatoire.iutmmi.fr
         - title: Ars Industrialis
           url: https://arsindustrialis.org/pharmakon
-        - title: Techno-féodalisme, *Cédric&nbsp;Durand*
+        - title: "*Techno-féodalisme*, Cédric&nbsp;Durand"
           url: https://www.editionsladecouverte.fr/technofeodalisme-9782355221156
           image: /assets/images/members/arnaud-levy/techno-feodalisme.jpg
-        - title: L'économie de l'attention, *Yves&nbsp;Citton*
+        - title: "*L’économie de l’attention*, Yves&nbsp;Citton"
           url: https://www.editionsladecouverte.fr/l_economie_de_l_attention-9782707178701
           image: /assets/images/members/arnaud-levy/economie-attention.jpg
-        - title: En attendant les robots, *Antonio&nbsp;A.&nbsp;Casilli*
+        - title: "*En attendant les robots*, Antonio&nbsp;A.&nbsp;Casilli"
           url: https://www.seuil.com/ouvrage/en-attendant-les-robots-antonio-a-casilli/9782021401882
           image: /assets/images/members/arnaud-levy/en-attendant-les-robots.jpg
-        - title: Understanding Knowledge as a Commons, *Charlotte&nbsp;Hess & Elinor&nbsp;Ostrom*
+        - title: "*Understanding Knowledge as a Commons*, Charlotte&nbsp;Hess & Elinor&nbsp;Ostrom"
           url: https://mitpress.mit.edu/books/understanding-knowledge-commons
           image: /assets/images/members/arnaud-levy/understanding-knowledge-as-a-commons.jpg
-        - title: "Les Communs Numériques : un modèle innovant de développement des ressources numériques "
+        - title: "*Les Communs Numériques : un modèle innovant de développement des ressources numériques*"
           url: https://labo.societenumerique.gouv.fr/2019/10/16/les-communs-numeriques-un-modele-innovant-de-developpement-des-ressources-numeriques/
         - title: Reboot !
           url: https://www.reboot2021.org
@@ -119,7 +119,7 @@ sections:
 
           Mon projet idéal est aussi technique que politique. Il porte une transformation, une redirection, une amélioration du vivre ensemble. C’est un sujet compliqué, le bien commun. Il n’y a pas de consensus. Mais une quarantaine d’années à vivre sur Terre m’ont donné quelques convictions : la démocratie, l’impôt<sup><a href="#note-16">16</a></sup>, l’accès gratuit pour tous à la culture, à l’art, à l’éducation et à la santé, la limitation des écarts de revenus et de patrimoines, notamment. Ce n’est jamais simple, parce que toutes ces problématiques s’entrecroisent, tout est relié. Mais c’est dans ce sens que je veux travailler : mettre le numérique au service du bien commun.
       notes:
-        - title: De l'Architecture, *Vitruve*
+        - title: De l’Architecture, *Vitruve*
           url: https://www.lesbelleslettres.com/livre/410-de-l-architecture
           image: /assets/images/members/arnaud-levy/vitruve.jpg
         - title: Pour une révolution fiscale, *Camille Landais, Emmanuel Saez et Thomas Piketty*
@@ -144,7 +144,7 @@ sections:
         - title: La renaissance des communs, *David Bollier*
           url: https://www.eclm.fr/livre/la-renaissance-des-communs/
           image: /assets/images/members/arnaud-levy/la-renaissance-des-communs.jpg
-        - title: l'interview de *Barbara Stiegler*
+        - title: l’interview de *Barbara Stiegler*
           url: https://www.youtube.com/watch?v=cIjbLK3w5Ks
     - title: noesya
       content: >

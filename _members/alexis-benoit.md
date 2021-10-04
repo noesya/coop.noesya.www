@@ -86,7 +86,7 @@ sections:
 
             Mes bons souvenirs à l’école, c’était la musique beaucoup plus que les cours. Et puis après 2 échecs, je suis rentré en MMI, et là, un nouveau monde s’est ouvert à moi : je suis passé de mauvais élève à major de promo ! L’apprentissage dans nos métiers, c’est toute la vie. Là, je suis en train d’apprendre la 3D, en participant au concours *Alternate&nbsp;Realities<sup><a href="#note-11">11</a></sup>*, avec le projet *Vivatech* j’ai eu envie de plus, et j’apprends à modéliser, à éclairer, à texturer...
       notes:
-        - title: Katy's Lips
+        - title: Katy’s Lips
           url: https://soundcloud.com/katyslips
         - title: Narita Boy (Team 17)
           url: https://www.nintendo.fr/Jeux/Jeux-a-telecharger-sur-Nintendo-Switch/Narita-Boy-1941902.html
@@ -94,10 +94,10 @@ sections:
         - title: Ori and the Blind Forest
           url: https://www.orithegame.com
           image: /assets/images/members/alexis-benoit/ori.jpg
-        - title: Phare 23, Hugh Howey
+        - title: "*Phare 23*, Hugh Howey"
           url: https://www.actes-sud.fr/node/62766
           image: /assets/images/members/alexis-benoit/phare-23.jpg
-        - title: Silo, Hugh Howey
+        - title: "*Silo*, Hugh Howey"
           url: https://www.actes-sud.fr/node/61134
           image: /assets/images/members/alexis-benoit/silo.jpg
         - title: Alternate realities
