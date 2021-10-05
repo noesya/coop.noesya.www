@@ -17,7 +17,12 @@ nav:
 <ol>
   {% assign metiers = site.metiers | sort: 'number' %}
   {% for metier in metiers %}
-    <li><a href="{{ metier.url }}">{{ metier.short }}</a></li>
+    <li>
+        <a href="{{ metier.url }}">{{ metier.short }}</a>
+        <p>
+            {{ metier.excerpt }}
+        </p>
+    </li>
   {% endfor %}
 </ol>
 
@@ -28,7 +33,8 @@ nav:
   <dt><em>Nous aimons</em></dt>
   <dd>
     la qualité<br>
-    le travail bien fait
+    le travail bien fait<br>
+    la co-construction
   </dd>
 
   <dt><em>Nous pensons</em></dt>
