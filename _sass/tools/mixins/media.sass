@@ -12,8 +12,6 @@
         @media (max-width: ($breakpoint-value - 1))
             @content
 
-@mixin media-breakpoint-height-up($breakpoint)
-    @if map-has-key($breakpoints, $breakpoint)
-        $breakpoint-value: map-get($breakpoints, $breakpoint)
-        @media (min-height: ($breakpoint-value - 1)) and (min-width: 1200px)
-            @content
+@mixin media-breakpoint-height-up($height)
+    @media (min-height: ($height)) and (min-width: 1200px)
+        @content
