@@ -34,6 +34,7 @@ jobs:
         uses: helaili/jekyll-action@v2
         with:
           build_only: true
+          jekyll_build_options: -d _site
           pre_build_commands: |
               apk --update add vips vips-tools
       - name: Deploy build
