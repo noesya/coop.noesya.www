@@ -27,8 +27,9 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
       - name: Build project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        uses: lemonarc/jekyll-action@1.0.0
+        uses: helaili/jekyll-action@v2
         with:
+          build_only: true
           pre_build_commands: |
               apk --update add vips vips-tools
       - name: Deploy build
