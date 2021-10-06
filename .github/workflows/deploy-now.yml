@@ -6,8 +6,6 @@ jobs:
   deploy-now:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Vips
-        run: sudo apt-get install -y libvips libvips-tools
       - name: Fetch project data
         uses: ionos-deploy-now/retrieve-project-info-action@v1
         id: project
@@ -30,6 +28,8 @@ jobs:
       - name: Build project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: lemonarc/jekyll-action@1.0.0
+        pre_build_commands: |
+            apk --update add vips vips-tools
       - name: Deploy build
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         uses: ionos-deploy-now/deploy-to-ionos-action@v1
