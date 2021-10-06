@@ -6,6 +6,8 @@ jobs:
   deploy-now:
     runs-on: ubuntu-latest
     steps:
+      - name: Install Vips
+        run: sudo apt-get install -y libvips libvips-tools
       - name: Fetch project data
         uses: ionos-deploy-now/retrieve-project-info-action@v1
         id: project
