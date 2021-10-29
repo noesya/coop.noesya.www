@@ -67,8 +67,36 @@ Afficher la grille avec l'extension CSS Grid pour Chrome (https://chrome.google.
 ]
 ```
 
-## Todo
+# Architecture de l'écosystème
 
-- Système de grille et container (grid css)
-- Définir feuille de style typo
-- Balisage sémantique
+## Assets
+
+Les assets qui ne sont pas optimisés localement (jekyll picture tag) sont sur un sous-domaine assets.noesya.coop.
+
+Notamment :
+- logo
+- typos
+- icônes
+- images pour les mails
+
+## Gestion des styles communs
+
+3 possibilités :
+- 1 style par site (si plusieurs visites, code redondant téléchargé)
+- 1 style commun (code mort)
+- 1 style commun + 1 par site (2 appels)
+
+Le fichier de style du site pèse 5 ko, donc on privilégie l'approche 1 (1 style par site).
+
+## Gestion des redondances de code (footer, header, data...)
+
+2 types de redondance :
+- le style CSS
+- les includes / layouts HTML
+
+3 approches :
+- thème Jekyll
+- template Github
+- sites sur des branches
+
+Thème Jekyll https://jekyllrb.com/docs/themes/#creating-a-gem-based-theme
