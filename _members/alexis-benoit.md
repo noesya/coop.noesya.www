@@ -27,12 +27,12 @@ summary:
         - title: Distinctions
           content: >
                 6 SOTD (site of the day) Awwwards<br>
-                11 WOTD (website of the day) CSS Design Awards<br>
+                12 WOTD (website of the day) CSS Design Awards<br>
                 1 WOTM (website of the month) CSS Design Awards<br>
                 1 Best Studio Portfolio 2015 (CSS Design Awards)<br>
                 1 Best project of the Year (CSS Design Awards)<br>
                 6 French Index Design<br>
-                4 FOTD (fwa of the day) FWA<br>
+                5 FOTD (fwa of the day) FWA<br>
                 2 MOTD (mobile of the day) FWA<br>
                 1 Lovie Awards Bronze Medal<br>
                 1 Webby Awards official selection (games)

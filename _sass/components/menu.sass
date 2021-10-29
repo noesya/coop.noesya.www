@@ -95,12 +95,16 @@
                 &:hover
                     color: $primary
     li
-        @include media-breakpoint-height-up(md)
+        @include media-breakpoint-height-up(700px)
+            font-size: px2rem(55)
+        @include media-breakpoint-height-up(770px)
             font-size: px2rem(65)
         font-family: $font-family-sans-serif
         font-size: px2rem(36)
         line-height: 1.4
         margin-bottom: $grid-sm-margin
+        &:last-child
+            margin-bottom: 0
     a
         display: block
         transition: color .3s ease
