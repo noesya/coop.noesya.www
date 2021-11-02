@@ -11,7 +11,7 @@ summary:
           content: noesya
           microtype: experience
         - title: Métiers
-          content: DevOps
+          content: Développeur back-end / DevOps
           microtype: experience
         - content: Data Protection Officer
           microtype: experience
