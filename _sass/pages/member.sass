@@ -26,6 +26,13 @@ main.member
             transition: background .3s ease
             .is-menu-opened &
                 background-color: $bg-secondary-color-reverse
+                @media (prefers-color-scheme: dark)
+                    background-color: $bg-secondary-color
+        @media (prefers-color-scheme: dark)
+            background-color: $bg-secondary-color-reverse
+            span
+                .is-menu-opened &
+                    color: $secondary
         & > section
             @include container
             @include grid
@@ -42,6 +49,8 @@ main.member
                 grid-column: 7/13
                 @include media-breakpoint-up(md)
                     text-align: right
+                @media (prefers-color-scheme: dark)
+                    color: $secondary-on-gray-reverse
     dl
         @include grid(7)
         align-self: baseline

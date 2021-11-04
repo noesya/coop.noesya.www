@@ -36,6 +36,10 @@ main.metier
                 transition: color .3s ease
                 .is-menu-opened &
                     color: $secondary-reverse
+            @media (prefers-color-scheme: dark)
+                color: $secondary-reverse
+                .is-menu-opened &
+                    color: $secondary
 
         &:last-of-type
             margin-bottom: $grid-gutter * 3
