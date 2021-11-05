@@ -48,9 +48,11 @@ presets:
 
   owl_footer:
     formats: [webp, original]
-    widths: [153, 208, 298, 306, 316, 355, 596]
+    widths: [150, 182, 208, 224, 300, 364, 440]
     dimension_attributes: true
     sizes:
-      mobile: 100px
-      tablet: 40vw
-      desktop: 15vw
+      mobile: 104px
+      tablet: 220px
+      laptop: 112px
+      desktop: 150px
+      xl_desktop: 182px
