@@ -75,11 +75,9 @@ sections:
 
 nav:
     previous:
-        title: Précédent
-        text: Arnaud Levy
+        title: Arnaud Levy
         url: /equipe/arnaud-levy
     next:
-        title: Suivant
-        text: Engagements
+        title: Engagements
         url: /engagements
 ---

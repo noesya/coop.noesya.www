@@ -97,11 +97,9 @@ sections:
 
 nav:
     previous:
-       title: Précédent
-       text: Pierre-André Boissinot
+       title: Pierre-André Boissinot
        url: /equipe/pierre-andre-boissinot
     next:
-       title: Suivant
-       text: Arnaud Levy
+       title: Arnaud Levy
        url: /equipe/arnaud-levy
 ---

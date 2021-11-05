@@ -115,11 +115,9 @@ sections:
 
 nav:
     previous:
-        title: Précédent
-        text: Équipe
+        title: Équipe
         url: /equipe
     next:
-        title: Suivant
-        text: Pierre-André Boissinot
+        title: Pierre-André Boissinot
         url: /equipe/pierre-andre-boissinot
 ---

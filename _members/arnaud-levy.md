@@ -166,11 +166,9 @@ sections:
 
 nav:
     previous:
-        title: Précédent
-        text: Sébastien Gaya
+        title: Sébastien Gaya
         url: /equipe/sebastien-gaya
     next:
-        title: Suivant
-        text: Sébastien Moulène
+        title: Sébastien Moulène
         url: /equipe/sebastien-moulene
 ---

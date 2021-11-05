@@ -91,11 +91,9 @@ sections:
 
 nav:
  previous:
-     title: Précédent
-     text: Alexis Benoit
+     title: Alexis Benoit
      url: /equipe/alexis-benoit
  next:
-     title: Suivant
-     text: Sébastien Gaya
+     title: Sébastien Gaya
      url: /equipe/sebastien-gaya
 ---
