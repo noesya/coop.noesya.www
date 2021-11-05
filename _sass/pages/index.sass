@@ -5,6 +5,10 @@ main.index
             margin-bottom: $grid-gutter
             margin-left: auto
             max-width: 50%
+        h1
+            @include media-breakpoint-up(lg)
+                font-size: px2rem(55)
+                line-height: px2rem(75)
     section
         ol, h2, dd
             margin-bottom: $grid-gutter * 3
