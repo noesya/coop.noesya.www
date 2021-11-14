@@ -2,6 +2,7 @@ sites:
     - title: site
       url: https://www.noesya.coop
     - title: gouvernance
+      url: https://gouvernance.noesya.coop
     - title: réseau
     - title: histoires
     - title: stack
