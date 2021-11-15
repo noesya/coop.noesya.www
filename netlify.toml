@@ -28,3 +28,22 @@
   to = "https://www.noesya.coop/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://www.noesya.coop/assets/images/mails/chouette-circle.png"
+  to = "https://assets.noesya.coop/images/mails/chouette-circle.png"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.noesya.coop/assets/images/mails/facebook.png"
+  to = "https://assets.noesya.coop/images/mails/facebook.png"
+  status = 301
+  force = true
+
+
+[[redirects]]
+  from = "https://www.noesya.coop/assets/images/mails/facebook.png"
+  to = "https://assets.noesya.coop/images/mails/linkedin.png"
+  status = 301
+  force = true
