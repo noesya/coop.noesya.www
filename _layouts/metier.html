@@ -9,7 +9,7 @@ class: page metier
     {% if work.image %}
       {% picture work "{{ work.image }}" --img alt="{{ work.title }}" title="{{ work.title }}" %}
     {% elsif work.video %}
-      <video src="{{ work.video }}" autoplay playsinline muted loop></video>
+      <video src="{{ work.video }}" autoplay playsinline muted loop poster="{{ work.video_cover }}"></video>
     {% endif %}
     <h3>{{ work.title }}</h3>
     <p>{{ work.content }}</p>
