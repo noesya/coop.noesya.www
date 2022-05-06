@@ -33,6 +33,8 @@ summary:
           microtype: education
         - content: Numérique Responsable, Institut du Numérique Responsable
           microtype: education
+        - content: "Créer et développer une startup technologique, École Polytechnique (MOOC)"
+          microtype: education
         - content: "L’avenir de la décision : connaître et agir en complexité, ESSEC Business School (MOOC)"
           microtype: education
         - content: "Learning How to Learn: Powerful mental tools to help you master tough subjects, University of California (MOOC)"

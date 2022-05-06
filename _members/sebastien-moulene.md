@@ -13,8 +13,11 @@ summary:
         - title: Métier
           content: Développeur front-end
           microtype: experience
-        - title: Certification
+        - title: Certifications
           content: Opquast (860/1000)
+          microtype: education
+        - title:
+          content: Access42 “Développer des sites web accessibles”
           microtype: education
     more_list:
         - title: Distinctions
