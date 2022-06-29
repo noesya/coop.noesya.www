@@ -15,6 +15,8 @@ summary:
           microtype: experience
         - content: Maître de conférences associé et directeur des études, département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
           microtype: experience
+        - content: Membre associé au Laboratoire de Recherche MICA, Université Bordeaux Montaigne
+          microtype: experience
         - title: Mission
           content: Référent “Approche Par Compétences” pour le déploiement du Bachelor Universitaire de Technologie, Association des Directeurs d’IUT (ADIUT)
           microtype: experience
