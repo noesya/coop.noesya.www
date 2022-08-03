@@ -5,6 +5,7 @@ description: "Pierre-André Boissinot, co-fondateur et co-gérant de noesya, dé
 portrait: /assets/images/members/pierre-andre-boissinot/portrait.jpg
 portrait_alt: /assets/images/members/pierre-andre-boissinot/portrait-alt.jpg
 expertise: Robustesse & sécurité
+active: true
 summary:
     list:
         - title: Co-fondateur

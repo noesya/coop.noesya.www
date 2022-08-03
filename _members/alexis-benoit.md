@@ -5,6 +5,7 @@ description: "Alexis Benoit, co-fondateur et co-gérant de noesya, creative deve
 portrait: /assets/images/members/alexis-benoit/portrait.jpg
 portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.jpg
 expertise: Jeu & expérience
+active: true
 summary:
     list:
         - title: Co-fondateur

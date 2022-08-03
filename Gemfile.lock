@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/erikw/jekyll_picture_tag.git
+  revision: a0b5ef69a885351278e1a9c7fa8b1273eaa7c1c7
+  branch: master
+  specs:
+    jekyll_picture_tag (2.0.3)
+      addressable (~> 2.6)
+      jekyll (~> 4.0)
+      mime-types (~> 3.0)
+      objective_elements (~> 1.1)
+      rainbow (~> 3.0)
+      ruby-vips (~> 2.0.17)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -49,13 +62,6 @@ GEM
       jekyll_picture_tag
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.3)
-      addressable (~> 2.6)
-      jekyll (~> 4.0)
-      mime-types (~> 3.0)
-      objective_elements (~> 1.1)
-      rainbow (~> 3.0)
-      ruby-vips (~> 2.0.17)
     json (2.6.2)
     json-minify (0.0.3)
       json (> 0)
@@ -91,6 +97,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-darwin-18
@@ -100,6 +107,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-theme-noesya
+  jekyll_picture_tag!
+  webrick
 
 BUNDLED WITH
-   2.2.33
+   2.3.17

@@ -5,6 +5,7 @@ description: "Sébastien Gaya, co-fondateur de noesya, DevOps, Data Protection O
 portrait: /assets/images/members/sebastien-gaya/portrait.jpg
 portrait_alt: /assets/images/members/sebastien-gaya/portrait-alt.jpg
 expertise: Système & optimisation
+active: true
 summary:
     list:
         - title: Co-fondateur

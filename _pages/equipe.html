@@ -13,7 +13,7 @@ nav:
         url: /equipe/alexis-benoit
 ---
 
-{% assign members = site.members | sort: 'last_name' %}
+{% assign members = site.members | sort: 'last_name' | where: 'active', true %}
 {% for member in members %}
   <article>
     <a href="{{ member.url }}">

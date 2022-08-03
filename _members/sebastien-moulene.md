@@ -5,6 +5,7 @@ description: "Sébastien Moulène, co-fondateur de noesya, développeur front-en
 portrait: /assets/images/members/sebastien-moulene/portrait.jpg
 portrait_alt: /assets/images/members/sebastien-moulene/portrait-alt.jpg
 expertise: E-commerce & éditorial
+active: true
 summary:
     list:
         - title: Co-fondateur
