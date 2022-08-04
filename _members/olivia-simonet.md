@@ -59,18 +59,36 @@ sections:
         J'ai beaucoup contribué, avec une amie, au forum *The Holiday Scam<sup><a href="#note-2">2</a></sup>*. Ça a été à la fois intéressant sur le plan de l'écriture, sur le plan du code et sur le plan de l'animation de communauté. J'ai pu faire évoluer le design en travaillant sur le code HTML et CSS, avec un système de templating. Nous créons l'univers, les personnages qui y vivent, avec leurs histoires et leurs relations, et pas mal d'humour. J'ai noué des liens avec des gens très chouettes que je vois IRL. La pandémie a été l'âge d'or des forums ! Ça m'a permis de faire des expériences d'écriture, par exemple l'usage de la deuxième personne, certaines personnes aiment, d'autres détestent.
 
 
-        En travaillant sur Osuny, je découvre plein de choses que je ne soupçonnais même pas. L'accessibilité, les impératifs écologiques, il faut se poser les bonnes questions, et apporter de bonnes solutions. Le projet me donne une nouvelle vision du Web, plus large. J'ai commencé par une formation avec Access42 sur l'accessibilité Web, et j'ai réalisé que tout ce que j'avais codé jusqu'à maintenant n'était pas du tout accessible. Ensuite, j'ai fait l'audit RGAA du site de l'IUT Bordeaux Montaigne, et contribué au moteur d'analyse des contenus dans le back-office. Même si on est pas à 100%, on s'en approche de plus en plus ! En MMI on y est vraiment sensibilisés, avec *Chloé Beghin<sup><a href="#note-3">3</a></sup>* par exemple. Là, avec les audits et le nouveau thème AAA, c'est une plongée très concrète. Le code doit être à la fois simple, clair, lisible, avec un résultat très léger et accessible. C'est un exercice subtil, ça me plaît beaucoup.
+        En travaillant sur Osuny, je découvre plein de choses que je ne soupçonnais même pas. L'accessibilité, les impératifs écologiques, il faut se poser les bonnes questions, et apporter de bonnes solutions. Le projet me donne une nouvelle vision du Web, plus large. J'ai commencé par une formation avec Access42 sur l'accessibilité Web, et j'ai réalisé que tout ce que j'avais codé jusqu'à maintenant n'était pas du tout accessible. Ensuite, j'ai fait l'audit RGAA du site de l'IUT Bordeaux Montaigne, et contribué au moteur d'analyse des contenus dans le back-office. Même si on est pas à 100%, on s'en approche de plus en plus ! En MMI on y est vraiment sensibilisés, avec *Chloé Beghin<sup><a href="#note-3">3</a></sup>* par exemple. Là, avec les audits et le nouveau thème AAA, c'est une plongée très concrète. Le code doit être à la fois simple, clair, lisible, avec un résultat très sobre et accessible. C'est un exercice subtil, ça me plaît beaucoup.
       notes:
         - title: The Holiday Scam
           url: https://the-holiday-scam.forumactif.com
-        - title: Chloé Beghin
+        - title: Chloé Beghin 
           url: https://reseau.noesya.coop/personnes/chloe-beghin
     - title: Qualité
       content: >
+        À une époque, j'aurais dit que la qualité, c'est quelque chose qui fonctionne, quelque chose de robuste, sur les appuis. J'ai grandi en faisant la course au 20/20 à l'école, à essayer d'être la major de promotion à tout prix. Je me suis soignée, avec MMI, ça va mieux aujourd'hui. On perd la dimension compétitive pour rentrer dans du collaboratif, et il y a quelque chose de très positif, une énergie créatrice qui provient de toutes et tous. Aujourd'hui, je dirais qu'un travail bien fait, c'est un travail aligné avec mes valeurs, avec mon éthique personnelle et professionnelle, avec ma conscience. Du travail bien fait, c'est du travail dont on est fière.
 
+
+        Je suis acharnée. Et je crois que c'est nécessaire, parce que c'est difficile de faire quelque chose d'aligné. Certaines personnes sont très vite fières de ce qu'elles produisent, ce n'est pas mon cas. J'ai de gros doutes, tout le temps. Il faut insister pour atteindre un niveau élevé, il y a beaucoup de clés à trouver, d'outils à adopter, d'enjeux à comprendre, c'est beaucoup de temps et de curiosité. Dans l'Open Source, c'est une immense richesse, tout est partagé, il suffit de chercher.
+
+
+        Je ne sais pas s'il y a un projet idéal pour moi. En tout cas, ce serait quelque chose qui me surprend et qui me sort de ma zone de confort pour me faire progresser, humainement et professionnellement. Quelque chose de très stimulant intellectuellement.
     - title: Curiosité
       content: >
+        J'adore le jeu de rôle ! Ça rejoint le goût de l'écriture. Je fais avec autant de plaisir des campagnes en dix parties, et des histoires très courtes, en une heure, presque comme un exercice de style. C'est un équilibre subtil entre l'espace de liberté ludique et les enjeux de narration, j'aimerais arriver un jour à être maîtresse de jeu.
+        
+        
+        Et je fais de l'avion depuis toute petite, avec mon père qui a une licence de pilote. Là aussi, gros problème de conscience écologique, je sais que je ne devrais pas, mais j'aime beaucoup ça. J'aimerais beaucoup faire du planneur, ça doit être fantastique.
 
+
+        J'ai beaucoup aimé l'école, mais c'était dur de voir le traitement subi par ma petite sœur à qui on reprochait de ne pas être une Olivia bis. Je trouve ça inhumain, c'est un comportement monstrueux qui ignore complètement l'enfant. Mon père est prof, c'est un milieu dans lequel j'ai grandi. Tout n'est pas à jeter, bien sûr, mais ça manque souvent de pédagogie. J'adore apprendre, mais il faudrait que tous les enfants puissent trouver leur place, même s'ils ne sont pas très scolaires. 
+        
+        
+        J'aime énormément lire, c'est une des choses qui m'ont plu en histoire, le mélange de cours magistraux et de recherche en bibliothèque. La prise de note n'était pas très simple au début, surtout en Espagne. Mais j'aime aussi beaucoup l'apprentissage par la pratique ! Il y a plus de dialogue, plus d'échange, beaucoup d'entraide. Les personnes qui ont beaucoup d'aisance dans un domaine aident les autres, et partagent toutes leurs connaissances.
+
+        
+        Entre ces deux approches, je crois que je n'ai pas de préférence : j'aime autant les deux manières d'apprendre !
     - title: noesya
       content: >
 
