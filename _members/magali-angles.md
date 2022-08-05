@@ -25,13 +25,12 @@ summary:
         - title: Certifications
           content: UX Design, Digital Campus
           microtype: education
+        - content: ADVP - Démarche Expérientielle en Orientation, Conseiller d'éducation et services d'orientation, Le Patio Formation
+          microtype: education
         - title: MOOCs
           content: Numérique Responsable (module complet), Institut du Numérique Responsable
           microtype: education
         - content: Impacts environnementaux du numérique, INRIA
-          microtype: education
-        - title: Formation
-          content: ADVP - Démarche Experientielle en Orientation, Conseiller d'éducation et services d'orientation, Le Patio Formation
           microtype: education
         - title: Diplômes
           content: DESS E comm Option Communication, E-marketing, major de promotion, Avignon Université
