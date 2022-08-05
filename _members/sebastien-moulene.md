@@ -82,6 +82,6 @@ nav:
         title: Arnaud Levy
         url: /equipe/arnaud-levy
     next:
-        title: Engagements
-        url: /engagements
+        title: Olivia Simonet
+        url: /equipe/olivia-simonet
 ---

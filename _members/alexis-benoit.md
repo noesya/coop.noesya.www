@@ -116,8 +116,8 @@ sections:
 
 nav:
     previous:
-        title: Équipe
-        url: /equipe
+        title: Magali Anglès
+        url: /equipe/magali-angles
     next:
         title: Pierre-André Boissinot
         url: /equipe/pierre-andre-boissinot

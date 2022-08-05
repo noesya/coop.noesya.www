@@ -2,10 +2,10 @@
 title: Magali Anglès
 last_name: Anglès
 description: ""
-portrait: /assets/images/members/alexis-benoit/portrait.jpg
-portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.jpg
+portrait: /assets/images/members/magali-angles/portrait.jpg
+portrait_alt: /assets/images/members/magali-angles/portrait-alt.jpg
 expertise: — Doctorante en CIFRE
-active: false
+active: true
 summary:
     list:
         - title: Doctorante
@@ -120,4 +120,12 @@ sections:
 
 
           Je crois que je vais apprendre énormément, ça va me permettre de m'élever intellectuellement et humainement. La construction d'un commun, c'est un très beau projet. Je suis très heureuse de participer à tout ça, à vrai dire ça faisait des années que je n'avais pas été aussi heureuse professionnellement !
+
+nav:
+    previous:
+        title: Équipe
+        url: /equipe
+    next:
+        title: Alexis Benoit
+        url: /equipe/alexis-benoit
 ---

@@ -2,10 +2,10 @@
 title: Olivia Simonet
 last_name: Simonet
 description: ""
-portrait: /assets/images/members/alexis-benoit/portrait.jpg
-portrait_alt: /assets/images/members/alexis-benoit/portrait-alt.jpg
+portrait: /assets/images/members/olivia-simonet/portrait.jpg
+portrait_alt: /assets/images/members/olivia-simonet/portrait-alt.jpg
 expertise: — Développeuse en apprentissage
-active: false
+active: true
 summary:
     list:
       - title: Métier
@@ -95,4 +95,11 @@ sections:
 
 
         C'est ma première entreprise "pour de vrai", et c'est une coopérative : j'adore. L'horizontalité dans la prise de décision, le partage des responsabilités, cette façon de faire l'entreprise à plusieurs, j'aime énormément. C'est aussi un niveau d'exigence élevé, et une source riche d'apprentissages : d'un côté c'est flatteur, de l'autre ça fait un peu peur... mais le projet est tellement stimulant ! C'est mon premier pas, et il est aligné à bien des niveaux.
+nav:
+    previous:
+        title: Sébastien Moulène
+        url: /equipe/sebastien-moulene
+    next:
+        title: Engagements
+        url: /engagements
 ---
