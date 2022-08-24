@@ -33,14 +33,14 @@ summary:
                 1 Best Studio Portfolio 2015 (CSS Design Awards)<br>
                 1 Best project of the Year (CSS Design Awards)<br>
                 6 French Index Design<br>
-                5 FOTD (fwa of the day) FWA<br>
+                6 FOTD (fwa of the day) FWA<br>
                 2 MOTD (mobile of the day) FWA<br>
                 1 Lovie Awards Bronze Medal<br>
                 1 Webby Awards official selection (games)
 sections:
     - title: Identité
       content: >
-            29 ans, en couple, à Cenon, près de Bordeaux, où nous vivons avec un chat hypoallergénique, un sibérien de la taille d’un lynx.  Ma compagne travaille aussi dans le Web, et le chat apprend à coder, mais ses progrès sont lents. J’ai commencé mon parcours par un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), avec une alternance dans l’agence *Viens-là<sup><a href="#note-1">1</a></sup>*. J’y ai passé 5 années, d’abord comme développeur front, puis lead dev, pendant lesquelles nous avons remporté de nombreux prix sur des sites "expériences" : FWA, Awwwards, CSS design awards...
+            30 ans, en couple, à Cenon, près de Bordeaux, où nous vivons avec un chat hypoallergénique, un sibérien de la taille d’un lynx.  Ma compagne travaille aussi dans le Web, et le chat apprend à coder, mais ses progrès sont lents. J’ai commencé mon parcours par un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), avec une alternance dans l’agence *Viens-là<sup><a href="#note-1">1</a></sup>*. J’y ai passé 5 années, d’abord comme développeur front, puis lead dev, pendant lesquelles nous avons remporté de nombreux prix sur des sites "expériences" : FWA, Awwwards, CSS design awards...
 
 
             Je suis ensuite rentré à Bordeaux, chez *Ubisoft*, pour travailler sur un outil d’agrégation de data RH, finances, gestion de projets, qui permettait de faire de la visualisation de données au niveau macro sur tous les studios. C’était une belle expérience, avec notamment un atelier de 10 jours à Québec pour travailler avec l’équipe canadienne. J’étais au sein de l’équipe "tool", qui fournit des outils aux studios, donc c’était très focus jeux, avec des passionnés : un rêve de gosse ! J’ai ensuite travaillé pour *Lost&nbsp;Mechanics* comme creative dev, où j’ai produit beaucoup de jeux, des apps Apple TV, des installations... On a même fait une application de gestion pour le transport d’organes entre les hôpitaux !
