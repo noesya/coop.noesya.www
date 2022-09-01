@@ -26,7 +26,7 @@ summary:
 sections:
     - title: Identité
       content: >
-          42 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio&nbsp;Design* en 2003. La structure est ensuite fusionnée à l’agence *Les&nbsp;Poupées&nbsp;Russes<sup><a href="#note-1">1</a></sup>*, que je quitte en 2021 pour créer *noesya*.
+          43 ans, marié, un enfant et un chat à Ville-d’Avray. Après 3 ans de droit et un Diplôme Universitaire de Technologie Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), je travaille d’abord dans une startup, puis co-fonde l’entreprise *Semio&nbsp;Design* en 2003. La structure est ensuite fusionnée à l’agence *Les&nbsp;Poupées&nbsp;Russes<sup><a href="#note-1">1</a></sup>*, que je quitte en 2021 pour créer *noesya*.
       notes:
         - title: Les Poupées Russes
           url: https://www.lespoupees.paris

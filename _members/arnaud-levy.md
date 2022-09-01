@@ -55,7 +55,7 @@ summary:
 sections:
     - title: Identité
       content: >
-          43 ans, Paris, pacsé, 2 enfants. J’ai démarré mes études avec un Diplôme Universitaire de Technologie (DUT) Information-Communication option Publicité, avec l’idée que j’allais commencer par ça, puis voir ensuite vers quelles études continuer. Et en fait, j’ai bien aimé le format très concret du DUT et l’idée de travailler rapidement, donc je suis entré comme graphiste dans une petite agence de communication opérationnelle. J’ai progressé en direction artistique et en développement Web et multimédia.
+          44 ans, Paris, pacsé, 2 enfants. J’ai démarré mes études avec un Diplôme Universitaire de Technologie (DUT) Information-Communication option Publicité, avec l’idée que j’allais commencer par ça, puis voir ensuite vers quelles études continuer. Et en fait, j’ai bien aimé le format très concret du DUT et l’idée de travailler rapidement, donc je suis entré comme graphiste dans une petite agence de communication opérationnelle. J’ai progressé en direction artistique et en développement Web et multimédia.
 
 
           C’était en l’an 2000, pas de voitures volantes mais un joyeux bazar technologique, que j’ai voulu professionnaliser en entrant chez *Connectworld*, une belle agence qui faisait de gros sites. Quand je suis arrivé dans la structure, elle venait de se faire racheter, tout le monde était parti. Les comptes étaient gérés par les stagiaires, la personne qui m’avait embauché n’était plus en poste, c’était un champ de ruines : aucune chance d’apprendre sérieusement un métier dans ce contexte.
@@ -174,6 +174,6 @@ nav:
         title: Sébastien Gaya
         url: /equipe/sebastien-gaya
     next:
-        title: Sébastien Moulène
-        url: /equipe/sebastien-moulene
+        title: Olivia Simonet
+        url: /equipe/olivia-simonet
 ---
