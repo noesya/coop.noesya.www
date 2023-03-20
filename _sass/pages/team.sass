@@ -1,4 +1,10 @@
 main.team
+    header > div
+        @include grid(12)
+        @include media-breakpoint-up(md)
+            position: relative
+            > *
+                grid-column: 1/8
     section
         @include grid(3)
     a
@@ -6,7 +12,7 @@ main.team
     h2
         font-size: px2rem(23)
         margin-bottom: 0
-    p
+    article p
         color: $secondary
         @media (prefers-color-scheme: dark)
             color: $secondary-reverse
