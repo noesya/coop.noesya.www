@@ -14,5 +14,5 @@ sites:
     - title: sane
       url: https://sane.noesya.coop
     - title: histoires
-    - title: stack
-    - title: méthode
+    # - title: stack
+    # - title: méthode
