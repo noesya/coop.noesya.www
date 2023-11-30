@@ -1,7 +1,8 @@
 ---
 title: Magali Anglès
 last_name: Anglès
-description: ""
+description: "Magali Anglès, Doctorante en Sciences de l'Information et de la Communication"
+image: /assets/images/members/magali-angles/portrait.jpg
 portrait: /assets/images/members/magali-angles/portrait.jpg
 portrait_alt: /assets/images/members/magali-angles/portrait-alt.jpg
 expertise: — Doctorante en CIFRE

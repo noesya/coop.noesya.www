@@ -1,7 +1,8 @@
 ---
 title: Olivia Simonet
 last_name: Simonet
-description: ""
+description: "Olivia Simonet, développeuse web"
+image: /assets/images/members/olivia-simonet/portrait.jpg
 portrait: /assets/images/members/olivia-simonet/portrait.jpg
 portrait_alt: /assets/images/members/olivia-simonet/portrait-alt.jpg
 expertise: — Développeuse en apprentissage
