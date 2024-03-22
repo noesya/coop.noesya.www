@@ -175,6 +175,6 @@ nav:
         title: Sébastien Gaya
         url: /equipe/sebastien-gaya
     next:
-        title: Olivia Simonet
-        url: /equipe/olivia-simonet
+        title: Clara Rigaud
+        url: /equipe/clara-rigaud
 ---
