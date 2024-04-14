@@ -5,7 +5,7 @@ description: "Olivia Simonet, développeuse web"
 image: /assets/images/members/olivia-simonet/portrait.jpg
 portrait: /assets/images/members/olivia-simonet/portrait.jpg
 portrait_alt: /assets/images/members/olivia-simonet/portrait-alt.jpg
-expertise: — Développeuse en apprentissage
+expertise: Sémantique & accessibilité
 active: true
 summary:
     list:
@@ -36,7 +36,7 @@ sections:
         J'ai d'abord passé un baccalauréat littéraire, bilingue français et espagnol. C'était une expérience très riche, ça m'a donné la possibilité d'étudier en Espagne. J'ai commencé une hypokhâgne en pensant avoir le temps de préparer le concours de Sciences Po. Bien entendu, je n'avais absolument pas le temps de le préparer correctement avec la charge de travail énorme, je me suis donc réorientée à l'Université, en Histoire. Je n'ai pas eu le concours, mais j'ai adoré étudier l'histoire, particulièrement l'histoire médiévale. C'est une période sur laquelle on entend beaucoup d'inexactitudes et que je trouve fascinante. Je crois que ça résonnait avec Assassin's Creed, auquel j'ai beaucoup joué sur PlayStation 3. 
          
 
-        <blockquote>J'ai eu envie de debunker les préjugés sur le moyen-âge ! </blockquote>
+        <blockquote>J'ai eu envie de debunker les préjugés sur le moyen-âge !</blockquote>
          
          
         La place de la femme était beaucoup plus subtile que les clichés qu'on entend souvent sur les épouses soumises et le droit de cuissage. En fait j'ai failli m'appeler Hildegarde. Ça aurait été un peu difficile à porter, mais il faut croire qu'il y avait un sillon... J'ai aimé le fait de revenir aux traces, à la source primaire, et d'essayer d'abandonner son regard du XXI<sup>e</sup> siècle pour plonger dans le contexte de l'époque.
