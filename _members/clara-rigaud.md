@@ -77,7 +77,7 @@ sections:
         J'aimais designer des trucs et coder des trucs. Et j'avais déjà une fascination pour la nature et la façon de s'en inspirer en informatique : bio-informatique, algorithmes évolutionnaires, insectes sociaux, réseaux de neurones, jeu de la vie... J'ai trouvé un Master à la Sorbonne qui traitait ces sujets avec un angle Interface Humain-Machine (IHM), ça semblait parfait ! En fait, c'était un peu trop de statistiques à mon goût, mais c'était très intéressant. C'est là que j'ai appris à coder des shaders en WebGL. Le cours d'IHM avec Gilles Bailly m'a passionnée, et il m'a acceptée en stage à *l'Institut des Systèmes Intelligents et de la Robotique<sup><a href="#note-6">6</a></sup>*.
 
 
-        J'ai toujours été sur un fil avec les études. J'ai vraiment eu beaucoup de chance que de nombreuses personnes me donnent ma chance, malgré des résultats scolaires pas toujours à la hauteur. Si toutes ces personnes ne m'avaient pas acceptée comme j'étais et fait confiance, je crois que je n'aurais pas pu faire ce que j'aime. Gilles m'a parlé d'une doctorante, Élodie Bouzbib, qui travaillait sur la réalité virtuelle (VR) et la robotique, j'étais aux anges. 
+        J'ai toujours été sur un fil avec les études. J'ai vraiment eu beaucoup de chance que de nombreuses personnes me donnent ma chance, malgré des résultats scolaires pas toujours à la hauteur. Si toutes ces personnes ne m'avaient pas acceptée comme j'étais et fait confiance, je crois que je n'aurais pas pu faire ce que j'aime. Gilles m'a parlé d'une doctorante, Élodie Bouzbib, qui travaillait sur la réalité virtuelle (VR) et la robotique. J'étais aux anges !
 
 
         J'ai fait du traitement d'image en temps réel avec *OpenCV<sup><a href="#note-7">7</a></sup>*, des décors en VR, autour du sujet de l'haptique : comment donner la sensation du toucher, de la résistance, du poids, alors qu'il n'y a rien de réel ? J'ai aussi travaillé avec Benoit Geslain et Flavien Lebrun sur les illusions. Il y a toute une littérature en réalité virtuelle à propos de l'impact de la prédominance visuelle sur la perception du réel. C'était passionnant !
@@ -86,7 +86,10 @@ sections:
         À l'issue du stage, Yvonne Jansen<sup><a href="#note-8">8</a></sup> m'a proposé une thèse. J'étais complètement déstabilisée. J'avais l'impression de ne pas bien y arriver, je ne savais même pas si j'allais valider mon Master, et je n'avais jamais pensé faire une thèse. J'ai eu peur qu'Yvonne se soit trompée de personne tellement ça me paraissait improbable. Elle m'a dit, *Tu vas les avoir, tes rattrapages !* Et je les ai eus. J'ai même eu une mention *Assez bien* !
         
         
-        La thèse a été difficile, en plein pendant les confinements. 
+        La thèse a été difficile, en plein pendant les confinements. J'ai appris ROS<sup><a href="#note-9">9</a></sup> et je me suis vraiment plongée dans la robotique. J'ai construit un système expert de reconnaissance d'images permettant au robot de ne pas tomber, avec OpenCV. Puis Yvonne a imaginé Capush, un système très axé sur l'utilisation de caméras pour sédimenter la connaissance dans les fablabs, et ça a constitué le cœur de mon travail de doctorante. Ça a été à la fois très riche et très dur, cette période d'isolement a été éprouvante pour tout le monde je crois.
+
+
+        Le 15 juin 2023, je soutiens, je vois la fierté dans le regard de mes parents et je suis heureuse que ce soit fini. Je suis épuisée, et j'ai besoin de digérer, alors je fais de la menuiserie. Pendant six mois. 
       notes:
         - title: Grafcet
           url: https://fr.wikipedia.org/wiki/Grafcet
@@ -105,21 +108,52 @@ sections:
           url: https://opencv.org
         - title: Yvonne Jansen
           url: http://yvonnejansen.me
+        - title: Robotic Operating System
+          url: https://www.ros.org
     - title: Fierté
       content: >
+        J'ai fait ma mezzanine sur-mesure avec des matériaux de récupération, avec mes mains ! La récupération, c'était d'abord parce que je n'avais pas d'argent, une vision *prolo* avant d'être *écolo*. C'était un retour à la matière, sans ordinateurs, sans robots, juste du bois et ma scie circulaire *Sissi*. J'ai fait tous les tenons et mortaises à la scie à main, puis je me suis dit qu'à presque 30 ans, j'avais le droit de m'offrir une scie circulaire sur *Le bon coin*, une *Makita*, pas n'importe quoi. 
 
+
+        <blockquote>Si t'as pas de scie circulaire à 30 ans, t'as raté ta vie.</blockquote>
+
+
+        Ensuite, RandomPixelOrder. On avait envie de faire de beaux objets, et différentes manières de faire des choses avec l'informatique. Le côté génératif et bio-inspiré m'a toujours fascinée, et les techniques de création visuelle underground comme le glitch étaient trop limitées aux écrans. L'idée était de fabriquer des objets physiques à partir de ces esthétiques numériques. 
+        
+        
+        On était entre deux niches, la micro-édition et l'art numérique expérimental. En 2015 c'était vraiment pas courant, on était très tranquilles... Le projet Screenshot était surtout de la curation, qui permettait de rencontrer plein de gens passionnants, et qui ont permis d'organiser des soirées avec du VJing, des performances. On a fait la dernière à *L'international*, de onze heures à cinq heures sur deux scènes, c'était vraiment drôle.
+
+
+        Enfin, je suis fière de l'exposition à l'ebabx<sup><a href="#note-10">10</a></sup> avec Athanor. Nous avons créé l'intérieur d'un vaisseau spatial qui revenait d'exploration, avec des fresques, des projections et une installation physique pour le poste de pilotage. Beaucoup d'Arduino de la synthèse sonore, c'était un grand plaisir de la fabriquer et de voir les gens jouer avec. J'adore ça, construire quelque chose qui fait plaisir à d'autres.
       notes:
+        - title: école supérieure des beaux-arts de Bordeaux
+          url: https://www.ebabx.fr/fr
     - title: Qualité
       content: >
+        Le travail bien fait, pour moi, c'est quand je me fais plaisir à le faire. Sinon, je ne le fais pas. La première caractéristique du travail bien fait, c'est que quand tu le regardes des années plus tard, tu le trouves toujours bien fait. Il survit au temps. C'est aussi un travail pendant lequel tu apprends, qui te transforme. C'est un travail qui a du sens, qui touche d'autres personnes et dans lequel je me sens à ma place. Il faut que le puzzle soit complet, et que je sois à ma place dans l'ensemble. Souvent, je prends la place que personne ne prend.
+        
+        
+        Je n'ai pas de place attribuée dans un projet. Je touche à tout, et en général, je viens combler un manque. J'ai toujours été la *weirdo*, dans un domaine ou dans l'autre, celle qui est ailleurs, dont on ne comprend pas bien ce qu'elle fait ou ce qui l'intéresse. C'est peut-être la première fois de ma vie que je ne me sens pas étrange, c'est trop bien.
 
+
+        Le projet parfait, c'est un projet avec des gens complètement dingues, passionnés par ce qu'ils font. Des gens qui savent faire des trucs incroyables et qui m'apprennent des choses nouvelles. Un projet dans lequel moi aussi je peux apporter du savoir-faire. 
       notes:
     - title: Curiosité
       content: >
+        J'aime l'eau et la nature. J'ai passé beaucoup de temps en ville, et je sens que j'ai besoin de temps plus long, avec des animaux. J'ai fait beaucoup de voile, enfant. J'aime énormément ce que je fais, et je pense qu'à un moment je le ferai plus près de la mer. 
 
+
+        J'apprends en suivant ma curiosité et ma passion. Comme pour les shaders, je n'ai pas eu de cours de shader, j'ai vu quelqu'un faire des trucs incroyables, j'ai eu envie de le faire et j'ai appris. 
       notes:
     - title: noesya
       content: >
+        C'est le seul endroit où j'aurais pu travailler. J'ai l'impression d'avoir trouvé de l'éthique, des sensibilités. Je comprends les gens de l'équipe, il y a un socle. Les versions de moi se rassemblent, tout se connecte, c'est assez incroyable. 
 
+
+        <blockquote>C'est la première fois que je ne suis pas chelou.</blockquote>
+        
+        
+        C'est aussi la première fois que j'ai un salaire et de l'argent. Je vais pouvoir m'acheter des pulls et aller chez le coiffeur. J'ai une liste des choses que j'ai envie d'acheter avec mon premier salaire : une poubelle, un porte-savon... J'ai de grandes ambitions. Blague à part, je vais pouvoir aller au théâtre, voir des concerts à la Philarmonie, profiter de la richesse de Paris ! Et puis Billy, mon chat, va avoir des super croquettes.
       notes:
 nav:
     previous:
