@@ -13,7 +13,7 @@ summary:
           content: Développeuse-Chercheuse
           microtype: experience
         - title: Diplômes
-          content: Docteure, Interfaces Humain-Machine (IHM), Institut des Systèmes Intelligents et de Robotique
+          content: Docteure, Interaction Humain-Machine (IHM), Institut des Systèmes Intelligents et de Robotique
           microtype: education
         - content: Master informatique, Environnements interactifs, Simulation Multiagents, Informatique Graphique, IA pour la Robotique, Sorbonne Université
           microtype: education
@@ -74,7 +74,7 @@ sections:
         Patrick m'a alors proposé un stage à l'Inria, pour travailler sur une interface sphérique : un écran tactile sur une boule, avec une projection par l'intérieur. J'ai contribué à écrire un framework permettant d'utiliser ce périphérique sans se préoccuper des transformations azimutales. J'ai beaucoup aimé l'Inria, ça a été ma première expérience de publication scientifique<sup><a href="#note-5">5</a></sup>, ma première expérience de réalité virtuelle, ça m'a motivée à continuer les études.
 
 
-        J'aimais designer des trucs et coder des trucs. Et j'avais déjà une fascination pour la nature et la façon de s'en inspirer en informatique : bio-informatique, algorithmes évolutionnaires, insectes sociaux, réseaux de neurones, jeu de la vie... J'ai trouvé un Master à la Sorbonne qui traitait ces sujets avec un angle Interface Humain-Machine (IHM), ça semblait parfait ! En fait, c'était un peu trop de statistiques à mon goût, mais c'était très intéressant. C'est là que j'ai appris à coder des shaders en WebGL. Le cours d'IHM avec Gilles Bailly m'a passionnée, et il m'a acceptée en stage à *l'Institut des Systèmes Intelligents et de la Robotique<sup><a href="#note-6">6</a></sup>*.
+        J'aimais designer des trucs et coder des trucs. Et j'avais déjà une fascination pour la nature et la façon de s'en inspirer en informatique : bio-informatique, algorithmes évolutionnaires, insectes sociaux, réseaux de neurones, jeu de la vie... J'ai trouvé un Master à la Sorbonne qui traitait ces sujets avec un angle Interaction Humain-Machine (IHM), ça semblait parfait ! En fait, c'était un peu trop de statistiques à mon goût, mais c'était très intéressant. C'est là que j'ai appris à coder des shaders en WebGL. Le cours d'IHM avec Gilles Bailly m'a passionnée, et il m'a acceptée en stage à *l'Institut des Systèmes Intelligents et de la Robotique<sup><a href="#note-6">6</a></sup>*.
 
 
         J'ai toujours été sur un fil avec les études. J'ai vraiment eu beaucoup de chance que de nombreuses personnes me donnent ma chance, malgré des résultats scolaires pas toujours à la hauteur. Si toutes ces personnes ne m'avaient pas acceptée comme j'étais et fait confiance, je crois que je n'aurais pas pu faire ce que j'aime. Gilles m'a parlé d'une doctorante, Élodie Bouzbib, qui travaillait sur la réalité virtuelle (VR) et la robotique. J'étais aux anges !
