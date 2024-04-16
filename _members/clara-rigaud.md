@@ -59,7 +59,7 @@ sections:
         J'ai découvert HTML et CSS en mode bricolage, et j'ai trouvé le DUT SRC (Diplôme Universitaire de Technologie Services et Réseaux de Communication) qui mélangeait de l'informatique et des trucs cools. On est en 2012, Clara a 18 ans, elle postule sur Admission Post-Bac au DUT SRC de Bordeaux, et elle est acceptée. C'était le début de la vie seule et aussi de la responsabilité d'adulte. Mes parents me payaient un appartement, donc je leur devais de ne pas faire n'importe quoi. Je pars avec l'idée de faire deux ans, et après, on verra... mais au moins c'en sera fini avec les études. 
 
 
-        J'étais un peu outsider, mais je me sentais plutôt bien. J'ai pas mal fait la fête et aussi appris plein de trucs. En première année, j'ai fait un stage passionnant avec une sorte de génie punk, avec de la Kinect, de la robotique, ça faisait le lien entre l'informatique et les machines physiques. 
+        À l'IUT, j'étais un peu outsider, mais je me sentais plutôt bien. J'ai pas mal fait la fête et aussi appris plein de trucs. En première année, j'ai fait un stage passionnant avec une sorte de génie punk, avec de la Kinect, de la robotique, ça faisait le lien entre l'informatique et les machines physiques. 
         
         
         En deuxième année, le drame, une fausse boîte avec un type tout seul qui faisait le design de sites Web à la chaîne, toujours la même typo. Je n'avais rien contre la Century Gothic, mais j'ai senti rapidement que quelque chose clochait. Il ne savait pas coder, et enchaînait les stagiaires pour avoir de la main d'œuvre gratuite. Comme il ne savait rien faire en code, je me débrouillais toute seule avec WordPress, et j'apprenais beaucoup. Ça m'a permis de savoir que je ne voulais pas non plus faire ça de ma vie.
