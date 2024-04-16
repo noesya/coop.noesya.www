@@ -124,7 +124,7 @@ sections:
         On était entre deux niches, la micro-édition et l'art numérique expérimental. En 2015 c'était vraiment pas courant, on était très tranquilles... Le projet Screenshot était surtout de la curation, qui permettait de rencontrer plein de gens passionnants, et qui ont permis d'organiser des soirées avec du VJing, des performances. On a fait la dernière à *L'international*, de onze heures à cinq heures sur deux scènes, c'était vraiment drôle.
 
 
-        Enfin, je suis fière de l'exposition à l'ebabx<sup><a href="#note-10">10</a></sup> avec Athanor. Nous avons créé l'intérieur d'un vaisseau spatial qui revenait d'exploration, avec des fresques, des projections et une installation physique pour le poste de pilotage. Beaucoup d'Arduino de la synthèse sonore, c'était un grand plaisir de la fabriquer et de voir les gens jouer avec. J'adore ça, construire quelque chose qui fait plaisir à d'autres.
+        Enfin, je suis fière de l'exposition à l'ebabx<sup><a href="#note-10">10</a></sup> avec Athanor. Nous avons créé l'intérieur d'un vaisseau spatial qui revenait d'exploration, avec des fresques, des projections et une installation physique pour le poste de pilotage. Beaucoup d'Arduino, de la synthèse sonore, c'était un grand plaisir de la fabriquer et de voir les gens jouer avec. J'adore ça, construire quelque chose qui fait plaisir à d'autres.
       notes:
         - title: école supérieure des beaux-arts de Bordeaux
           url: https://www.ebabx.fr/fr
