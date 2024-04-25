@@ -120,7 +120,7 @@ sections:
         <blockquote>Si t'as pas de scie circulaire à 30 ans, t'as raté ta vie.</blockquote>
 
 
-        Ensuite, RandomPixelOrder. On avait envie de faire de beaux objets, et différentes manières de faire des choses avec l'informatique. Le côté génératif et bio-inspiré m'a toujours fascinée, et les techniques de création visuelle experimentales comme le glitch étaient trop limitées aux écrans. L'idée était de fabriquer des objets physiques à partir de ces esthétiques numériques. 
+        Ensuite, RandomPixelOrder. On avait envie de faire de beaux objets, et différentes manières de faire des choses avec l'informatique. Le côté génératif et bio-inspiré m'a toujours fascinée, et les techniques de création visuelle expérimentales comme le glitch étaient trop limitées aux écrans. L'idée était de fabriquer des objets physiques à partir de ces esthétiques numériques. 
         
         
         On était entre deux niches, la micro-édition et l'art numérique expérimental. En 2015 c'était vraiment pas courant, on était très tranquilles... Le projet Screenshot était surtout de la curation, qui permettait de rencontrer plein de gens passionnants, et qui ont permis d'organiser des soirées avec du VJing, des performances. On a fait la dernière à *L'international*, de onze heures à cinq heures sur deux scènes, c'était vraiment drôle.
