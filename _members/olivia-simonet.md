@@ -11,6 +11,13 @@ summary:
     list:
       - title: Métier
         content: Développeuse full-stack
+      - title: Certifications
+        content: Développer et coder des sites accessibles, Access42
+        microtype: education
+      - content: Opquast (875/1000)
+        microtype: education
+      - content: Formation civique et citoyenne, Agence du Service Civique
+        microtype: education
     more_list:
         - title: Diplômes
           content: En cours de Bachelor Universitaire de Technologie Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
@@ -20,12 +27,6 @@ summary:
         - content: Licence d'Histoire, Semestre 4 en Erasmus, Universidad de Alcalá, Alcalá de Henares
           microtype: education
         - content: Licence d'Histoire, Université Bordeaux Montaigne
-          microtype: education
-        - title: Formation
-          content: Développer et coder des sites accessibles, Access42
-          microtype: education
-        - title: Certification
-          content: Formation civique et citoyenne, Agence du Service Civique
           microtype: education
 sections: 
     - title: Identité
@@ -98,8 +99,8 @@ sections:
         C'est ma première entreprise "pour de vrai", et c'est une coopérative : j'adore. L'horizontalité dans la prise de décision, le partage des responsabilités, cette façon de faire l'entreprise à plusieurs, j'aime énormément. C'est aussi un niveau d'exigence élevé, et une source riche d'apprentissages : d'un côté c'est flatteur, de l'autre ça fait un peu peur... mais le projet est tellement stimulant ! C'est mon premier pas, et il est aligné à bien des niveaux.
 nav:
     previous:
-        title: Clara Rigaud
-        url: /equipe/clara-rigaud
+        title: Arnaud Levy
+        url: /equipe/arnaud-levy
     next:
         title: Engagements
         url: /engagements
