@@ -22,7 +22,11 @@ summary:
           microtype: education
     more_list:
         - title: Diplôme
-          content: DUT Services et Réseaux de Communication (maintenant Métiers du Multimédia et de l’Internet), Université Paris-Est Marne-la-Vallée
+          content: DU Cybercriminalités, Défis et enjeux humains, Université Bordeaux Montaigne
+          microtype: education
+        - content: BUT Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
+          microtype: education
+        - content: DUT Services et Réseaux de Communication, Université Paris-Est Marne-la-Vallée
           microtype: education
 sections:
     - title: Identité

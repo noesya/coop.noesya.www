@@ -21,9 +21,11 @@ summary:
           content: Opquast expert (925/1000)
           microtype: education
         - title: Diplômes
-          content: Licence Professionnelle Développement d’applications Web et innovation numérique, Université de Bordeaux
+          content: DU Cybercriminalités, Défis et enjeux humains, Université Bordeaux Montaigne
           microtype: education
-        - content: Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
+        - content: LP Développement d’applications Web et innovation numérique, Université de Bordeaux
+          microtype: education
+        - content: DUT Métiers du Multimédia et de l’Internet, Université Bordeaux Montaigne
           microtype: education
     more_list:
         - title: Certifications OpenClassrooms
