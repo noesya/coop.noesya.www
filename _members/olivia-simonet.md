@@ -34,7 +34,10 @@ summary:
 sections: 
     - title: Identité
       content: >
-        Née en 1998, originaire de Périgueux, je vis à Bordeaux depuis un petit moment. Je suis encore à l'Université et mon alternance est mon premier vrai salaire, je suis très contente ! Bien sûr j'ai déjà travaillé en tant qu'étudiante, notamment au CROUS, pour accompagner des étudiantes et étudiants en difficulté, notamment pendant les confinements. C'était très intéressant sur le plan humain.
+        24 ans, originaire de Périgueux, je vis à Bordeaux depuis un petit moment. Je suis encore à l'Université et mon alternance est mon premier vrai salaire, je suis très contente ! Bien sûr j'ai déjà travaillé en tant qu'étudiante, notamment au CROUS, pour accompagner des étudiantes et étudiants en difficulté, notamment pendant les confinements. C'était très intéressant sur le plan humain.
+
+
+        — Entretien réalisé en 2021
 
          
         J'ai d'abord passé un baccalauréat littéraire, bilingue français et espagnol. C'était une expérience très riche, ça m'a donné la possibilité d'étudier en Espagne. J'ai commencé une hypokhâgne en pensant avoir le temps de préparer le concours de Sciences Po. Bien entendu, je n'avais absolument pas le temps de le préparer correctement avec la charge de travail énorme, je me suis donc réorientée à l'Université, en Histoire. Je n'ai pas eu le concours, mais j'ai adoré étudier l'histoire, particulièrement l'histoire médiévale. C'est une période sur laquelle on entend beaucoup d'inexactitudes et que je trouve fascinante. Je crois que ça résonnait avec Assassin's Creed, auquel j'ai beaucoup joué sur PlayStation 3. 

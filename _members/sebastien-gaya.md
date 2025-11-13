@@ -46,7 +46,10 @@ summary:
 sections:
     - title: Identité
       content: >
-          Né en 1999, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les&nbsp;Poupées&nbsp;Russes*, à Paris. J’ai rejoint l’équipe des *Poupées&nbsp;Russes* en tant que développeur back, puis j’ai démissionné en 2021 pour créer *noesya*.
+          26 ans, célibataire, je vis à Paris et suis originaire de Bordeaux, où vit ma famille. Après un Diplôme Universitaire de Technologie Métiers du Multimédia et de l’Internet, j’ai obtenu une Licence Professionnelle Développement d’application web et innovation numérique, toujours à Bordeaux, en alternance à l’agence *Les&nbsp;Poupées&nbsp;Russes*, à Paris. J’ai rejoint l’équipe des *Poupées&nbsp;Russes* en tant que développeur back, puis j’ai démissionné en 2021 pour créer *noesya*.
+          
+          
+          — Entretien réalisé en 2021
     - title: Fierté
       content: >
           *B2bylon<sup><a href="#note-1">1</a></sup>* ! Une solution SaaS pour les entreprises avec différentes briques fonctionnelles : encyclopédie, catalogue de produits...  Cela demandait beaucoup de rigueur pour écrire un code qui restait propre et maintenable au fur et à mesure de l’élargissement du périmètre métier. Il faut beaucoup de réflexion et de compromis pour créer une solution viable à long terme.
