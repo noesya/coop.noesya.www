@@ -18,7 +18,7 @@ summary:
     - content: Co-gérant
       microtype: experience
     - title: Certification
-      content: Opquast expert (910/1000)
+      content: Opquast expert (965/1000)
       microtype: education
   more_list:
     - title: Diplôme
