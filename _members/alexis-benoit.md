@@ -20,7 +20,7 @@ summary:
     - content: Maître de conférences associé, Département Métiers du Multimédia et de l’Internet, Institut Universitaire de Technologie Bordeaux Montaigne
       microtype: experience
     - title: Certifications
-      content: Opquast (898/1000)
+      content: Opquast expert (933/1000)
       microtype: education
     - content: Développer et coder des sites accessibles, Access42
       microtype: education
