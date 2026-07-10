@@ -33,7 +33,7 @@ summary:
       microtype: affiliation
   more_list:
     - title: Certifications
-      content: Opquast expert (965/1000)
+      content: Opquast expert (933/1000)
       microtype: education
     - content: Numérique Responsable, Institut du Numérique Responsable
       microtype: education
