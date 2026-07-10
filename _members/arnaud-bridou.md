@@ -35,6 +35,9 @@ summary:
       microtype: education
     - content: Baccalauréat scientifique mention européenne, obtenu mention très bien avec les félicitations du jury, Lycée Maurice Genevoix, Decize
       microtype: education
+    - title: Certification
+      content: Opquast (833/1000)
+      microtype: education
 sections:
   - title: Identité
     content: >
